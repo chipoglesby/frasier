@@ -83,7 +83,7 @@ for (i in 1:10) {
   if(emptyLines[i] >= characterLines[i] & emptyLines[i] <= characterLines[j])
     print(i)
   print(k)
-  # print(frasier2[i:k])
+  # print(frasierNew[i:k])
 }
 
 characterLines[1:10]
@@ -93,7 +93,7 @@ emptyLines[1:10]
 emptyLines[1] >= characterLines[1] & emptyLines[1] <= characterLines[2]
 
 
-frasier2[1:16]
+frasierNew[1:16]
 
 
 for (i in 1:10) {
