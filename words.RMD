@@ -1,0 +1,17 @@
+What are you trying to do?
+
+I'm trying to loop through the fraiser scripts and get all of the lines of the characters.
+
+First, I want to find all of the character lines. Those start with something like
+`\w\\:` for example, `Frasier:` to denote when someone is speaking.
+
+We'll create a vector of those using `grep("\\w\\:", frasier2)`.
+
+Second, I want to find all of the empty character vectors. Those will be
+the spaces between when someone is talking. We'll create a vector of those using
+`grep('^$', frasier2)`.
+
+Third, I want to loop through the chacter line vector, looking at the empty vector as well and then try to create a good format to get the character lines.
+
+In a for loop, loop through characterLines. If the `i` in characterLines is greater than or equal to emptyLines then use the two character lines, `i` and `i + 1`. If the `i` is less than character lines, use `i` and `i - 1`.
+
