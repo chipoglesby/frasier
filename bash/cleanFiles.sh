@@ -1,6 +1,9 @@
 #!/bin/bash
 
-grep -n "Transcript {[a-z]" 0102.txt
+for filename in ../scripts/*.txt; do
+  result=$(grep -n "Transcript {[A-z]" "$filename" |cut -f1 -d:)
+  tail -n +"$result" "$filename" | sed 's/[A-z]*:/!&/g; s/^ \{1,\}/!/g; s/^[^!*]*//; s/!\{1,\}//g' | tr '\n' ' ' | sed 's/[A-z]*:/\
+  &/g' | sed 's/ \{2,\}/ /g' | sed "s/\"/'/g" | sed 's/.*/\"&\"/' >> ../data/lines.csv
+done
 
-tail -n +53 0101.txt | sed 's/[A-Za-z]*:/!&/g; s/^ \{1,\}/!/g; s/^[^!*]*//; s/!\{1,\}//g' | tr '\n' ' ' | sed 's/[A-Za-z]*:/\
-&/g' | sed 's/ \{2,\}/ /g' | sed "s/\"/'/g" | sed 's/.*/\"&\"/' > test.csv
+
