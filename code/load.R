@@ -14,8 +14,10 @@ characters <- shows %>%
   count(character, sort = TRUE)
 
 # "Le Cigare Volant" (The Flying Cigar), "Chez Chez" and "Le Cochon Noir"
+# Les Frères Heureux Timbermill
+# https://www.reddit.com/r/Frasier/comments/4u4u6t/what_is_your_favorite_restaurant_from_frasier/
 shows %>% 
-  filter(grepl('volant|chez chez|cochon noir', tolower(lines))) %>% 
+  filter(grepl('volant|chez chez|cochon noir|heureux|chez henri|Anya|happy brothers', tolower(lines))) %>% 
   count(character, sort = TRUE) %>% 
   top_n(5, n)
 
