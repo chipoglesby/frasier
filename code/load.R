@@ -1,4 +1,6 @@
 library(tidyverse)
+library(tidytext)
+
 shows <- read_csv('data/lines.csv') %>%
   select(lines = X1) %>% 
   mutate(character = (sapply(strsplit(trimws(lines), ":"), "[", 1)),
@@ -56,3 +58,23 @@ shows %>%
   filter(grepl('lilith', tolower(lines))) %>% 
   count(character, sort = TRUE) %>% 
   top_n(5, n)
+
+shows %>% 
+  filter(grepl('dear god', tolower(lines))) %>% 
+  count(character, sort = TRUE) %>% 
+  top_n(5, n)
+
+shows %>%
+  # filter(grepl('frasier|niles', tolower(character))) %>%
+  filter(!is.na(lines)) %>% 
+  group_by(character) %>% 
+  unnest_tokens(word, lines) %>%
+  anti_join(stop_words) %>%
+  count(word) %>%
+  filter(n > 300) %>% 
+  mutate(word = reorder(word, n)) %>%
+  ggplot(aes(word, n)) +
+  geom_col() +
+  xlab(NULL) +
+  coord_flip() +
+  facet_wrap(~character)
