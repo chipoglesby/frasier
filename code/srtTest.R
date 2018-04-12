@@ -1,3 +1,5 @@
+library(tidyverse)
+
 testSRT <- shows %>% 
   filter(!is.na(key)) %>% 
   inner_join(subtitles, by = "key") %>% 
@@ -11,3 +13,13 @@ testSRTAlternative <- shows %>%
 multiples <- testSRTAlternative %>% 
   count(lines, sort = TRUE) %>% 
   top_n(10)
+
+testSRT %>% 
+  count(season, character, sort = TRUE) %>%
+  filter(n > 30) %>% 
+  ggplot(aes(character, n)) +
+  geom_bar(stat = 'identity') +
+  facet_wrap(~season, scales = "free")
+
+testSRT %>% 
+  count(season)
