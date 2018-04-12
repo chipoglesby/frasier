@@ -23,3 +23,11 @@ testSRT %>%
 
 testSRT %>%
   count(season)
+
+shows %>%
+  filter(!is.na(gender)) %>% 
+  count(gender)
+
+test <- shows %>%
+  left_join(subtitles, by = "key") %>% 
+  mutate(season = ifelse(is.na(season), lag(season), season))
