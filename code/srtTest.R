@@ -1,25 +1,25 @@
 library(tidyverse)
 
-testSRT <- shows %>% 
-  filter(!is.na(key)) %>% 
-  inner_join(subtitles, by = "key") %>% 
-  distinct(key, .keep_all = TRUE) %>% 
+testSRT <- shows %>%
+  filter(!is.na(key)) %>%
+  inner_join(subtitles, by = "key") %>%
+  distinct(key, .keep_all = TRUE) %>%
   select(-Text, -key)
 
-testSRTAlternative <- shows %>% 
-  filter(!is.na(key)) %>% 
+testSRTAlternative <- shows %>%
+  filter(!is.na(key)) %>%
   inner_join(subtitles, by = "key")
 
-multiples <- testSRTAlternative %>% 
-  count(lines, sort = TRUE) %>% 
+multiples <- testSRTAlternative %>%
+  count(lines, sort = TRUE) %>%
   top_n(10)
 
-testSRT %>% 
+testSRT %>%
   count(season, character, sort = TRUE) %>%
-  filter(n > 30) %>% 
+  filter(n > 30) %>%
   ggplot(aes(character, n)) +
   geom_bar(stat = 'identity') +
   facet_wrap(~season, scales = "free")
 
-testSRT %>% 
+testSRT %>%
   count(season)
