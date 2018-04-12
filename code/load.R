@@ -1,5 +1,6 @@
 library(tidyverse)
 library(tidytext)
+library(gender)
 
 shows <- read_csv('data/lines.csv') %>%
   select(lines = X1) %>% 
@@ -8,18 +9,23 @@ shows <- read_csv('data/lines.csv') %>%
          lines = gsub('(\\[.*\\])', '', trimws(lines)),
          lines = gsub('(\\s{2,})', '', trimws(lines))) %>% 
   select(character, lines) %>% 
-  filter(!grepl('dissolve|to|credits', tolower(character)))
+  filter(!grepl('dissolve|to|credits|title|they\'re|hallway|all|everyone', 
+                tolower(character)),
+         !is.na(character),
+         character != "",
+         grepl('^[A-Z{1,}].*', character),
+         nchar(character) >= 3)
 
 # Quickly find top characters:
-
 characters <- shows %>% 
-  count(character, sort = TRUE)
+  count(character, sort = TRUE) %>%
+  top_n(100, n)
 
 # "Le Cigare Volant" (The Flying Cigar), "Chez Chez" and "Le Cochon Noir"
-# Les Frères Heureux Timbermill
+# Les Frères Heureux Timbermill Chicken Chicken Chicken
 # https://www.reddit.com/r/Frasier/comments/4u4u6t/what_is_your_favorite_restaurant_from_frasier/
 shows %>% 
-  filter(grepl('volant|chez chez|cochon noir|heureux|chez henri|Anya|happy brothers', tolower(lines))) %>% 
+  filter(grepl('volant|chez chez|cochon noir|heureux|chez henri|Anya|happy brothers|chicken chicken', tolower(lines))) %>% 
   count(character, sort = TRUE) %>% 
   top_n(5, n)
 
@@ -29,9 +35,27 @@ shows %>%
   count(character, sort = TRUE) %>% 
   top_n(5, n)
 
+# Who talks about Coffee?
+shows %>% 
+  filter(grepl('coffee|café|latte|nutmeg|nervosa', tolower(lines))) %>% 
+  count(character, sort = TRUE) %>% 
+  top_n(5, n)
+
+# Who talks about Eddie??
+shows %>% 
+  filter(grepl('eddie', tolower(lines))) %>% 
+  count(character, sort = TRUE) %>% 
+  top_n(5, n)
+
 # Who talks about beer?
 shows %>% 
   filter(grepl('beer', tolower(lines))) %>% 
+  count(character, sort = TRUE) %>% 
+  top_n(5, n)
+
+# Who talks about Opera?
+shows %>% 
+  filter(grepl('opera|theatre|theater', tolower(lines))) %>% 
   count(character, sort = TRUE) %>% 
   top_n(5, n)
 
