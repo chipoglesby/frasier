@@ -1,6 +1,5 @@
 library(tidyverse)
 library(tidytext)
-library(gender)
 
 shows <- read_csv('data/lines.csv') %>%
   select(lines = X1) %>% 
@@ -83,22 +82,47 @@ shows %>%
   count(character, sort = TRUE) %>% 
   top_n(5, n)
 
+# Which brother introduces themselves as doctor?
+shows %>% 
+  filter(grepl('dr|doctor', 
+               tolower(lines)),
+         grepl('frasier|niles',
+               tolower(character))) %>%
+  count(character, sort = TRUE)
+
+# Who talks about mom the most?
+# Which brother introduces themselves as doctor?
+shows %>% 
+  filter(grepl('mom|mother', 
+               tolower(lines)),
+         grepl('frasier|niles|martin',
+               tolower(character))) %>%
+  count(character, sort = TRUE)
+
+# How many times does frasier say hello seattle or I'm listening?
+shows %>% 
+  filter(grepl('i\'m listening|good mental health|wishing you', 
+               tolower(lines)),
+         grepl('frasier',
+               tolower(character))) %>%
+  count(character, sort = TRUE)
+
+# Is Frasier the only one who says DEAR GOD
 shows %>% 
   filter(grepl('dear god', tolower(lines))) %>% 
   count(character, sort = TRUE) %>% 
   top_n(5, n)
 
 shows %>%
-  # filter(grepl('frasier|niles', tolower(character))) %>%
+  # filter(grepl('roz', tolower(character))) %>%
   filter(!is.na(lines)) %>% 
-  group_by(character) %>% 
+  # group_by(character) %>% 
   unnest_tokens(word, lines) %>%
   anti_join(stop_words) %>%
-  count(word) %>%
-  filter(n > 300) %>% 
+  count(word, sort = TRUE) %>%
+  filter(n > 500) %>% 
   mutate(word = reorder(word, n)) %>%
   ggplot(aes(word, n)) +
   geom_col() +
   xlab(NULL) +
-  coord_flip() +
-  facet_wrap(~character)
+  coord_flip()
