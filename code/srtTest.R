@@ -1,12 +1,12 @@
 library(tidyverse)
 
-testSRT <- shows %>%
+testSRT <- episodes %>%
   filter(!is.na(key)) %>%
   inner_join(subtitles, by = "key") %>%
   distinct(key, .keep_all = TRUE) %>%
   select(-Text, -key)
 
-testSRTAlternative <- shows %>%
+testSRTAlternative <- episodes %>%
   filter(!is.na(key)) %>%
   inner_join(subtitles, by = "key")
 
@@ -24,10 +24,10 @@ testSRT %>%
 testSRT %>%
   count(season)
 
-shows %>%
+episodes %>%
   filter(!is.na(gender)) %>% 
   count(gender)
 
-test <- shows %>%
+test <- episodes %>%
   left_join(subtitles, by = "key") %>% 
   mutate(season = ifelse(is.na(season), lag(season), season))
