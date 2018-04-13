@@ -1,33 +1,32 @@
 library(tidyverse)
 
-testSRT <- episodes %>%
+combiningData <- episodes %>%
   filter(!is.na(key)) %>%
-  inner_join(subtitles, by = "key") %>%
+  inner_join(subtitles, by = c("key" = "key", 
+                               "season" = "season",
+                               "episode" = "episode_num")) %>%
   distinct(key, .keep_all = TRUE) %>%
-  select(-Text, -key)
+  select(-Text, -key) %>% 
+  mutate(lines = gsub('[[:punct:]]', '', lines))
 
-testSRTAlternative <- episodes %>%
+combiningDataAlternative <- episodes %>%
   filter(!is.na(key)) %>%
   inner_join(subtitles, by = "key")
 
-multiples <- testSRTAlternative %>%
+multiples <- combiningDataAlternative %>%
   count(lines, sort = TRUE) %>%
   top_n(10)
 
-testSRT %>%
+combiningData %>%
   count(season, character, sort = TRUE) %>%
   filter(n > 30) %>%
   ggplot(aes(character, n)) +
   geom_bar(stat = 'identity') +
   facet_wrap(~season, scales = "free")
 
-testSRT %>%
+combiningData %>%
   count(season)
 
 episodes %>%
   filter(!is.na(gender)) %>% 
   count(gender)
-
-test <- episodes %>%
-  left_join(subtitles, by = "key") %>% 
-  mutate(season = ifelse(is.na(season), lag(season), season))

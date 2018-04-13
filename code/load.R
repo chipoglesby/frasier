@@ -8,8 +8,8 @@ episodes <- read_csv('data/csv/lines.csv',
          lines = (sapply(strsplit(trimws(lines), ":"), "[", 2)),
          lines = gsub('(\\[.*\\])', '', trimws(lines)),
          lines = gsub('(\\s{2,})', '', trimws(lines)),
-         season = substr(seasonEpisode, 0, 2),
-         episode = substr(seasonEpisode, 3, 4)) %>%
+         season = as.int(substr(seasonEpisode, 0, 2)),
+         episode = as.numeric(substr(seasonEpisode, 3, 4))) %>%
   select(character, lines, season, episode) %>%
   filter(!grepl('dissolve|to|credits|title|they\'re|hallway|all|everyone|time',
                 tolower(character)),
@@ -33,7 +33,8 @@ characterGender <- characters %>%
   mutate(gender = gender(character)$gender[1]) %>%
   mutate(gender = ifelse(tolower(character) == 'bulldog',
                          "male",
-                         gender))
+                         gender)) %>% 
+  ungroup()
 
 episodes %<>%
   left_join(characterGender, by = "character")
