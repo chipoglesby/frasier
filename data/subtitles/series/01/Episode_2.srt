@@ -949,7 +949,7 @@ That's a nice way to greet your brother.
 
 237
 00:14:04,029 --> 00:14:05,909
-Café latte, per piachere.
+CafÃ© latte, per piachere.
 
 238
 00:14:06,974 --> 00:14:07,914

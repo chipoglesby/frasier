@@ -589,7 +589,7 @@ Say... any chance of, er, getting a table for four on Saturday at, et, say... ei
 
 147
 00:06:49,563 --> 00:06:51,047
-Merci, a bientôt!
+Merci, a bientÃ´t!
 
 148
 00:06:51,048 --> 00:06:52,366
@@ -1414,7 +1414,7 @@ Let me tell you how it works.
 
 351
 00:16:17,778 --> 00:16:21,305
-Every entrée comes with soup or a trip to the salad bar:
+Every entrÃ©e comes with soup or a trip to the salad bar:
 
 352
 00:16:21,306 --> 00:16:22,924

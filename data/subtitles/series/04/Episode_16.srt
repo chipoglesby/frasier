@@ -1,2104 +1,1922 @@
 1
-00:00:10,162 --> 00:00:11,356
-It sure...
+00:00:09,676 --> 00:00:12,907
+My 8-year-old son is visiting me
+this week, and he asked specifically
 
 2
-00:00:11,522 --> 00:00:12,477
-- Hello, Frasier.
-- Niles.
+00:00:13,221 --> 00:00:15,815
+if I could arrange a tour
+of the Microsoft complex.
 
 3
-00:00:12,642 --> 00:00:14,598
-- Maureen.
-- Hi, Niles.
+00:00:16,141 --> 00:00:18,336
+I was wondering
+what your policy is on--
 
 4
-00:00:16,762 --> 00:00:18,593
-A, uh, nonfat cap, please.
+00:00:18,601 --> 00:00:20,478
+I'm sorry to hear that.
 
 5
-00:00:18,762 --> 00:00:21,674
-- I'll pay for his too.
-- Well, thank you.
+00:00:20,979 --> 00:00:23,209
+You know, I don't often trade
+on my celebrity status,
 
 6
-00:00:21,842 --> 00:00:24,436
-My day started off with good news,
-and it's already getting better.
+00:00:23,481 --> 00:00:26,791
+but does the name Frasier Crane
+mean anything to you?
 
 7
-00:00:24,602 --> 00:00:25,921
-To what do I owe this largesse?
+00:00:27,610 --> 00:00:29,521
+I'm sorry to hear that.
 
 8
-00:00:26,122 --> 00:00:27,953
-Well, I'm having
-a pretty great day too.
+00:00:30,155 --> 00:00:32,430
+Well, you know, it's entirely possible
 
 9
-00:00:28,122 --> 00:00:30,431
-See, a few months ago,
-I took my first tennis lesson...
+00:00:32,699 --> 00:00:36,328
+that one day a relative of yours
+may wish to tour my workplace--
 
 10
-00:00:30,602 --> 00:00:33,162
-And you've finally
-mastered the backhand.
+00:00:36,661 --> 00:00:40,336
+It's a radio station. Oh, forget it!
 
 11
-00:00:33,362 --> 00:00:35,239
-No, I haven't played since.
+00:00:40,707 --> 00:00:42,584
+--even been close,
+that would be one thing.
 
 12
-00:00:35,402 --> 00:00:36,835
-But the guy who was teaching me...
+00:00:42,834 --> 00:00:46,144
+- But I beat that tag by a mile. A mile.
+- Calm down, slugger. It's all right.
 
 13
-00:00:37,002 --> 00:00:39,118
-Has won your girlish heart.
+00:00:46,463 --> 00:00:48,340
+- A mile!
+- I take it you lost the game.
 
 14
-00:00:39,282 --> 00:00:40,397
-No, he was a loser.
+00:00:48,590 --> 00:00:51,502
+No, we won the game, but Roz got
+kicked out for arguing with the ump.
 
 15
-00:00:40,562 --> 00:00:43,201
-But that day, he hit me this
-little dink shot,
+00:00:51,801 --> 00:00:54,235
+She kicked dirt on his shoes,
+chest-butted him,
 
 16
-00:00:43,362 --> 00:00:45,034
-and I ran for it,
-and I stubbed my toe.
+00:00:54,554 --> 00:00:57,148
+almost took a bite out of his finger
+when he stuck it in her face.
 
 17
-00:00:45,202 --> 00:00:48,512
-I got this big black toenail
-that lasted for, like, three months,
+00:00:57,474 --> 00:00:59,942
+You can't coach that kind of thing.
 
 18
-00:00:48,682 --> 00:00:50,320
-and today it finally fell off.
+00:01:00,852 --> 00:01:05,209
+All right, there's a guy on second,
+one guy's out, I drive one to the gap.
 
 19
-00:00:52,522 --> 00:00:53,841
-I can wear sandals again.
+00:01:05,565 --> 00:01:07,635
+The throw to the cut-off man
+is late, our guy's safe,
 
 20
-00:00:56,642 --> 00:00:58,360
-- Thanks, Frasier.
-- Goodbye, Maureen.
+00:01:07,901 --> 00:01:11,371
+I try to stretch it to a double. I make a
+beautiful hook slide right under the tag.
 
 21
-00:00:58,522 --> 00:00:59,750
-- And good luck.
-- Thanks.
+00:01:11,696 --> 00:01:12,685
+How can I be out?
 
 22
-00:01:01,162 --> 00:01:05,075
-- Frasier, may I borrow your spoon?
-- Certainly.
+00:01:12,947 --> 00:01:16,337
+I'm still trying to understand why
+you drove to the Gap during the game.
 
 23
-00:01:05,762 --> 00:01:07,718
-I have an announcement.
+00:01:19,037 --> 00:01:21,392
+Look, I'm gonna go work
+on the line-up for Saturday's game.
 
 24
-00:01:08,242 --> 00:01:09,641
-You know, frankly, so do I.
+00:01:21,664 --> 00:01:24,576
+- You know, I love being in charge.
+- Oh, can I play second base?
 
 25
-00:01:09,802 --> 00:01:12,396
-Dad's girlfriend just told me
-some very big news.
+00:01:24,876 --> 00:01:26,229
+No. Liz Budner's playing second.
 
 26
-00:01:12,562 --> 00:01:14,314
-Well, unless she's expecting
-our baby brother,
+00:01:26,461 --> 00:01:29,339
+Liz Budner? Why?
+What can she do that I can't?
 
 27
-00:01:14,482 --> 00:01:16,279
-my news takes precedence.
+00:01:29,673 --> 00:01:32,062
+It's what she will do that you won't.
 
 28
-00:01:17,202 --> 00:01:19,636
-- She's not, is she?
-- No, no.
+00:01:33,760 --> 00:01:38,754
+Oh, Roz. Listen, didn't you used
+to date some executive at Microsoft?
 
 29
-00:01:20,322 --> 00:01:23,155
-Guess who just won this year's
-Mariott Fassbinder Award
+00:01:40,100 --> 00:01:41,897
+Scott Blankman.
 
 30
-00:01:23,322 --> 00:01:25,756
-for Distinguished Contribution
-to the Literature of Psychiatry.
+00:01:42,143 --> 00:01:43,781
+Talk about your messy break-ups.
 
 31
-00:01:25,922 --> 00:01:28,231
-Judging from the canary feathers
-protruding from your mouth,
+00:01:44,020 --> 00:01:46,534
+Even after I dumped the guy,
+he kept calling me.
 
 32
-00:01:28,402 --> 00:01:29,517
-- I'd say you.
-- Yes.
+00:01:46,856 --> 00:01:47,971
+At first, he'd make excuses:
 
 33
-00:01:30,482 --> 00:01:31,631
-What article did you win for?
+00:01:48,191 --> 00:01:50,102
+"Sorry, I hit the wrong button
+on my speed dial."
 
 34
-00:01:31,802 --> 00:01:34,521
-A gripping case history
-of a narcissistic opera singer.
+00:01:50,360 --> 00:01:52,430
+Then he gave up the pretense
+and there'd be sobbing
 
 35
-00:01:34,682 --> 00:01:36,832
-I called it, "Me Me Me Me Me."
+00:01:52,696 --> 00:01:54,448
+- on the other end of the line.
+- Oh, God.
 
 36
-00:01:37,002 --> 00:01:40,597
-- It's very clever. I like that.
-- Yes.
+00:01:54,698 --> 00:01:58,532
+I finally said, "Scott, I never, ever
+want to talk to you again."
 
 37
-00:01:41,562 --> 00:01:44,713
-Thrilled as I am, I must admit I'm a tad
-nervous about the awards banquet.
+00:01:58,868 --> 00:02:01,143
+- Why do you ask?
+- I'd like you give him a call.
 
 38
-00:01:44,922 --> 00:01:46,958
-- Why?
-- Dad.
+00:02:01,830 --> 00:02:03,866
+- What?
+- Frederick's coming to visit this week.
 
 39
-00:01:47,162 --> 00:01:48,720
-I want him there, of course,
+00:02:04,124 --> 00:02:06,240
+The only thing he asked for
+was a tour of Microsoft.
 
 40
-00:01:48,882 --> 00:01:51,112
-but I'm just dreading a rerun
-of Aunt Vi's wedding.
+00:02:06,501 --> 00:02:09,618
+I sort of already, well,
+promised that I could arrange it.
 
 41
-00:01:51,282 --> 00:01:54,831
-Yes, the hour he spent regaling
-the table with "Little Niles" stories.
+00:02:09,921 --> 00:02:11,832
+Frasier, you're asking me
+to call a man
 
 42
-00:01:55,002 --> 00:01:56,230
-Exactly.
+00:02:12,090 --> 00:02:14,001
+who camped outside
+my apartment building
 
 43
-00:01:56,402 --> 00:01:58,358
-Imagine an entire roomful
-of trained psychiatrists
+00:02:14,259 --> 00:02:15,578
+and held a big sign up that said:
 
 44
-00:01:58,522 --> 00:02:02,276
-hearing the story of Sheldon,
-my imaginary protëgë.
+00:02:15,802 --> 00:02:18,714
+- "Roz Doyle is afraid to love."
+- Okay, I understand.
 
 45
-00:02:03,122 --> 00:02:04,271
-Oh, yes, Sheldon.
+00:02:19,014 --> 00:02:21,130
+I just thought you'd be
+more sympathetic, that's all.
 
 46
-00:02:04,442 --> 00:02:07,354
-That troubled little fellow
-who kept wetting your bed.
+00:02:21,391 --> 00:02:22,665
+I can't.
 
 47
-00:02:08,962 --> 00:02:11,874
-Well, you know, if you're thinking
-of excluding Dad from the event,
+00:02:22,892 --> 00:02:26,043
+I do recall a story
+you told me not long ago
 
 48
-00:02:12,042 --> 00:02:13,760
-your timing couldn't be worse.
+00:02:26,354 --> 00:02:29,790
+about a young girl living in Wisconsin,
+who wanted desperately for her mother
 
 49
-00:02:13,922 --> 00:02:15,116
-It's his birthday this weekend.
+00:02:30,108 --> 00:02:33,305
+to drive her to Chicago to see
+Bobby Sherman open a shopping mall.
 
 50
-00:02:15,322 --> 00:02:16,880
-Oh, right.
+00:02:34,154 --> 00:02:36,463
+But her mother was just too busy.
 
 51
-00:02:17,082 --> 00:02:19,073
-On top of that,
-Maureen just told me
+00:02:36,740 --> 00:02:38,014
+What did that girl do that night?
 
 52
-00:02:19,242 --> 00:02:21,153
-that she's decided
-to break it off with him.
+00:02:38,241 --> 00:02:41,472
+She cried herself to sleep
+on her little Bobby Sherman pillow.
 
 53
-00:02:21,322 --> 00:02:22,755
-- No.
-- Yes.
+00:02:43,663 --> 00:02:45,654
+I hate you.
 
 54
-00:02:22,922 --> 00:02:25,356
-Oh, dear. What?
+00:02:52,088 --> 00:02:54,283
+- Niles.
+- Good morning. Is Frederick up yet?
 
 55
-00:02:25,522 --> 00:02:26,637
-Is it the age difference?
+00:02:54,549 --> 00:02:57,017
+He went out with his grandfather
+for an early morning walk.
 
 56
-00:02:26,802 --> 00:02:28,599
-No, no, she was quite emphatic
-on that point.
+00:02:57,302 --> 00:02:59,133
+I went through
+my old albums this morning
 
 57
-00:02:28,762 --> 00:02:30,514
-She just thinks they have
-nothing in common.
+00:02:59,387 --> 00:03:01,378
+and found photos of us
+when we were Frederick's age.
 
 58
-00:02:30,682 --> 00:02:33,321
-Oh, poor Dad. I know how much
-he enjoyed going out with her.
+00:03:01,639 --> 00:03:03,709
+- Oh, Lord.
+- Thought he might find them amusing.
 
 59
-00:02:33,482 --> 00:02:34,915
-Yes, just the other day
-he was saying
+00:03:03,975 --> 00:03:08,253
+Oh, here. There we are, all dressed up,
+ready for our first Cub Scout hike.
 
 60
-00:02:35,082 --> 00:02:37,198
-that between her police badge
-and his handicap sticker,
+00:03:08,605 --> 00:03:09,640
+And last.
 
 61
-00:02:37,362 --> 00:02:39,080
-they could park anywhere.
+00:03:09,856 --> 00:03:13,326
+Yes, well, we didn't exactly
+endear ourselves to the pack.
 
 62
-00:02:44,682 --> 00:02:45,797
-Evening, Dr Crane.
+00:03:13,651 --> 00:03:14,925
+All the other kids had knapsacks,
 
 63
-00:02:45,962 --> 00:02:48,681
-Daphne, thank God you're home first.
-Listen, I have to warn you.
+00:03:15,153 --> 00:03:17,986
+we showed up with those
+monogrammed train cases.
 
 64
-00:02:48,842 --> 00:02:51,037
-- About what?
-- Dad and Maureen are on a date.
+00:03:19,240 --> 00:03:21,959
+Niles, refresh my memory.
+Why are we wearing plastic snouts
 
 65
-00:02:51,202 --> 00:02:54,000
-It's not going well. She's telling him
-that she wants to break it off.
+00:03:22,243 --> 00:03:24,199
+and a tiny little wading pool
+around our waists?
 
 66
-00:02:54,162 --> 00:02:56,232
-Oh, this vision you're getting,
+00:03:24,496 --> 00:03:26,805
+You've forgotten. That Halloween
+we went as the Bay of Pigs.
 
 67
-00:02:56,442 --> 00:02:58,637
-is it a tingly feeling
-and a picture in your head,
+00:03:27,082 --> 00:03:28,401
+Ah.
 
 68
-00:02:58,802 --> 00:03:01,999
-or more like a husky voice
-murmuring in your ear?
+00:03:29,751 --> 00:03:31,309
+As I recall, nobody got it.
 
 69
-00:03:02,162 --> 00:03:03,800
-It's not a vision.
+00:03:31,836 --> 00:03:35,545
+I finally had to take to telling
+that we were <i>Swine Lake</i>.
 
 70
-00:03:04,362 --> 00:03:06,273
-Maureen told me about this
-this afternoon.
+00:03:35,882 --> 00:03:37,474
+They didn't get that either.
 
 71
-00:03:06,442 --> 00:03:08,876
-Just worried about Dad.
-We have to help him through this.
+00:03:38,843 --> 00:03:41,198
+- That was a long evening.
+- Yeah.
 
 72
-00:03:09,442 --> 00:03:11,080
-I wouldn't worry about your father.
+00:03:41,596 --> 00:03:43,951
+So, what do you have in store
+for Frederick this visit?
 
 73
-00:03:11,242 --> 00:03:13,472
-People are more resilient
-than you think.
+00:03:44,224 --> 00:03:46,215
+We're gonna go whale-watching,
+the planetarium,
 
 74
-00:03:13,642 --> 00:03:15,712
-You know, when Joe dumped me
-a few weeks ago,
+00:03:46,476 --> 00:03:48,751
+and Roz is helping me
+arrange a tour of Microsoft.
 
 75
-00:03:15,882 --> 00:03:17,634
-I thought I'd lost the love of me life.
+00:03:49,020 --> 00:03:50,931
+It's the one thing Freddie
+specifically requested.
 
 76
-00:03:17,802 --> 00:03:21,477
-I figured I'd spend the rest of my years
-dwelling on what might have been.
+00:03:51,231 --> 00:03:52,744
+Someone's running for
+Dad of the Year.
 
 77
-00:03:21,642 --> 00:03:24,475
-The home we'd have made,
-the children running through it,
+00:03:53,024 --> 00:03:54,616
+Yes, well, you know how it is.
 
 78
-00:03:24,642 --> 00:03:27,031
-growing old together.
+00:03:54,859 --> 00:03:56,531
+I don't get to see him
+as often as I'd like.
 
 79
-00:03:27,322 --> 00:03:29,882
-Did I mention Joe's getting married?
+00:03:56,778 --> 00:03:59,895
+Memories of this trip
+will have to last until the next one.
 
 80
-00:03:30,322 --> 00:03:32,961
-- Oh, I'm sorry.
-- No, I'm all right.
+00:04:00,240 --> 00:04:02,515
+Can you blame me
+for wanting it to be perfect?
 
 81
-00:03:33,842 --> 00:03:37,312
-[DAPHNE CRIES]
+00:04:02,826 --> 00:04:04,737
+- Hi, Dad.
+- Oh, hello, Freddie.
 
 82
-00:03:37,682 --> 00:03:40,515
-Oh, Daphne. Daphne.
+00:04:04,994 --> 00:04:07,462
+Dad, did Grandpa ever tell you
+the story how he captured
 
 83
-00:03:41,962 --> 00:03:43,680
-That'll be fine.
+00:04:07,747 --> 00:04:09,897
+four bank robbers
+with just a nightstick?
 
 84
-00:03:47,122 --> 00:03:48,919
-I should've known
-that you'd hate Indian food.
+00:04:10,208 --> 00:04:12,324
+No. He did tell me how
+he captured two bank robbers
 
 85
-00:03:49,082 --> 00:03:52,438
-No, it was great. I just... You know,
-it just takes a little getting used to.
+00:04:12,585 --> 00:04:15,304
+with just a revolver,
+his partner and a SWAT team.
 
 86
-00:03:52,602 --> 00:03:54,593
-Yeah, it does.
-You should try it again sometime.
+00:04:15,630 --> 00:04:17,427
+- They got there later.
+- Well...
 
 87
-00:03:55,202 --> 00:03:57,432
-I think I just did.
+00:04:17,674 --> 00:04:19,904
+- Hello, Uncle Niles.
+- Hello, Frederick.
 
 88
-00:03:58,842 --> 00:04:01,834
-So are you gonna come in
-for some coffee?
+00:04:20,176 --> 00:04:22,451
+My, aren't you getting big.
 
 89
-00:04:02,202 --> 00:04:05,080
-No, you're not feeling too well.
+00:04:22,762 --> 00:04:25,720
+I'm the same exact size I was
+the last time you saw me.
 
 90
-00:04:05,242 --> 00:04:06,721
-I think I'll just call it a night.
+00:04:26,057 --> 00:04:30,096
+Well, your mother's cooking
+will do that for a growing boy.
 
 91
-00:04:06,882 --> 00:04:09,350
-I thought you said there was
-something you wanted to talk about.
+00:04:31,271 --> 00:04:33,466
+- Are we going to Microsoft today?
+- Well, Freddie,
 
 92
-00:04:10,082 --> 00:04:11,310
-It can wait.
+00:04:33,732 --> 00:04:36,530
+I thought we'd go by the radio station.
+I could show you where I work.
 
 93
-00:04:11,642 --> 00:04:14,236
-- Good night.
-- Good night.
+00:04:36,818 --> 00:04:38,376
+- That'll be fun, won't it?
+- Yes.
 
 94
-00:04:16,522 --> 00:04:17,841
-- Hi, Dad.
-- Hi.
+00:04:38,611 --> 00:04:41,842
+- When are we going to Microsoft?
+- Well, Saturday.
 
 95
-00:04:18,002 --> 00:04:18,991
-How was your date?
+00:04:42,157 --> 00:04:43,431
+Excellent.
 
 96
-00:04:19,162 --> 00:04:21,551
-Awful. I never felt this bad
-in my life.
+00:04:43,700 --> 00:04:46,373
+- Hey, good morning, Dr. Crane.
+- Good morning, Daphne.
 
 97
-00:04:21,762 --> 00:04:23,673
-- Oh, Dad.
-- Yeah.
+00:04:46,703 --> 00:04:50,378
+- Hi, Daphne.
+- Hello, Frederick.
 
 98
-00:04:23,842 --> 00:04:26,675
-I feel like my guts
-have been ripped out.
+00:04:50,707 --> 00:04:52,902
+Tell your dad what you saw
+in the park with Eddie.
 
 99
-00:04:27,522 --> 00:04:30,559
-Dad, let me assure you
-this has nothing to do with your age.
+00:04:53,209 --> 00:04:55,882
+Hi, Daphne.
 
 100
-00:04:30,722 --> 00:04:33,998
-The hell it doesn't. This never would've
-happened 20 years ago.
+00:04:57,088 --> 00:04:59,602
+- Frederick's my boyfriend.
+- Oh, really.
 
 101
-00:04:36,682 --> 00:04:39,242
-Well, you know, Dad,
-I may be talking out of turn here,
+00:04:59,924 --> 00:05:02,916
+I got a present for you. Wait here.
 
 102
-00:04:39,402 --> 00:04:40,994
-but Maureen told me about this.
+00:05:03,511 --> 00:05:05,581
+That's so cute.
+He's got a crush on you.
 
 103
-00:04:41,162 --> 00:04:42,720
-- What?
-- Yes.
+00:05:05,847 --> 00:05:09,999
+Yes, he spent the entire evening
+sitting on Daphne's lap, watching TV.
 
 104
-00:04:42,882 --> 00:04:44,361
-Yes, she came to me for advice.
+00:05:11,102 --> 00:05:12,899
+Really.
 
 105
-00:04:44,522 --> 00:04:46,319
-That's how determined she was
-not to hurt you.
+00:05:14,939 --> 00:05:17,578
+And this morning I heard
+this soft little knocking at my door,
 
 106
-00:04:46,482 --> 00:04:47,471
-You see...
+00:05:17,859 --> 00:05:22,091
+and it was Frederick, asking if
+he could climb into bed with me.
 
 107
-00:04:47,642 --> 00:04:49,155
-...she wanted to make it
-perfectly clear
+00:05:22,447 --> 00:05:24,244
+Really.
 
 108
-00:04:49,322 --> 00:04:51,711
-that her breaking up with you
-had nothing to do with your age,
+00:05:26,034 --> 00:05:29,629
+- It's for you.
+- Oh, well, isn't this lovely.
 
 109
-00:04:51,882 --> 00:04:53,156
-but, rather, your compatibility.
+00:05:29,954 --> 00:05:32,787
+Look, here's Frederick.
+And here I am.
 
 110
-00:04:53,322 --> 00:04:54,641
-You see, it's not your fault
+00:05:33,083 --> 00:05:35,836
+- And what are we doing?
+- Getting married.
 
 111
-00:04:54,802 --> 00:04:56,838
-that you don't like the same food,
-music or movies...
+00:05:36,836 --> 00:05:38,827
+Really.
 
 112
-00:04:57,002 --> 00:04:59,197
-And she didn't bring this up,
-did she?
+00:05:39,964 --> 00:05:42,353
+Come on, Frederick,
+let's go hang this on the fridge.
 
 113
-00:05:00,522 --> 00:05:02,240
-- No.
-- Dad, I'm sorry.
+00:05:42,634 --> 00:05:43,987
+Okay.
 
 114
-00:05:02,402 --> 00:05:05,997
-- She doesn't want to see me again?
-- I know. I feel so terrible.
+00:05:44,803 --> 00:05:46,475
+Do you think it's healthy
+for a little boy
 
 115
-00:05:07,202 --> 00:05:09,511
-Listen, Dad, I know exactly how
-you're feeling right now.
+00:05:46,763 --> 00:05:49,482
+to be so obsessed with a woman
+he can't possibly have?
 
 116
-00:05:09,682 --> 00:05:11,434
-But, believe me, the pain will pass.
+00:05:49,808 --> 00:05:52,880
+Niles, have you actually sunk
+so low as to be jealous of him?
 
 117
-00:05:11,602 --> 00:05:12,796
-It may take some time.
+00:05:53,478 --> 00:05:55,594
+No, I'm not jealous. I'm just a bit--
 
 118
-00:05:12,962 --> 00:05:15,271
-This is great.
+00:05:55,855 --> 00:05:58,289
+Well, maybe envious.
 
 119
-00:05:15,722 --> 00:05:17,235
-Or not.
+00:05:58,983 --> 00:06:01,292
+That's ridiculous. What have
+you got to be envious of?
 
 120
-00:05:17,682 --> 00:05:19,161
-Wait till I tell Sherry.
+00:06:01,611 --> 00:06:04,842
+- Hold on!
+- Wee!
 
 121
-00:05:19,322 --> 00:05:20,835
-- Sherry?
-- Wow.
+00:06:07,742 --> 00:06:09,937
+Wee!
 
 122
-00:05:21,002 --> 00:05:23,721
-This stuff works pretty good.
-We got any pretzels?
+00:06:16,876 --> 00:06:19,515
+And this is the booth
+where it all happens.
 
 123
-00:05:24,922 --> 00:05:25,957
-Dad?
+00:06:19,796 --> 00:06:22,356
+- Very impressive.
+- Well...
 
 124
-00:05:26,122 --> 00:05:27,760
-Just who is Sherry?
+00:06:22,632 --> 00:06:25,863
+This is the talkback button here,
+if I want to talk to Roz,
 
 125
-00:05:27,922 --> 00:05:29,958
-She's this great lady I met
-down at McGinty's.
+00:06:26,177 --> 00:06:28,008
+the cough button
+if I want to mute the mike.
 
 126
-00:05:30,122 --> 00:05:31,840
-You know, I've been trying for weeks
+00:06:28,263 --> 00:06:30,413
+This button here is very special.
+It sends a death ray
 
 127
-00:05:32,002 --> 00:05:33,720
-to get up the nerve
-to end it with Maureen.
+00:06:30,682 --> 00:06:33,321
+shooting from the phone
+of any caller who annoys me.
 
 128
-00:05:33,882 --> 00:05:34,871
-[DOORBELL RINGS]
+00:06:34,019 --> 00:06:35,532
+You wish.
 
 129
-00:05:35,042 --> 00:05:37,237
-Good Lord. I've been worried
-all afternoon about
+00:06:36,146 --> 00:06:37,738
+Yes, I do.
 
 130
-00:05:37,402 --> 00:05:41,156
-Maureen breaking your heart,
-and all along, you've been two-timing...
+00:06:37,981 --> 00:06:40,541
+Well, okay, Roz, what have
+we done to ourselves today?
 
 131
-00:05:41,322 --> 00:05:42,835
-Maureen.
+00:06:40,817 --> 00:06:43,206
+Well, we went out last night
+to celebrate our big win.
 
 132
-00:05:44,802 --> 00:05:46,076
-Oh.
+00:06:43,528 --> 00:06:45,041
+- Ah.
+- Had a few margaritas.
 
 133
-00:05:46,402 --> 00:05:48,074
-Well, hi, Maureen. Come in.
+00:06:45,280 --> 00:06:47,919
+Someone started a conga line.
+I wasn't gonna get in it.
 
 134
-00:05:50,042 --> 00:05:53,114
-- Did you forget something?
-- Yes, I did.
+00:06:48,199 --> 00:06:50,554
+I think Gary, our shortstop,
+got on the end of the line.
 
 135
-00:05:54,322 --> 00:05:56,517
-Oh, don't mind me.
-I was just going out.
+00:06:50,869 --> 00:06:54,066
+That man has a butt that makes you
+wanna reach out with both hands
 
 136
-00:05:57,722 --> 00:05:59,474
-To the powder room.
+00:06:54,414 --> 00:06:57,531
+and give Freddie
+a great big Seattle hug.
 
 137
-00:06:00,242 --> 00:06:01,800
-Bye-bye.
+00:06:58,126 --> 00:06:59,559
+- Good save, Roz.
+- Thank you.
 
 138
-00:06:03,362 --> 00:06:05,478
-There's something that I've
-been meaning to say to you,
+00:06:59,794 --> 00:07:01,785
+- I don't believe you've met Bulldog.
+- Hey, kid.
 
 139
-00:06:05,642 --> 00:06:06,711
-and I keep putting it off.
+00:07:02,088 --> 00:07:05,763
+- Why are you called Bulldog?
+- People just always call me that.
 
 140
-00:06:07,402 --> 00:06:09,074
-And that's not fair to you.
+00:07:06,092 --> 00:07:07,923
+But why?
 
 141
-00:06:09,242 --> 00:06:11,073
-What is it?
+00:07:09,012 --> 00:07:10,604
+- I don't know.
+- Well, all right, Bulldog.
 
 142
-00:06:13,922 --> 00:06:15,992
-I don't think it's working out.
+00:07:10,847 --> 00:07:13,361
+- Roz and I have a show to prepare for.
+- No, no. Wait a minute.
 
 143
-00:06:16,762 --> 00:06:18,434
-You don't?
+00:07:13,641 --> 00:07:16,519
+This is important.
+Why do people call me Bulldog?
 
 144
-00:06:19,962 --> 00:06:21,873
-Wow.
+00:07:16,811 --> 00:07:17,800
+There has to be a reason.
 
 145
-00:06:22,082 --> 00:06:23,561
-I didn't see that coming.
+00:07:20,482 --> 00:07:22,791
+This is gonna drive me nuts.
 
 146
-00:06:25,762 --> 00:06:27,832
-Marty, it's not the age difference.
+00:07:23,360 --> 00:07:25,112
+Who's subbing for me
+in Saturday's game?
 
 147
-00:06:28,002 --> 00:06:30,721
-It's just... All we ever talk about
-is the police force,
+00:07:25,362 --> 00:07:27,318
+We gotta have a ninth body
+out there or we forfeit.
 
 148
-00:06:30,882 --> 00:06:33,442
-- and I enjoy that, but I just think...
-- No, Maureen.
+00:07:27,614 --> 00:07:31,163
+- Oh, right. How about Mindy Guthrie?
+- Eight months pregnant.
 
 149
-00:06:33,602 --> 00:06:36,275
-Now, come on.
-You don't need to explain.
+00:07:32,202 --> 00:07:35,990
+July, August, September, October,
+November, December...
 
 150
-00:06:37,202 --> 00:06:40,160
-You know, I guess I always knew
+00:07:39,793 --> 00:07:42,626
+Anyway, you better find somebody.
+And speaking of bad news, Frasier,
 
 151
-00:06:40,322 --> 00:06:44,110
-that I could never hold on
-to a prize like you forever.
+00:07:42,921 --> 00:07:44,513
+I finally got a call
+from Scott Blankman--
 
 152
-00:06:47,882 --> 00:06:51,113
-But at least I did it for a while.
+00:07:44,756 --> 00:07:46,667
+Roz... Frederick,
+talk with Bulldog for a minute.
 
 153
-00:06:51,802 --> 00:06:54,362
-So are...? Are you okay?
-
-154
-00:06:54,522 --> 00:06:55,511
-I will be.
-
-155
-00:06:55,682 --> 00:06:59,436
-It just takes a little time,
-you know, but...
-
-156
-00:06:59,922 --> 00:07:01,719
-You take care of yourself.
-
-157
-00:07:01,922 --> 00:07:04,720
-Yeah, you too. Okay.
-
-158
-00:07:13,562 --> 00:07:15,439
-- You old fraud.
-- What?
-
-159
-00:07:15,602 --> 00:07:17,513
-You made her believe
-that she'd broken your heart.
-
-160
-00:07:17,682 --> 00:07:18,671
-Well, of course I did.
-
-161
-00:07:18,842 --> 00:07:21,595
-When a woman breaks up with you,
-you have to act sad. It's only polite.
-
-162
-00:07:21,762 --> 00:07:23,195
-Polite?
-
-163
-00:07:23,362 --> 00:07:25,922
-My God, Dad, guilt is
-a very destructive emotion.
-
-164
-00:07:26,082 --> 00:07:27,913
-Spare me the lvy League bull.
-
-165
-00:07:28,082 --> 00:07:30,676
-There ain't a dame alive who wouldn't
-rather break a guy's heart
-
-166
-00:07:30,842 --> 00:07:32,594
-than think she hadn't
-even made a dent in it.
-
-167
-00:07:32,762 --> 00:07:36,471
-I may not have been to Harvard,
-but I have been to the college of love.
-
-168
-00:07:37,322 --> 00:07:40,678
-Apparently on a Spillane Fellowship.
-
-169
-00:07:43,562 --> 00:07:45,314
-- DAPHNE: Hello, Dr Crane.
-- NILES: Hey, Daphne.
-
-170
-00:07:45,482 --> 00:07:47,473
-- FRASIER: Hello, Niles.
-- NILES: Where's the birthday boy?
-
-171
-00:07:47,642 --> 00:07:49,712
-He's getting all dolled up
-for his lady friend.
-
-172
-00:07:49,882 --> 00:07:51,520
-You should see how excited he is.
-
-173
-00:07:51,682 --> 00:07:54,116
-Not half as excited as he's going to be
-when he sees these new videos.
-
-174
-00:07:54,282 --> 00:07:56,159
-Twelve cassettes of the history
-of World War II.
-
-175
-00:07:56,522 --> 00:07:59,594
-For those who thought the original
-was fun but too short.
-
-176
-00:08:00,842 --> 00:08:03,356
-This year I thought, "What the hell,
-give him something he wants
-
-177
-00:08:03,522 --> 00:08:04,841
-instead of what I think he needs."
-
-178
-00:08:05,002 --> 00:08:07,152
-- Very commendable sentiment.
-- What did you get him?
-
-179
-00:08:07,322 --> 00:08:09,199
-An Armani tux.
-
-180
-00:08:10,322 --> 00:08:11,914
-Well, my banquet's coming up.
-
-181
-00:08:12,322 --> 00:08:14,631
-- MARTIN: Hey, Niles.
-- NILES: Hey, Dad.
-
-182
-00:08:14,802 --> 00:08:17,441
-- Don't you look dapper?
-- Well, thanks.
-
-183
-00:08:17,602 --> 00:08:20,036
-Yeah, I heard the door.
-I thought maybe it was Sherry.
-
-184
-00:08:20,442 --> 00:08:22,876
-I thought we were joining her
-and your chums at the restaurant.
-
-185
-00:08:23,042 --> 00:08:24,031
-Yeah, I changed my mind.
-
-186
-00:08:24,202 --> 00:08:27,000
-You know, I just thought that...
-I'm just so anxious for you to meet her.
-
-187
-00:08:27,162 --> 00:08:29,517
-I know you're gonna love her.
-No. Forget I said that.
-
-188
-00:08:29,682 --> 00:08:32,150
-I mean, you will,
-but I just don't wanna jinx it.
-
-189
-00:08:32,322 --> 00:08:33,311
-[DOORBELL RINGS]
-
-190
-00:08:33,482 --> 00:08:35,473
-There it is. Frasier, answer the door,
-would you, please?
-
-191
-00:08:35,642 --> 00:08:37,553
-No, wait, I'll get it.
-
-192
-00:08:39,962 --> 00:08:42,840
-Happy birthday.
-
-193
-00:08:46,642 --> 00:08:47,961
-Come on in and meet the family.
-
-194
-00:08:48,602 --> 00:08:51,833
-Hi. Sherry Dempsey.
-
-195
-00:08:52,002 --> 00:08:55,995
-Now, Marty didn't tell me
-the two of you were so handsome.
-
-196
-00:08:56,722 --> 00:08:58,394
-Hello. Daphne Moon.
-
-197
-00:08:58,602 --> 00:09:00,911
-Oh, the physical therapist.
-
-198
-00:09:01,082 --> 00:09:03,152
-- Right.
-- Don't worry about me, honey.
-
-199
-00:09:03,322 --> 00:09:04,550
-I'm not the jealous type.
-
-200
-00:09:04,722 --> 00:09:08,681
-Anybody that keeps my Marty limber
-is aces in my book.
-
-201
-00:09:09,882 --> 00:09:11,873
-- Hey, sit down, Sherry. Come on.
+00:07:46,925 --> 00:07:49,155
+- I have to discuss something with Roz.
 - Okay.
 
+154
+00:07:49,469 --> 00:07:51,983
+Oh, yeah, no problem.
+
+155
+00:07:54,474 --> 00:07:56,829
+Oh, hey. In a little while
+I'm gonna bring in my cart.
+
+156
+00:07:57,102 --> 00:07:59,775
+- You can hit the gong.
+- Why?
+
+157
+00:08:00,522 --> 00:08:03,320
+It's loud. I make a lot
+of loud noises in my show.
+
+158
+00:08:03,650 --> 00:08:05,845
+- Why?
+- I don't know.
+
+159
+00:08:06,111 --> 00:08:08,261
+Boy, I'm starting to get a headache.
+
+160
+00:08:08,571 --> 00:08:11,165
+If you need a softball player,
+why don't you use my dad.
+
+161
+00:08:11,491 --> 00:08:13,243
+Oh, yeah, right.
+
+162
+00:08:13,910 --> 00:08:15,343
+Isn't he good?
+
+163
+00:08:16,329 --> 00:08:19,924
+Oh, yeah. Yeah, he's great.
+He is the best, you know.
+
+164
+00:08:20,250 --> 00:08:23,083
+I wish he could play, but I think
+your dad's busy Saturday.
+
+165
+00:08:23,420 --> 00:08:26,537
+- He's taking me to Microsoft.
+- Yeah, right.
+
+166
+00:08:26,840 --> 00:08:30,549
+Man, I wish he could play, because
+if he were playing, we'd win for sure.
+
+167
+00:08:30,927 --> 00:08:32,804
+I'm sorry, Frasier. That's all I can do.
+
+168
+00:08:33,054 --> 00:08:35,363
+Scott quit Microsoft
+right after we broke up.
+
+169
+00:08:36,141 --> 00:08:38,416
+Well, I don't look forward
+to telling Frederick.
+
+170
+00:08:38,685 --> 00:08:40,277
+He'll be so disappointed.
+
+171
+00:08:40,562 --> 00:08:43,952
+Well, you know, if he wants a tour
+of a seminary, I've got an in there now.
+
+172
+00:08:47,610 --> 00:08:48,884
+I don't know. I give up.
+
+173
+00:08:49,154 --> 00:08:50,428
+Abraham Lincoln.
+
+174
+00:08:50,655 --> 00:08:53,727
+What school did you go to?
+
+175
+00:08:55,160 --> 00:08:56,479
+Frederick...
+
+176
+00:08:56,703 --> 00:08:59,979
+Dad, I don't wanna go
+to Microsoft anymore.
+
+177
+00:09:00,290 --> 00:09:03,009
+- You don't?
+- Oh, hey. Yes, he does. Wait a minute.
+
+178
+00:09:03,293 --> 00:09:05,523
+What kind of boy wouldn't wanna
+spend a day at Microsoft?
+
+179
+00:09:05,795 --> 00:09:10,391
+Stay out of this. Now, listen. Frederick,
+you know, this is your vacation.
+
+180
+00:09:10,759 --> 00:09:12,351
+You are the boss.
+Whatever you say goes.
+
+181
+00:09:12,635 --> 00:09:15,468
+Great. I wanna see you play
+in the softball game.
+
+182
+00:09:15,764 --> 00:09:18,358
+- What?
+- You could take Roz's place.
+
+183
+00:09:18,641 --> 00:09:20,757
+Well, you know, as much
+as I'd love to play softball,
+
+184
+00:09:21,019 --> 00:09:22,816
+I really don't think
+that Bulldog wants me to.
+
+185
+00:09:23,104 --> 00:09:25,902
+Yes, he does. He said
+you were the best. Right?
+
+186
+00:09:26,191 --> 00:09:28,500
+That's what I said.
+
+187
+00:09:28,818 --> 00:09:32,208
+- Well, thank you, Bulldog.
+- So you'll play?
+
+188
+00:09:32,572 --> 00:09:36,087
+- Well, I don't see how I can refuse.
+- Great. I can't wait to tell Daphne.
+
+189
+00:09:36,409 --> 00:09:38,923
+Yes, well, speaking of Daphne,
+while you're waiting for Daphne,
+
+190
+00:09:39,204 --> 00:09:42,082
+why don't you go on out, get yourself
+a candy bar out of the machine.
+
+191
+00:09:42,374 --> 00:09:44,092
+Mother says candy rots
+tooth enamel.
+
+192
+00:09:44,334 --> 00:09:46,848
+Yes, well, chew on the side
+of your mouth. Rot your baby teeth.
+
+193
+00:09:48,380 --> 00:09:51,099
+What do you think you're doing,
+telling him I'm a good softball player?
+
+194
+00:09:51,424 --> 00:09:53,858
+Trying to be nice. You want me
+to tell him you're a big lame-o?
+
+195
+00:09:54,135 --> 00:09:56,729
+- No, I don't.
+- Hey, look, I know how tough it is
+
+196
+00:09:57,013 --> 00:10:00,562
+when you're a kid and you find out
+your dad's not as great as you thought.
+
+197
+00:10:00,892 --> 00:10:04,248
+Look, I was about
+Frederick's age when...
+
+198
+00:10:05,355 --> 00:10:07,710
+Well, I came home.
+My mom was out
+
+199
+00:10:07,982 --> 00:10:09,813
+and I caught my dad
+with another woman.
+
+200
+00:10:10,694 --> 00:10:13,572
+- Oh, Bulldog, I'm sorry.
+- No, no. No, wait.
+
+201
+00:10:13,863 --> 00:10:16,138
+You haven't heard the bad part yet.
+
 202
-00:09:12,042 --> 00:09:14,510
-You know, Fras,
-Sherry's a big fan of your show.
+00:10:16,991 --> 00:10:19,141
+She was ugly, doc.
 
 203
-00:09:14,682 --> 00:09:16,001
-Oh, yes, a big fan.
+00:10:19,661 --> 00:10:23,290
+I mean, coyote ugly. My own dad.
 
 204
-00:09:16,162 --> 00:09:18,392
-Well, as a matter of fact,
-when my friend Donna's marriage
+00:10:23,665 --> 00:10:25,701
+And the best excuse
+he could come up with was:
 
 205
-00:09:18,562 --> 00:09:21,030
-was on the rocks, you were the one
-that she called for advice.
+00:10:25,959 --> 00:10:29,634
+"Hey, you don't look at the mantel
+when you're poking the fire."
 
 206
-00:09:21,202 --> 00:09:23,193
-Really? And did my advice
-prove helpful?
+00:10:32,340 --> 00:10:35,696
+Hey! I just got that.
 
 207
-00:09:23,682 --> 00:09:25,434
-That's not important.
+00:10:40,515 --> 00:10:43,985
+I just keep thinking back to that time
+when Dad made us try Little League.
 
 208
-00:09:25,602 --> 00:09:28,833
-- You cared. That's what matters.
-- Can we offer you a drink?
+00:10:44,310 --> 00:10:45,584
+I'll never forget the humiliation
 
 209
-00:09:29,042 --> 00:09:33,479
-Well, actually, since it's a special
-occasion, I brought some bubbly.
+00:10:45,812 --> 00:10:48,485
+of getting up to bat
+for the first time in my life,
 
 210
-00:09:33,642 --> 00:09:35,758
-- Let's crack it open.
-- Well.
+00:10:48,773 --> 00:10:50,968
+hearing the other team all cry out:
 
 211
-00:09:36,802 --> 00:09:39,236
-Yes, why not?
+00:10:51,234 --> 00:10:54,544
+"Move in, everybody. Crane's up."
 
 212
-00:09:39,402 --> 00:09:42,712
-Oh, look, Frasier, Cold Duck.
+00:10:55,405 --> 00:10:57,839
+But they moved back out again
+after you took your first swing.
 
 213
-00:09:43,722 --> 00:09:46,236
-- You ever had it?
-- Just once.
+00:10:58,158 --> 00:11:00,626
+Only because the bat
+flew out of my hands.
 
 214
-00:09:46,402 --> 00:09:48,199
-- I'll do the honours.
-- Thank you.
+00:11:02,412 --> 00:11:03,686
+You worry too much.
 
 215
-00:09:48,362 --> 00:09:51,274
-Oh, I love this apartment.
+00:11:03,913 --> 00:11:06,347
+Your co-workers aren't
+expecting you to play brilliantly.
 
 216
-00:09:51,442 --> 00:09:54,559
-- Wow, that's some view you've got.
-- FRASIER: Thank you.
+00:11:06,624 --> 00:11:08,933
+No, I can live with playing badly
+in front of my co-workers.
 
 217
-00:09:54,722 --> 00:09:55,837
-Which room's mine?
+00:11:09,252 --> 00:11:11,243
+It's Frederick I'm worried about.
 
 218
-00:09:57,842 --> 00:09:59,434
-Gotcha.
+00:11:11,504 --> 00:11:14,098
+He's still at that age where
+he thinks his father can do anything.
 
 219
-00:10:00,682 --> 00:10:02,513
-She's always doing stuff like that.
+00:11:14,424 --> 00:11:16,460
+Every child, at some point,
+must discover
 
 220
-00:10:03,002 --> 00:10:04,993
-Oh, I love making people laugh.
+00:11:16,718 --> 00:11:18,754
+- that his father is not a superhero.
+- I know.
 
 221
-00:10:05,162 --> 00:10:07,437
-To me, humour is like medicine.
+00:11:19,012 --> 00:11:21,048
+It's a healthy part
+of the developmental process.
 
 222
-00:10:07,602 --> 00:10:09,991
-Guess we're in the placebo group.
+00:11:21,306 --> 00:11:23,900
+I know someday he's gonna
+have to learn that I'm not perfect.
 
 223
-00:10:14,722 --> 00:10:15,871
-So, um...
+00:11:24,184 --> 00:11:26,652
+It's just-- I was hoping it might be
+something less humiliating,
 
 224
-00:10:16,282 --> 00:10:19,831
-Dad tells me that you, you two kids
-met at McGinty's.
+00:11:26,936 --> 00:11:30,087
+like seeing me fast-dance
+at a family wedding.
 
 225
-00:10:20,042 --> 00:10:21,521
-That's right. I tend bar there.
+00:11:31,524 --> 00:11:34,084
+- You consider that less humiliating?
+- Well...
 
 226
-00:10:21,682 --> 00:10:24,480
-Saw your dad there one night
-looking kind of lonesome,
+00:11:34,361 --> 00:11:36,317
+Hello. Look who's here.
 
 227
-00:10:24,642 --> 00:10:27,076
-- and I said to myself...
-- Bottoms up.
+00:11:36,571 --> 00:11:38,368
+You two have fun
+while I was at work?
 
 228
-00:10:28,842 --> 00:10:30,116
-Well, something like that.
+00:11:38,615 --> 00:11:40,367
+- Yes.
+- Oh, yes.
 
 229
-00:10:30,282 --> 00:10:32,352
-- Here we go.
-- Thank you.
+00:11:40,617 --> 00:11:43,177
+We went to the amusement park.
+We had a lovely time.
 
 230
-00:10:32,522 --> 00:10:34,319
-- Well, happy birthday.
-- Thank you.
+00:11:43,453 --> 00:11:45,603
+Only, I think the Ferris wheel
+scared him a bit.
 
 231
-00:10:34,482 --> 00:10:36,234
-- Yes.
-- Through the lips and over the gums...
+00:11:45,872 --> 00:11:48,944
+He spent the whole ride
+hugging me for dear life.
 
 232
-00:10:36,402 --> 00:10:38,279
-Look out taste buds, here it comes.
+00:11:49,292 --> 00:11:51,089
+Really.
 
 233
-00:10:38,722 --> 00:10:40,201
-I never heard that version.
+00:11:51,628 --> 00:11:54,984
+Her hair smells like strawberry.
 
 234
-00:10:40,922 --> 00:10:43,117
-- Mmm.
-- DAPHNE: Ooh.
+00:11:55,340 --> 00:11:58,457
+It smells like peach blossoms,
+lavender and vanilla.
 
 235
-00:10:43,282 --> 00:10:45,034
-Mmm.
+00:12:00,512 --> 00:12:02,548
+From over here, at least.
 
 236
-00:10:45,202 --> 00:10:48,160
-DAPHNE:
-Ooh. Lovely.
+00:12:03,598 --> 00:12:06,635
+Uncle Niles, are you coming to watch
+my dad play in the softball game?
 
 237
-00:10:48,922 --> 00:10:50,594
-SHELLY:
-Woo!
+00:12:06,935 --> 00:12:09,733
+- He's the best one on the team.
+- Well, of course I am, Freddie.
 
 238
-00:10:51,362 --> 00:10:52,431
-SHELLY:
-Oh!
+00:12:10,021 --> 00:12:12,899
+I'll be there sitting
+right between you and Daphne.
 
 239
-00:10:52,602 --> 00:10:54,035
-[MARTY COUGHS]
+00:12:13,817 --> 00:12:16,092
+Well, come on, Frederick.
+Let's go get some hot chocolate.
 
 240
-00:10:54,962 --> 00:10:58,159
-I'd better be careful. Two glasses
-of that, I'd be dancing on the table.
+00:12:16,403 --> 00:12:17,552
+Okay.
 
 241
-00:10:58,762 --> 00:11:01,151
-Yeah, you know,
-Sherry used to be on stage.
+00:12:17,779 --> 00:12:20,691
+- So you see the problem.
+- I certainly do.
 
 242
-00:11:01,322 --> 00:11:02,596
-On Broadway?
+00:12:20,990 --> 00:12:22,867
+No, that's your problem.
 
 243
-00:11:02,762 --> 00:11:04,275
-Las Vegas. Ever been there?
+00:12:23,618 --> 00:12:26,371
+My problem is that I promised
+Frederick I would play on Saturday.
 
 244
-00:11:04,442 --> 00:11:06,273
-Just once.
+00:12:26,663 --> 00:12:28,096
+Guess I'm left with only one choice.
 
 245
-00:11:06,962 --> 00:11:10,272
-What a town, huh?
-Great food, terrific theatre.
+00:12:28,373 --> 00:12:30,250
+- You're gonna fake an injury?
+- No, course not.
 
 246
-00:11:10,442 --> 00:11:12,160
-Just too darn easy to get married.
+00:12:30,500 --> 00:12:32,775
+- I've got to learn how to play softball.
+- In two days?
 
 247
-00:11:13,162 --> 00:11:16,154
-- You're separated, right?
-- Yes.
+00:12:33,044 --> 00:12:35,000
+Well, back in college,
+when Stu Oberfeld got sick,
 
 248
-00:11:16,322 --> 00:11:17,357
-I've been there.
+00:12:35,255 --> 00:12:37,894
+I learned the role of Mercutio
+in a day and a half. I was brilliant.
 
 249
-00:11:17,522 --> 00:11:18,955
-- Listen, you want my advice?
-- Well...
+00:12:38,216 --> 00:12:41,049
+In the dueling scene, the audience
+was on the edge of their seats.
 
 250
-00:11:19,122 --> 00:11:21,875
-Don't mope.
-Get right back in the saddle.
+00:12:41,386 --> 00:12:44,617
+Yes, and they were under them when
+the sword flew out of your hands.
 
 251
-00:11:22,042 --> 00:11:23,316
-My mama always used to say to me,
+00:12:50,979 --> 00:12:54,096
+Gee, Dad, I wanna thank
+you for helping me out with this.
 
 252
-00:11:23,482 --> 00:11:26,315
-"Honey, the only way to get over
-someone is to get under someone."
+00:12:54,399 --> 00:12:57,709
+Don't mention it.
+We're gonna whip you right into shape.
 
 253
-00:11:31,802 --> 00:11:32,917
-- It's cute, isn't it?
-- Yeah.
+00:12:58,028 --> 00:12:59,302
+It must have been disappointing
 
 254
-00:11:33,082 --> 00:11:34,674
-Well, Mama had lots
-of sayings like that.
+00:12:59,529 --> 00:13:01,884
+I never took any interest
+in this sort of thing as a kid.
 
 255
-00:11:35,442 --> 00:11:38,002
-I didn't know Mae West had children.
+00:13:02,157 --> 00:13:03,510
+Well, I understood.
 
 256
-00:11:40,402 --> 00:11:41,721
-Well, hey, we'd better be going.
+00:13:03,742 --> 00:13:06,017
+Guess it's a little complex
+I must have developed
 
 257
-00:11:41,882 --> 00:11:44,442
-So if you want to freshen
-up or anything, you'd better do it now.
+00:13:06,286 --> 00:13:09,835
+when I was growing up. The doorbell
+would ring, I'd run to answer it,
 
 258
-00:11:44,602 --> 00:11:46,240
-- It's down there.
-- I'll show you the way.
+00:13:10,206 --> 00:13:13,915
+and then there'd be the neighborhood
+kids with their baseball gloves
 
 259
-00:11:46,402 --> 00:11:49,200
-I know what you're doing here.
-You just want the reviews.
+00:13:14,294 --> 00:13:17,491
+and their bats, looking for
+somebody else to join their game.
 
 260
-00:11:49,402 --> 00:11:50,630
-Talk me up.
+00:13:17,797 --> 00:13:20,914
+They'd say, "Hey, can your dad
+come out and play?"
 
 261
-00:11:50,802 --> 00:11:53,521
-No, that's not it at all.
-You think you're so smart.
+00:13:21,259 --> 00:13:24,854
+Well, never mind that. You know,
+it's kind of fun to finally be out here.
 
 262
-00:11:53,682 --> 00:11:55,274
-Well, what do you think?
+00:13:25,263 --> 00:13:30,576
+At the risk of sounding like Stanley
+cornering Blanche DuBois in <i>Streetcar</i>,
 
 263
-00:11:56,362 --> 00:11:57,875
-- Wow.
-- Niles?
+00:13:30,977 --> 00:13:33,332
+we've had this date with each other
+from the very beginning.
 
 264
-00:11:58,042 --> 00:12:01,398
-Oh, I'll see that "wow"
-and raise you a "zowie."
+00:13:33,605 --> 00:13:35,118
+I knew you'd ruin it.
 
 265
-00:12:03,762 --> 00:12:05,639
-I'm so glad you like her.
-Now, you really do, right?
+00:13:35,357 --> 00:13:37,666
+All right, come on.
+Put your helmet on.
 
 266
-00:12:06,002 --> 00:12:06,991
-Yes, Dad.
+00:13:38,443 --> 00:13:40,718
+- Gee, it's kind of tight.
+- Well, it's supposed to.
 
 267
-00:12:07,162 --> 00:12:08,959
-- Absolutely.
-- That's great.
+00:13:40,987 --> 00:13:42,705
+It stops you from getting hurt.
 
 268
-00:12:09,122 --> 00:12:11,033
-Great. We're gonna have to
-spend more time here.
+00:13:42,947 --> 00:13:46,064
+Okay? Here, all right. There you go.
 
 269
-00:12:11,202 --> 00:12:14,399
-You know, she's got that fourth-floor
-walk-up, and it's murder on my hip.
+00:13:46,368 --> 00:13:48,086
+Now...
 
 270
-00:12:14,802 --> 00:12:16,440
-Not that I wouldn't climb
-the Space Needle
+00:13:48,953 --> 00:13:51,387
+...take your bat, get into the stance,
+just like I told you.
 
 271
-00:12:16,602 --> 00:12:18,479
-to hear her play that banjo of hers.
+00:13:51,665 --> 00:13:53,701
+I'm gonna turn the machine on.
 
 272
-00:12:29,002 --> 00:12:31,800
-Clam up, boys, she's back.
+00:13:53,958 --> 00:13:57,030
+The good thing about these balls
+is that they're all at the same level,
 
 273
-00:12:32,362 --> 00:12:33,681
-You know, I keep meaning to ask
+00:13:57,379 --> 00:14:00,177
+so you can work on your form
+and your timing. All right?
 
 274
-00:12:33,842 --> 00:12:35,434
-what's that lovely perfume
-you're wearing?
+00:14:00,465 --> 00:14:02,660
+Okay, now, here we go.
 
 275
-00:12:35,602 --> 00:12:37,399
-Yes, I've been
-wondering that myself.
+00:14:03,343 --> 00:14:05,015
+Ah!
 
 276
-00:12:37,562 --> 00:12:38,961
-It's called Milady's Boudoir.
+00:14:05,303 --> 00:14:08,420
+What is that? A pitching machine
+or a particle accelerator?
 
 277
-00:12:39,122 --> 00:12:40,714
-You wouldn't believe
-what a bargain it is.
+00:14:09,391 --> 00:14:12,463
+All right, all right.
+I'll crank it down to a lower setting.
 
 278
-00:12:40,882 --> 00:12:43,271
-For a hundred bucks, I could
-buy enough to drown myself in.
+00:14:12,769 --> 00:14:14,441
+Okay, now, just remember,
 
 279
-00:12:43,882 --> 00:12:45,918
-- I've got 60.
-- Yeah.
+00:14:14,729 --> 00:14:18,438
+left elbow in, right elbow up,
+knees bent.
 
 280
-00:12:52,202 --> 00:12:55,353
-NILES: Again, I'm sorry for not
-making it over for dinner last night,
+00:14:18,817 --> 00:14:20,648
+All the weight on the balls
+of your feet, okay?
 
 281
-00:12:55,522 --> 00:12:58,116
-- but I had this tickle in my throat.
-- Spare me your lame excuses.
+00:14:20,902 --> 00:14:23,860
+Now, just step into the pitch.
 
 282
-00:12:58,282 --> 00:12:59,874
-We both know why
-you weren't there.
+00:14:25,407 --> 00:14:28,319
+Oh, yeah, and swing the bat.
 
 283
-00:13:00,082 --> 00:13:01,197
-How was Sherry?
+00:14:28,660 --> 00:14:30,412
+Dad, can't you just
+slow it down a little bit?
 
 284
-00:13:01,362 --> 00:13:03,353
-Colourful as ever.
+00:14:30,662 --> 00:14:33,301
+All right, but if any of the other
+fathers come back here,
 
 285
-00:13:03,922 --> 00:13:07,312
-Last night she treated us to selections
-from her unpublished volume
+00:14:33,581 --> 00:14:35,333
+I'm taking it off the peewee setting.
 
 286
-00:13:07,482 --> 00:13:09,040
-of limericks for lovers.
+00:14:35,625 --> 00:14:38,059
+Okay. All right. Now, from the hips.
 
 287
-00:13:10,442 --> 00:13:16,039
-The last several about a well-travelled
-man fortuitously named Horatio.
+00:14:38,378 --> 00:14:40,255
+Nice and easy. Don't try to kill it.
 
 288
-00:13:19,122 --> 00:13:21,716
-- Oh, dear God. Don't turn around.
-- Who is it?
+00:14:40,505 --> 00:14:43,338
+Just try to make contact.
+Okay, you ready?
 
 289
-00:13:21,882 --> 00:13:23,759
-It's Dad, and he's
-brought Sophie Tucker.
+00:14:44,259 --> 00:14:45,931
+Ready.
 
 290
-00:13:23,922 --> 00:13:25,275
-Oh, no.
+00:14:50,348 --> 00:14:52,498
+What are you looking at?
+Dad, they're looking at me.
 
 291
-00:13:25,602 --> 00:13:28,036
-- But this is our place.
-- Don't look.
+00:14:52,809 --> 00:14:54,208
+Get out of here. Go on.
 
 292
-00:13:28,202 --> 00:13:30,796
-Hi. How are you doing?
+00:14:54,477 --> 00:14:56,115
+Buzz off!
 
 293
-00:13:30,962 --> 00:13:33,237
-- Look who's here.
-- Hi, boys!
+00:15:05,488 --> 00:15:08,321
+Did you hear that?
+Hear that? I touched it that time. I did.
 
 294
-00:13:33,402 --> 00:13:36,439
-Oh, wow, what a cute place this is.
+00:15:08,658 --> 00:15:11,013
+No, it didn't.
+That was my knee cracking.
 
 295
-00:13:36,602 --> 00:13:38,638
-I walk by here all the time
-and never stopped in.
+00:15:11,286 --> 00:15:12,639
+You're doing a lot better, though.
 
 296
-00:13:38,802 --> 00:13:40,235
-Yeah, well, the boys love it here.
+00:15:12,912 --> 00:15:16,382
+Six in a row without hitting yourself
+in the kidney on your follow-through.
 
 297
-00:13:40,402 --> 00:13:42,518
-We should start coming here.
-Make room at that table.
+00:15:16,750 --> 00:15:18,422
+Who am I kidding? This is hopeless.
 
 298
-00:13:42,682 --> 00:13:44,718
-We'll be right back.
-We're gonna get a cuppa.
+00:15:18,668 --> 00:15:21,421
+Oh, well. Well, why don't we
+just try changing bats.
 
 299
-00:13:45,682 --> 00:13:47,115
-Quick, Niles, pull up the ladder.
+00:15:21,755 --> 00:15:23,393
+I couldn't hit it
+if I had a sofa cushion.
 
 300
-00:13:47,282 --> 00:13:48,840
-- She found our clubhouse.
-- Oh.
+00:15:23,631 --> 00:15:27,465
+All right, so softball's
+not your game. It's no big deal.
 
 301
-00:13:52,122 --> 00:13:53,475
-This can not go on.
+00:15:27,802 --> 00:15:31,397
+- Freddie will understand that.
+- I suppose in time he will.
 
 302
-00:13:53,962 --> 00:13:55,315
-You're right.
+00:15:31,723 --> 00:15:33,395
+It's just that... Ow, ow, ow, ow.
 
 303
-00:13:55,482 --> 00:13:57,120
-Dad has to be politely told that
+00:15:37,062 --> 00:15:41,260
+No boy ever forgets the first time
+he learns that his dad isn't perfect.
 
 304
-00:13:57,282 --> 00:13:58,715
-even though he may
-enjoy her company,
+00:15:42,067 --> 00:15:44,786
+It's not what I wanted him
+to take away with him on this trip.
 
 305
-00:13:58,882 --> 00:14:01,715
-he has no right to...
-What's a polite word for "inflict"?
+00:15:45,111 --> 00:15:48,023
+- Anyway, thanks for your help.
+- Oh, don't mention it.
 
 306
-00:14:01,882 --> 00:14:03,554
-I don't know,
-but I'm sure you'll find one.
+00:15:48,782 --> 00:15:50,977
+So, Frasier...
 
 307
-00:14:03,722 --> 00:14:05,872
-Me? You mean I have to
-do this alone?
+00:15:52,035 --> 00:15:53,866
+- ...what was it for you?
+- Huh?
 
 308
-00:14:06,042 --> 00:14:08,237
-I thought the two of us
-would sit down and talk to him...
+00:15:54,162 --> 00:15:55,595
+Well, you know, I mean,
 
 309
-00:14:08,402 --> 00:14:10,279
-No, no, no, no.
-I'm afraid you're the one
+00:15:56,081 --> 00:15:59,391
+when you first found out
+that I was less than perfect.
 
 310
-00:14:10,442 --> 00:14:12,353
-who's going to be making
-that little speech.
+00:16:00,585 --> 00:16:01,574
+I don't know.
 
 311
-00:14:12,562 --> 00:14:13,597
-Niles, both of us
-have a problem...
+00:16:01,836 --> 00:16:04,953
+Well, I thought you said
+a kid never forgets the first time.
 
 312
-00:14:13,762 --> 00:14:15,832
-Ah, ah, ah, ah. She's not
-invading my apartment.
+00:16:05,256 --> 00:16:07,770
+- Maybe it was no one time.
+- Oh, so it was a lot of times?
 
 313
-00:14:16,002 --> 00:14:17,355
-I can afford to be patient.
+00:16:08,051 --> 00:16:10,007
+No. I'm not very comfortable
+talking about it--
 
 314
-00:14:17,842 --> 00:14:19,434
-You are a little weasel, aren't you?
+00:16:10,303 --> 00:16:12,737
+Well, why? You're not gonna hurt
+my feelings. I'm just curious.
 
 315
-00:14:19,602 --> 00:14:21,320
-A little weasel
-whose daddy loves him.
+00:16:13,056 --> 00:16:14,648
+All right, all right.
 
 316
-00:14:21,482 --> 00:14:24,394
-Niles, before I forget.
-About your banquet?
+00:16:15,350 --> 00:16:17,545
+Back in third grade.
 
 317
-00:14:24,562 --> 00:14:26,041
-Are we talking fancy-schmancy?
+00:16:17,811 --> 00:16:21,520
+You took me and some of the boys
+from the math club out for pizza.
 
 318
-00:14:26,842 --> 00:14:31,074
-That's not exactly the way it was
-worded on the invitation, but yes.
+00:16:23,441 --> 00:16:25,511
+When the check came...
 
 319
-00:14:33,682 --> 00:14:35,752
-- Why?
-- Well, Daphne's got a cold,
+00:16:26,986 --> 00:16:29,500
+...you couldn't figure out
+the tip in your head.
 
 320
-00:14:35,922 --> 00:14:37,719
-so Sherry's gonna use her ticket.
+00:16:30,824 --> 00:16:32,257
+I can't do math in my head?
 
 321
-00:14:37,882 --> 00:14:39,918
-What fun.
+00:16:32,492 --> 00:16:35,484
+- That's your big disappointment?
+- Well, it was at the time.
 
 322
-00:14:42,282 --> 00:14:43,556
-That's coming up soon, isn't it?
+00:16:35,829 --> 00:16:38,821
+Well, I wonder if I can calculate in my
+head how many hits you got today.
 
 323
-00:14:43,722 --> 00:14:46,077
-Maybe you should start working
-on that little speech.
+00:16:39,124 --> 00:16:41,433
+Let me think. Oh, zero!
 
 324
-00:14:46,242 --> 00:14:48,233
-Ooh. So fancy dress, huh? Good.
+00:16:41,710 --> 00:16:44,178
+Fine! Fine, Dad, get defensive.
+I was 8 years old.
 
 325
-00:14:48,402 --> 00:14:49,994
-I have got a backless
-leopard-skin number
+00:16:44,462 --> 00:16:46,930
+Eight. That's the one shaped
+like the snowman, right?
 
 326
-00:14:50,162 --> 00:14:52,437
-that is gonna knock your eyes out.
+00:16:47,257 --> 00:16:49,373
+I'm sorry I even brought it up. God.
 
 327
-00:14:54,082 --> 00:14:55,800
-Gotcha.
+00:16:52,220 --> 00:16:53,778
+Guess I'm gonna
+have to bite the bullet,
 
 328
-00:14:57,722 --> 00:14:58,871
-Ow!
+00:16:54,014 --> 00:16:58,405
+sit Frederick down on Saturday
+before the game and tell him the truth.
 
 329
-00:14:59,042 --> 00:15:01,681
-I'm sorry. I'm smushing you.
+00:17:00,603 --> 00:17:03,879
+Not a conversation I'm looking forward
+to, but I should prepare him for the fact
 
 330
-00:15:01,842 --> 00:15:03,514
-No, that's all right.
-We were just leaving.
+00:17:04,941 --> 00:17:08,411
+his daddy's not gonna be hitting
+any grand slams on Saturday.
 
 331
-00:15:03,682 --> 00:15:05,035
-- Ah, you gotta go?
-- Yes.
+00:17:10,572 --> 00:17:12,005
+Or am I? Wait.
 
 332
-00:15:05,202 --> 00:15:07,432
-Well, now, Niles, don't worry
-about your banquet.
+00:17:12,240 --> 00:17:14,356
+- A grand slam is...?
+- You aren't.
 
 333
-00:15:07,602 --> 00:15:09,877
-I'll wear a nice dress
-and put on my best dancing shoes.
+00:17:16,703 --> 00:17:20,491
+Well, anyway, I suppose that
+one consolation is, you know,
 
 334
-00:15:10,042 --> 00:15:11,919
-Well, there won't be dancing.
+00:17:20,832 --> 00:17:23,107
+as disappointed as I was
+with you after the pizza incident,
 
 335
-00:15:12,082 --> 00:15:14,038
-You just leave that to Sherry.
+00:17:23,418 --> 00:17:26,569
+yet here we are, all these
+years later, out in a batting cage.
 
 336
-00:15:19,802 --> 00:15:23,920
-Well, your little banquet
-should prove quite amusing.
+00:17:26,880 --> 00:17:29,348
+Yeah, that's right. Come on,
+I'll get us a couple of beers.
 
 337
-00:15:24,082 --> 00:15:25,993
-I hope Dr Gottfreund doesn't
-aggravate his hernia
+00:17:29,632 --> 00:17:30,781
+- Thanks, Dad.
+- Okay.
 
 338
-00:15:26,162 --> 00:15:28,357
-when he goes underneath
-the limbo pole.
+00:17:31,009 --> 00:17:34,046
+And how many
+of these shiny things--?
 
 339
-00:15:29,202 --> 00:15:30,237
-I have to talk to Dad.
+00:17:34,346 --> 00:17:36,382
+Oh, shut up.
 
 340
-00:15:30,402 --> 00:15:32,870
-I can't let her ruin the most
-important evening of my life.
+00:17:40,518 --> 00:17:44,193
+- Hello, Niles.
+- You look like an authentic jock.
 
 341
-00:15:33,042 --> 00:15:34,077
-What do I say to him?
+00:17:44,564 --> 00:17:47,078
+I'm half tempted to hand over
+my lunch money.
 
 342
-00:15:34,242 --> 00:15:36,710
-Frasier, you've gotta help me.
+00:17:47,776 --> 00:17:51,371
+Is that your idea of appropriate
+baseball-watching attire?
 
 343
-00:15:37,162 --> 00:15:39,801
-Well, prepared though you were
-to abandon me,
+00:17:51,738 --> 00:17:54,730
+Obviously you failed to detect
+the subtle diamond pattern in my tie.
 
 344
-00:15:39,962 --> 00:15:42,032
-and let me handle all
-the dirty work alone, I will
+00:17:55,033 --> 00:17:56,307
+Oh.
 
 345
-00:15:42,202 --> 00:15:44,272
-swallow my resentment,
-confront him with you tonight,
+00:18:00,288 --> 00:18:02,563
+So how did your little talk go
+with Frederick?
 
 346
-00:15:44,442 --> 00:15:45,716
-and take my share of the heat.
+00:18:02,832 --> 00:18:06,461
+Well, I haven't been able to
+bring myself to do it yet.
 
 347
-00:15:45,922 --> 00:15:47,275
-Thank you.
+00:18:06,795 --> 00:18:09,753
+As a father, you go to any lengths to
+avoid looking foolish before your son.
 
 348
-00:15:47,442 --> 00:15:49,114
-Gotcha.
+00:18:10,423 --> 00:18:12,573
+Look what Mrs. Thorgeson
+was throwing out.
 
 349
-00:15:53,562 --> 00:15:55,314
-So, Niles, what are you
-in the mood for?
+00:18:12,884 --> 00:18:16,081
+Boy, the guys at McGinty's
+are gonna love this.
 
 350
-00:15:55,482 --> 00:15:58,599
-Normandy or the
-Battle of the Bulge?
+00:18:20,934 --> 00:18:23,209
+Well, anyhow...
 
 351
-00:15:59,642 --> 00:16:00,711
-Whatever.
+00:18:24,896 --> 00:18:26,932
+What have I told you about
+running in the house?
 
 352
-00:16:01,402 --> 00:16:04,678
-What...? You've been fidgeting around
-all night. Something on your mind?
+00:18:27,190 --> 00:18:28,623
+You told me to never run
+in the house.
 
 353
-00:16:04,842 --> 00:16:06,958
-Uh, yes, actually.
+00:18:28,858 --> 00:18:30,610
+Good, and what about
+splitting infinitives?
 
 354
-00:16:07,122 --> 00:16:09,841
-- It's about my awards banquet.
-- Yeah?
+00:18:30,860 --> 00:18:33,897
+Frasier, let the boy be a boy.
 
 355
-00:16:10,002 --> 00:16:11,560
-Uh.
+00:18:34,239 --> 00:18:35,797
+Don't run away. I saw you.
 
 356
-00:16:11,722 --> 00:16:13,474
-Dad, this is very difficult to say.
+00:18:36,032 --> 00:18:38,626
+Your son just walked right in
+on me in the shower.
 
 357
-00:16:13,722 --> 00:16:14,950
-Uh...
+00:18:38,952 --> 00:18:40,783
+- Frederick.
+- Dad, all I really saw was--
 
 358
-00:16:15,402 --> 00:16:17,393
-I would really rather...
+00:18:41,037 --> 00:18:42,675
+I am very disappointed in you,
+young man.
 
 359
-00:16:17,802 --> 00:16:18,871
-...you didn't...
+00:18:42,956 --> 00:18:45,345
+Let the boy finish.
 
 360
-00:16:20,842 --> 00:16:21,911
-...wear those pants.
+00:18:51,131 --> 00:18:54,487
+All I really saw was a lot of steam.
 
 361
-00:16:23,602 --> 00:16:25,991
-Well, I'm not. I'm wearing that
-Avanti tux you gave me.
+00:18:54,801 --> 00:18:57,634
+I'm sorry, Daphne.
+I didn't know you were in the shower.
 
 362
-00:16:26,162 --> 00:16:27,231
-What's your problem?
+00:18:57,929 --> 00:19:00,318
+- Now you hate me.
+- I don't hate you.
 
 363
-00:16:27,402 --> 00:16:29,313
-I'm sorry. I'm sorry. I guess l...
+00:19:00,598 --> 00:19:04,716
+You just have to promise to knock
+before you enter a room, okay?
 
 364
-00:16:29,482 --> 00:16:32,474
-I don't know, I'm just nervous
-about tomorrow night.
+00:19:05,687 --> 00:19:08,804
+- Sorry, Dad.
+- That's okay, son.
 
 365
-00:16:32,642 --> 00:16:33,870
-God knows why.
+00:19:09,149 --> 00:19:11,583
+So when are we going to the game?
 
 366
-00:16:34,042 --> 00:16:36,351
-[BANJO TWANGS]
+00:19:12,444 --> 00:19:13,718
+In a bit.
 
 367
-00:16:38,842 --> 00:16:41,037
-- Evening, Dad.
-- Evening.
+00:19:13,945 --> 00:19:16,618
+First we have to have a little
+conversation, the two of us.
 
 368
-00:16:43,842 --> 00:16:44,991
-Something wrong?
+00:19:16,948 --> 00:19:18,939
+Uncle Niles, could you
+give us a moment alone?
 
 369
-00:16:45,162 --> 00:16:47,630
-You know, that brother of yours
-can be downright insulting.
+00:19:19,200 --> 00:19:21,156
+Oh, of course.
+I'll freshen up for the game.
 
 370
-00:16:47,802 --> 00:16:51,192
-He's so afraid someone's gonna
-embarrass him at his fancy dinner.
+00:19:22,746 --> 00:19:26,102
+You can fool them,
+but you can't fool me.
 
 371
-00:16:51,922 --> 00:16:54,880
-Um, you know, Niles, uh,
+00:19:28,418 --> 00:19:31,615
+I'm onto you, little man.
 
 372
-00:16:55,082 --> 00:16:57,835
-told me about what he was
-going to say to you tonight and, um,
+00:19:37,802 --> 00:19:41,556
+Come on, Freddie.
+Come and have a seat here.
 
 373
-00:16:58,482 --> 00:17:00,837
-well, I must say in his defence
+00:19:43,391 --> 00:19:45,143
+Okay.
 
 374
-00:17:01,002 --> 00:17:04,039
-that it is an important evening
-for him and, well, let's face it,
+00:19:46,102 --> 00:19:49,174
+You're gonna see me play
+some softball today.
 
 375
-00:17:04,202 --> 00:17:06,272
-Sherry can be a bit much.
+00:19:49,981 --> 00:19:52,495
+And I'm not gonna play very well.
 
 376
-00:17:06,962 --> 00:17:08,441
-- She can, huh?
-- Well...
+00:19:53,443 --> 00:19:56,753
+- See, I'm not a good softball player.
+- But Bulldog said you were the best.
 
 377
-00:17:08,602 --> 00:17:12,197
-I mean, I don't mean it as a criticism,
-mind you. Some people like that.
+00:19:57,072 --> 00:20:01,384
+Yes, I know. Well, he was
+just lying in order to be nice.
 
 378
-00:17:12,402 --> 00:17:14,154
-Well, now that Niles
-has broached the subject,
+00:20:02,118 --> 00:20:03,710
+The truth is I stink.
 
 379
-00:17:14,322 --> 00:17:18,554
-I must say that I too,
-find Sherry a bit brassy...
+00:20:03,953 --> 00:20:06,262
+I can't catch, I can't throw, I can't hit.
 
 380
-00:17:19,162 --> 00:17:20,390
-...and flamboyant...
+00:20:06,623 --> 00:20:08,341
+Oh.
 
 381
-00:17:20,922 --> 00:17:23,755
-He didn't say a word to you, did he?
+00:20:09,709 --> 00:20:12,269
+So it must be pretty disappointing
+to hear for the first time
 
 382
-00:17:26,722 --> 00:17:29,190
-I don't believe this.
-You got a problem with Sherry?
+00:20:12,545 --> 00:20:15,935
+- that your dad is not perfect, huh?
+- It's not the first time.
 
 383
-00:17:29,362 --> 00:17:31,159
-That delightful woman?
+00:20:18,093 --> 00:20:19,765
+You couldn't fix my computer.
 
 384
-00:17:33,042 --> 00:17:34,839
-Oh, knock it off.
+00:20:20,011 --> 00:20:22,923
+You thought Venus
+was the North Star.
 
 385
-00:17:35,002 --> 00:17:38,233
-I see you're still waiting
-on that spine donor.
+00:20:23,264 --> 00:20:26,142
+And I've seen you run.
 
 386
-00:17:41,282 --> 00:17:43,796
-Look, Dad, there is no
-reason to belabour this point...
+00:20:29,354 --> 00:20:32,471
+Well, why didn't you mention
+any of these things to me before?
 
 387
-00:17:43,962 --> 00:17:45,793
-No, no. You got something to say,
-let's hear it.
+00:20:32,816 --> 00:20:35,967
+I thought it might hurt
+your self-esteem.
 
 388
-00:17:45,962 --> 00:17:47,395
-You don't like her?
+00:20:37,362 --> 00:20:40,434
+Actually, Frederick, I'm really
+okay with those things. I am.
 
 389
-00:17:47,562 --> 00:17:50,281
-Please understand, Dad, as happy as
-we are that you've found someone...
+00:20:40,740 --> 00:20:43,334
+I want you to know that it's okay
+for you to feel bad about them.
 
 390
-00:17:50,442 --> 00:17:52,194
-- But you don't like her.
-NILES: We're not saying that.
+00:20:43,868 --> 00:20:46,860
+See, when I was about your age,
+I felt real bad about learning
 
 391
-00:17:52,362 --> 00:17:55,081
-She, She's just not the sort of person
-that we would
+00:20:47,163 --> 00:20:49,199
+that your grandpa
+can't do math in his head.
 
 392
-00:17:55,242 --> 00:17:57,039
-normally choose to spend time with.
+00:20:49,457 --> 00:20:51,846
+I learned later, of course,
+that that wasn't very important,
 
 393
-00:17:57,202 --> 00:17:58,715
-In other words, you don't like her.
+00:20:52,127 --> 00:20:54,038
+because he can do
+so many other things so well.
 
 394
-00:17:59,562 --> 00:18:02,076
-Come on, we're all grown-ups here.
-Tell me the truth.
+00:20:54,337 --> 00:20:58,376
+- Grandpa can't do math in his head?
+- Yes, well, see...
 
 395
-00:18:05,602 --> 00:18:07,035
-All right, Dad, we don't like her.
+00:21:00,176 --> 00:21:02,610
+- That's not the issue.
+- Why did you go and tell him that for?
 
 396
-00:18:07,402 --> 00:18:10,200
-Fine. If that's the way
-you feel about it, don't worry.
+00:21:02,887 --> 00:21:06,243
+- Well, I was illustrating a point.
+- You mean, you can't do it at all?
 
 397
-00:18:10,362 --> 00:18:11,795
-I won't bring her back
-here anymore.
+00:21:06,599 --> 00:21:09,511
+- Well, yeah, sure I can, Freddie.
+- I knew you could.
 
 398
-00:18:11,962 --> 00:18:13,714
-I guess it's too much to expect
-my own family
+00:21:09,811 --> 00:21:12,166
+What's seven times 15?
 
 399
-00:18:13,882 --> 00:18:16,601
-to make a person I care about
-feel welcome.
+00:21:12,439 --> 00:21:14,714
+You can do it, Grandpa.
 
 400
-00:18:18,402 --> 00:18:19,994
-Wait a minute!
+00:21:15,525 --> 00:21:17,800
+- 115?
+- Oh, Grandpa.
 
 401
-00:18:21,082 --> 00:18:22,595
-When did you ever make
-any of the women
+00:21:18,069 --> 00:21:20,981
+- Well, thanks a lot, Frasier.
+- Well, I tried, for God's sake.
 
 402
-00:18:22,762 --> 00:18:24,161
-we were involved with feel welcome?
+00:21:21,281 --> 00:21:23,670
+- Ready for the game?
+- Yeah.
 
 403
-00:18:25,402 --> 00:18:28,075
-Ooh, Frasier, you're right.
-He almost got away with that.
+00:21:23,992 --> 00:21:25,345
+You don't sound too excited.
 
 404
-00:18:28,722 --> 00:18:30,394
-When did Lilith ever step foot
-in your house
+00:21:25,577 --> 00:21:28,045
+I just found out Dad's bad at softball
 
 405
-00:18:30,562 --> 00:18:32,792
-that you didn't make her feel
-as wanted as a fungus?
+00:21:28,330 --> 00:21:30,480
+and Grandpa
+can't do math in his head.
 
 406
-00:18:32,962 --> 00:18:34,236
-Not to mention my Maris.
+00:21:31,041 --> 00:21:34,750
+Those things aren't important.
+What can I do to make you feel better?
 
 407
-00:18:34,402 --> 00:18:37,872
-What, you're comparing a warm lady
-like Sherry to Frosty the Snow Wife?
+00:21:35,128 --> 00:21:38,120
+- Maybe a hug?
+- Oh, come here.
 
 408
-00:18:38,042 --> 00:18:41,557
-There! That, that, that is exactly
-what I'm talking about.
-
-409
-00:18:41,722 --> 00:18:43,201
-Oh, you know, why don't we
-just face facts?
-
-410
-00:18:43,362 --> 00:18:45,034
-I mean, since when
-has any one of us ever,
-
-411
-00:18:45,202 --> 00:18:47,796
-from Sherry, to Lilith,
-to Maris, to Diane,
-
-412
-00:18:47,962 --> 00:18:50,396
-has ever been able to pick one
-woman the other two could stand?
-
-413
-00:18:50,562 --> 00:18:52,359
-I picked your mother.
-
-414
-00:18:54,522 --> 00:18:57,320
-I'm sorry, Niles.
-I've been hogging the floor.
-
-415
-00:18:58,642 --> 00:18:59,631
-Um...
-
-416
-00:19:00,042 --> 00:19:01,475
-Ah, forget it.
-
-417
-00:19:01,842 --> 00:19:03,355
-You're right.
-
-418
-00:19:03,562 --> 00:19:06,520
-Why should I expect you to make
-the effort when I'm no better?
-
-419
-00:19:06,842 --> 00:19:09,197
-Hell, you probably got it from me.
-
-420
-00:19:09,362 --> 00:19:12,991
-You sure didn't get it from your mother,
-because she was great that way.
-
-421
-00:19:13,682 --> 00:19:15,513
-Anytime she ever met anybody,
-
-422
-00:19:15,682 --> 00:19:19,391
-she would always find something
-to like about them.
-
-423
-00:19:19,602 --> 00:19:21,274
-One of the things I loved her for.
-
-424
-00:19:21,442 --> 00:19:23,160
-That's one of the things
-I love Sherry for.
-
-425
-00:19:23,322 --> 00:19:25,119
-She's a lot like your
-mother that way.
-
-426
-00:19:25,482 --> 00:19:27,473
-She'll always find something.
-
-427
-00:19:27,642 --> 00:19:29,678
-Even with you two.
-
-428
-00:19:32,802 --> 00:19:34,440
-Well, I...
-
-429
-00:19:34,802 --> 00:19:36,076
-...suppose we could
-
-430
-00:19:36,242 --> 00:19:39,598
-all afford to be a bit more open-minded
-when it comes to each other's mates.
-
-431
-00:19:39,762 --> 00:19:40,911
-Well, at the very least,
-
-432
-00:19:41,082 --> 00:19:43,550
-if we can't say anything nice,
-we shouldn't say anything at all.
-
-433
-00:19:43,722 --> 00:19:45,440
-[DOORBELL RINGS]
-
-434
-00:19:45,602 --> 00:19:47,911
-We'll be having
-some quiet Thanksgivings,
-
-435
-00:19:48,082 --> 00:19:49,913
-but fine with me.
-
-436
-00:19:51,762 --> 00:19:52,797
-- Hi, Sherry.
-- Hi.
-
-437
-00:19:52,962 --> 00:19:55,351
-- Don't you look nice? Come on in.
-- Well, thank you, Frasier.
-
-438
-00:19:55,522 --> 00:20:00,038
-Oh, Marty, I brought you
-one more little gift.
-
-439
-00:20:00,202 --> 00:20:02,591
-- Another one?
-- Well, I wanted to give it to you
-
-440
-00:20:02,762 --> 00:20:05,151
-on your birthday, but it took
-a while to find the right size.
-
-441
-00:20:05,322 --> 00:20:07,233
-Really? I'm usually a pretty easy fit.
-
-442
-00:20:07,402 --> 00:20:10,075
-- Who said it's for you to wear?
-- Oh-ho!
-
-443
-00:20:10,722 --> 00:20:13,077
-MARTIN:
-I like it already.
-
-444
-00:20:13,482 --> 00:20:14,517
-Oh, I should stop.
-
-445
-00:20:14,682 --> 00:20:17,116
-- I'm embarrassing your boys.
-- No, you're not.
-
-446
-00:20:17,562 --> 00:20:18,551
-Is she?
-
-447
-00:20:18,762 --> 00:20:20,400
-No.
-
-448
-00:20:20,802 --> 00:20:22,758
-- Party on.
-- All right.
-
-449
-00:20:24,682 --> 00:20:27,879
-Well, I think we should go
-and unwrap this.
-
-450
-00:20:28,442 --> 00:20:31,115
-Oh, Dad, Lilith mentioned that she was
-gonna be joining Frederick
-
-451
-00:20:31,282 --> 00:20:33,591
-on his next visit. You don't mind
-if she stays here, do you?
-
-452
-00:20:33,762 --> 00:20:36,674
-Oh, Lilith? No. Great. I love Lilith.
-
-453
-00:20:36,842 --> 00:20:39,595
-MARTIN: That's terrific.
-No, she's welcome here anytime.
-
-454
-00:20:39,922 --> 00:20:42,516
-Honey, you're hurting my hand.
-
-455
-00:20:45,882 --> 00:20:49,079
-Oh, listen, I should mention,
-I'm kind of a sleepwalker.
-
-456
-00:20:49,242 --> 00:20:51,802
-So if you get up in the night,
-and find me in here naked,
-
-457
-00:20:51,962 --> 00:20:54,954
-just give me a good hard shake.
-I'll come to in a jiff.
-
-458
-00:20:56,402 --> 00:20:57,551
-Ha! Ha-ha!
-
-459
-00:20:58,162 --> 00:20:59,720
-Got me. Good one.
-
-460
-00:21:06,682 --> 00:21:07,671
-That was great.
-
-461
-00:21:07,842 --> 00:21:11,073
-- You really got them good.
-- I know.
+00:21:39,466 --> 00:21:42,617
+Oh. There you go.
 

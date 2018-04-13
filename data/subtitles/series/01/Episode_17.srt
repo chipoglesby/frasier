@@ -1,1536 +1,1514 @@
 1
-00:00:07,882 --> 00:00:09,952
-I'm sorry, blake.
+00:00:07,887 --> 00:00:09,878
+Cappuccino, half-caf, non-fat milk,
 
 2
-00:00:10,218 --> 00:00:13,176
-When i told you to close your eyes
-and imagine you're on an island,
+00:00:10,142 --> 00:00:12,417
+enough foam
+to be aesthetically pleasing.
 
 3
-00:00:13,471 --> 00:00:16,941
-i didn't realise you were calling
-from your car phone.
+00:00:12,687 --> 00:00:16,316
+- But it mustn't leave a moustache.
+- Cinnamon or chocolate?
 
 4
-00:00:18,351 --> 00:00:21,946
-'that's ok, doc.
-At least i know my airbags work.'
+00:00:16,652 --> 00:00:19,212
+This is so complicated. Um, cinnamon.
 
 5
-00:00:22,272 --> 00:00:25,344
-Well, i'm glad you're all right.
-Thank you for your call.
+00:00:19,490 --> 00:00:22,050
+- And you?
+- I'll have the...
 
 6
-00:00:26,735 --> 00:00:29,454
-Oh, look who's just
-popped into the booth.
+00:00:22,328 --> 00:00:24,444
+- look, it's daphne!
+- Daphne!
 
 7
-00:00:29,738 --> 00:00:32,696
-It's gil chesterton,
-kacl's own food critic.
+00:00:24,707 --> 00:00:28,177
+Oh, hello! Thought you might be here.
+Please, sit.
 
 8
-00:00:32,991 --> 00:00:36,028
-Which means it's my cue
-to hit the road.
+00:00:28,505 --> 00:00:31,622
+- I just stopped in for a bag of beans.
+- Oh, well...
 
 9
-00:00:36,327 --> 00:00:38,841
-So until tomorrow,
-this is dr frasier crane
+00:00:31,927 --> 00:00:33,679
+- can i help?
+- Two pounds of...
 
 10
-00:00:39,122 --> 00:00:41,078
-wishing you... a good day.
+00:00:33,930 --> 00:00:35,727
+Kenya blend.
 
 11
-00:00:41,332 --> 00:00:43,129
- 
+00:00:35,975 --> 00:00:39,365
+- You remembered.
+- What about my order?
 
 12
-00:00:44,044 --> 00:00:46,604
-And... and good health.
+00:00:39,690 --> 00:00:41,920
+Most people find it too intense.
 
 13
-00:00:46,880 --> 00:00:49,394
-- Hey, frasier.
-- Hello, gil.
+00:00:42,194 --> 00:00:45,743
+I like something that holds its body
+on me tongue.
 
 14
-00:00:49,674 --> 00:00:51,665
-I heard you coughing on the air.
+00:00:47,453 --> 00:00:49,523
+We've spilt something. If you could...
 
 15
-00:00:51,926 --> 00:00:57,080
-Are you coming down with something?
-I got you this from rosenthal's deli.
+00:00:51,501 --> 00:00:55,858
+would you like something robust,
+if it didn't come on too strong?
 
 16
-00:00:57,474 --> 00:01:01,433
-Chicken soup so lovingly prepared
-even the chicken gets well.
+00:00:56,218 --> 00:00:58,937
+If it was a little bit sweet
+i might like it.
 
 17
-00:01:03,313 --> 00:01:04,541
-That's very kind.
+00:00:59,222 --> 00:01:03,374
+- Want to come try my special blend?
+- I'd love to.
 
 18
-00:01:04,773 --> 00:01:07,128
-Of course, i'd never forget you, roz.
+00:01:06,067 --> 00:01:08,422
+Oh, nothing for me, thanks!
 
 19
-00:01:07,400 --> 00:01:09,550
-Ladyfingers soaked in rum.
+00:01:09,739 --> 00:01:13,049
+That man is hitting on our daphne.
+How does she stand it?
 
 20
-00:01:09,819 --> 00:01:12,333
-Much like her own.
+00:01:14,497 --> 00:01:17,967
+Apropos of nothing,
+how are things with you and maris?
 
 21
-00:01:12,614 --> 00:01:14,525
- 
+00:01:19,130 --> 00:01:23,169
+Are you implying my concern
+for daphne is less than pure?
 
 22
-00:01:14,783 --> 00:01:18,219
-I hope this isn't the start of
-that nasty flu that's going around.
+00:01:23,512 --> 00:01:25,821
+- You tell me.
+- That's your shortcoming.
 
 23
-00:01:18,536 --> 00:01:22,848
-If you want to take a couple of days off,
-i'll cover your time slot.
+00:01:26,100 --> 00:01:28,409
+You're always suspicious.
 
 24
-00:01:23,208 --> 00:01:26,166
-- No, thank you. I'll be fine tomorrow.
-- Okey-dokey.
+00:01:28,688 --> 00:01:32,044
+You should have faith in people.
+What's he doing?
 
 25
-00:01:26,461 --> 00:01:29,771
-But feel free to call me
-if you change your mind.
+00:01:33,279 --> 00:01:35,713
+- Bagging her beans.
+- Oh!
 
 26
-00:01:32,842 --> 00:01:36,915
-Mmm... plump, gooey
-and guaranteed to rot your teeth.
+00:01:37,410 --> 00:01:41,323
+I'm so excited.
+Eric's taking me to hear his band.
 
 27
-00:01:37,263 --> 00:01:40,938
-Yes. I don't like
-his phoney british accent much, either.
+00:01:41,667 --> 00:01:44,898
+It's not me night off,
+but i'll switch if that's ok.
 
 28
-00:01:42,519 --> 00:01:45,352
-You sure got
-a bug up your mike about gil.
+00:01:46,091 --> 00:01:48,651
+Isn't he lovely?
+I have a nickname for him.
 
 29
-00:01:45,647 --> 00:01:48,320
-Nobody's that nice
-unless they want something.
+00:01:48,929 --> 00:01:52,160
+Eric the red. It favours him, doesn't it?
+He looks like a viking.
 
 30
-00:01:48,608 --> 00:01:52,078
-- He's just generous.
-- He was generous to bonnie weems.
+00:01:52,477 --> 00:01:54,513
+- Well...
+- well, ta-ta.
 
 31
-00:01:52,404 --> 00:01:56,317
-He bought her wine asking for her
-time slot while she was on vacation.
+00:01:54,773 --> 00:01:57,241
+Oh, look at me. I forgot me beans.
 
 32
-00:01:56,658 --> 00:01:59,934
-Then she was banished
-to the midnight-to-4am-slot.
+00:01:57,526 --> 00:02:00,120
+Earth to daphne.
 
 33
-00:02:00,245 --> 00:02:03,396
-- He's after our time slot?
-- We should watch our backs.
+00:02:01,700 --> 00:02:06,410
+How could she like him? He has
+community college written all over him.
 
 34
-00:02:03,707 --> 00:02:06,699
-Working from midnight to 4:00 am
-would ruin your social life.
+00:02:06,792 --> 00:02:10,421
+Niles, this infatuation with daphne
+is getting out of hand.
 
 35
-00:02:07,002 --> 00:02:08,958
-Those are your peak hours.
+00:02:10,757 --> 00:02:15,035
+I didn't mind when it was flirtation,
+but i can't help thinking that there's...
 
 36
-00:02:11,339 --> 00:02:13,534
-- You're just paranoid.
-- No, i'm not.
+00:02:15,389 --> 00:02:20,861
+this is symptomatic of something
+wrong between you and maris.
 
 37
-00:02:13,800 --> 00:02:18,032
-Yes, you are. The man
-just brought you chicken soup.
+00:02:21,274 --> 00:02:24,505
+- Is it?
+- I can't lie.
 
 38
-00:02:18,388 --> 00:02:22,939
-He'd be bribing the higher-ups.
-They make the decisions.
+00:02:24,822 --> 00:02:28,178
+The truth is,
+maris and i are in a bit of a rut.
 
 39
-00:02:23,309 --> 00:02:28,303
-Oh, frasier. Oh, good, it's still here.
-I'm so sorry. This is your soup.
+00:02:28,494 --> 00:02:31,645
+We seem to have lapsed
+into grey, numbing blandness.
 
 40
-00:02:28,690 --> 00:02:33,241
-This is the lobster newburg
-i bought for the station manager's cat.
+00:02:31,959 --> 00:02:35,554
+That's perfectly normal
+in a relationship of some years.
 
 41
-00:02:36,072 --> 00:02:38,586
-I'll see you tomorrow, roz.
+00:02:35,881 --> 00:02:37,872
+Try spicing things up a bit.
 
 42
-00:02:42,495 --> 00:02:48,445
-This is gruesome! A partly decomposed
-body just washed up in puget sound.
+00:02:38,136 --> 00:02:40,411
+You mean, boudoir-wise?
 
 43
-00:02:48,877 --> 00:02:50,833
-- That's good news.
-- Pardon?
+00:02:40,681 --> 00:02:43,673
+- For starters, yeah.
+- How?
 
 44
-00:02:51,087 --> 00:02:53,442
-Bodies don't rise
-till the weather gets warmer.
+00:02:43,979 --> 00:02:45,810
+Well...
 
 45
-00:02:53,715 --> 00:02:57,151
-You get your first floater,
-and spring's just around the corner.
+00:02:46,065 --> 00:02:48,420
+the two of you could, uh...
 
 46
-00:03:00,597 --> 00:03:02,633
-Morning.
+00:02:50,448 --> 00:02:52,484
+well, you could...
 
 47
-00:03:02,891 --> 00:03:05,405
-- You sound awful!
-- It's just a little bug.
+00:02:52,742 --> 00:02:55,017
+it's you and maris, so you could...
 
 48
-00:03:05,685 --> 00:03:10,076
-But you can't go to work.
-You're all pasty and clammy and pale.
+00:02:57,459 --> 00:03:00,053
+i'm stumped.
 
 49
-00:03:10,440 --> 00:03:13,034
-And coming from an english person,
-that's bad.
+00:03:03,886 --> 00:03:06,002
+How are you?
 
 50
-00:03:18,365 --> 00:03:21,721
-You often said,
-"if you can walk, you can work."
+00:03:06,265 --> 00:03:08,221
+You wanna know?
+Or are you making conversation?
 
 51
-00:03:22,035 --> 00:03:25,425
-Took an ironic twist
-the day you got shot in the hip.
+00:03:08,477 --> 00:03:11,310
+If you wanna know, i'll tell you.
 
 52
-00:03:25,747 --> 00:03:28,705
-At least i had a real job.
-Half your listeners
+00:03:11,607 --> 00:03:13,757
+I was making conversation.
 
 53
-00:03:29,000 --> 00:03:31,389
-hear voices already
-or talk to themselves.
+00:03:14,028 --> 00:03:17,100
+- Actually, i need advice.
+- About what?
 
 54
-00:03:31,670 --> 00:03:34,025
-If you don't show up,
-who's going to notice?
+00:03:17,408 --> 00:03:19,558
+A subject in which
+you're well versed: Sex.
 
 55
-00:03:35,840 --> 00:03:37,831
-I'm out of here.
+00:03:19,829 --> 00:03:22,059
+How can i help you?
 
 56
-00:03:38,093 --> 00:03:41,802
-But you really should stay home
-and let me tend to you.
+00:03:22,333 --> 00:03:26,326
+What do you do when the romance
+goes out of a relationship?
 
 57
-00:03:42,138 --> 00:03:45,767
-I'm a good nurse.
-I mended my brothers' soccer injuries.
+00:03:26,673 --> 00:03:28,982
+I get dressed and go home.
 
 58
-00:03:46,101 --> 00:03:49,377
-- I didn't play soccer.
-- Neither did my hooligan brothers.
+00:03:31,139 --> 00:03:34,415
+Let's assume that you are capable
+of a long-term relationship.
 
 59
-00:03:49,688 --> 00:03:51,644
-They got hurt
-beating up drunken dutchmen.
+00:03:34,728 --> 00:03:39,483
+- How would you keep things cooking?
+- Once a boyfriend took me to a bar.
 
 60
-00:03:51,898 --> 00:03:53,729
- 
+00:03:39,862 --> 00:03:45,095
+We pretended we were strangers
+picking each other up. That was hot.
 
 61
-00:03:53,983 --> 00:03:56,895
-That'll look pretty
-against the glass in your booth.
+00:03:46,498 --> 00:03:48,932
+You used fantasy, role-playing?
 
 62
-00:03:58,571 --> 00:04:03,599
-- Why don't you just stay home?
-- Thank you, but i am a physician.
+00:03:49,211 --> 00:03:52,044
+We had so much fun we tried it again.
 
 63
-00:04:03,993 --> 00:04:09,511
-I am the best monitor of my condition.
-I'm fine. Fit as a fiddle.
+00:03:52,341 --> 00:03:55,413
+Next time, he got so into it
+he went home with another woman.
 
 64
-00:04:11,710 --> 00:04:13,462
- 
+00:03:56,974 --> 00:03:59,010
+- I'm sorry.
+- She was gorgeous.
 
 65
-00:04:16,673 --> 00:04:18,709
-I'm sick!
+00:03:59,269 --> 00:04:02,227
+One more drink
+i'd have gone home with her.
 
 66
-00:04:23,680 --> 00:04:29,232
-We're back with "restaurant beat".
-I'm gil chesterton filling in for dr crane.
+00:04:02,525 --> 00:04:05,722
+Women need to see
+the men they make love to
 
 67
-00:04:29,644 --> 00:04:33,683
-We're talking to louis. He's forgotten
-tonight is his tenth anniversary.
+00:04:06,030 --> 00:04:08,783
+as exciting, romantic figures.
 
 68
-00:04:34,024 --> 00:04:37,460
-Louis, i believe i've saved
-your proverbial derrière.
+00:04:09,077 --> 00:04:13,832
+If you want to keep her interested,
+create a fantasy for an evening.
 
 69
-00:04:38,653 --> 00:04:42,726
-I managed to secure you
-a private booth at maximilian's.
+00:04:14,210 --> 00:04:18,123
+Personally, i think you'd make
+a very sexy gladiator.
 
 70
-00:04:43,074 --> 00:04:47,147
-Promise me for dessert,
-you'll have the schwarzwaldkirschtorte.
+00:04:18,467 --> 00:04:24,019
+- This is not for me. It's for niles.
+- In that case, make it a gladiola.
 
 71
-00:04:48,038 --> 00:04:51,269
-- 'the what? '
-- Schwarzwaldkirsch...
+00:04:26,856 --> 00:04:28,209
+ 
 
 72
-00:04:51,583 --> 00:04:54,939
-well, maybe you'd better
-stick with the rainbow sherbet.
+00:04:29,694 --> 00:04:31,650
+ 
 
 73
-00:04:58,048 --> 00:05:02,041
-- 'Thank you! You saved my marriage.'
-- Don't thank me.
+00:04:35,120 --> 00:04:36,997
+Niles! Niles!
 
 74
-00:05:02,385 --> 00:05:06,617
-I'm only here because
-our dear dr crane is home with the flu.
+00:04:37,248 --> 00:04:42,242
+I'm sorry, but something horrible
+has happened. Maris kicked me out.
 
 75
-00:05:06,973 --> 00:05:08,929
-'Lf you're listening, doc,
+00:04:42,633 --> 00:04:45,101
+Dear god, why? What for?
 
 76
-00:05:09,184 --> 00:05:12,620
-'all of us at kacl
-want you to get better soon.'
+00:04:56,112 --> 00:04:59,741
+- Oh, my!
+- What's going on out there? Niles?
 
 77
-00:05:12,937 --> 00:05:15,690
-I bet you do.
+00:05:00,078 --> 00:05:01,830
+Hello, dad.
 
 78
-00:05:15,982 --> 00:05:18,621
-Time to check if the turkey's done.
+00:05:04,794 --> 00:05:07,262
+- I don't want to know.
+- Wait.
 
 79
-00:05:19,861 --> 00:05:22,421
-Dad, you needn't sit with me all day.
+00:05:07,549 --> 00:05:10,017
+There's a reasonable explanation.
 
 80
-00:05:22,697 --> 00:05:25,814
-Oh, no problem.
-You need company when you're sick.
+00:05:10,303 --> 00:05:13,454
+All right, but i reserve the right
+to say "stop" at any time.
 
 81
-00:05:26,117 --> 00:05:28,108
-You never know when you'll croak.
+00:05:13,767 --> 00:05:16,918
+My plan was to leave
+a treasure map downstairs for maris
 
 82
-00:05:30,205 --> 00:05:34,676
-Oh, boy, your temperature is up there.
-101! You are a sick boy.
+00:05:17,231 --> 00:05:19,620
+with clues to lead her
+to my whereabouts.
 
 83
-00:05:35,043 --> 00:05:37,159
-Thanks for reminding me.
+00:05:19,902 --> 00:05:24,498
+Then i'd hide in the linen closet
+and wait for her to find me.
 
 84
-00:05:37,420 --> 00:05:41,379
-The sickest i ever was was when they
-shipped us back from korea.
+00:05:24,868 --> 00:05:26,824
+Dressed like that?
 
 85
-00:05:41,716 --> 00:05:46,312
-I got an oriental parasite. It was building
-its own pagoda in my colon.
+00:05:27,080 --> 00:05:31,073
+Actually, no. At the time,
+i was wearing only my eye patch.
 
 86
-00:05:46,680 --> 00:05:48,910
-Thank you, dad!
+00:05:32,464 --> 00:05:35,262
+But is it still an eye patch
+if you wear it on your...
 
 87
-00:05:51,476 --> 00:05:54,752
-You know, you might try
-some of my homeopathic tea.
+00:05:35,553 --> 00:05:37,305
+stop!
 
 88
-00:05:55,063 --> 00:05:59,739
-It'll flush out your system
-and make your hair more manageable.
+00:05:41,771 --> 00:05:46,367
+There i was - ooh - with my little
+plastic knife between my teeth.
 
 89
-00:06:00,110 --> 00:06:03,227
-- No, thanks.
-- No! That wasn't the sickest i was.
+00:05:46,738 --> 00:05:48,968
+Suddenly the closet door opened,
 
 90
-00:06:03,530 --> 00:06:05,998
-It was when your mother and i
-went to mexico.
+00:05:49,242 --> 00:05:52,154
+and i found myself
+face to face with the maid.
 
 91
-00:06:06,282 --> 00:06:09,877
-I was real careful about the water,
-but i ate some lettuce.
+00:05:53,833 --> 00:06:00,147
+She screamed - what i gather were
+unflattering things - in guatemalan.
 
 92
-00:06:10,203 --> 00:06:15,436
-Next thing you know, i'm spewing
-both for accuracy and distance.
+00:06:00,594 --> 00:06:05,987
+Maris stumbled upon the scene
+and ordered me out of the house.
 
 93
-00:06:15,834 --> 00:06:20,669
-I spent the night curled up on the floor
-screaming, "i want to die!"
+00:06:06,395 --> 00:06:11,549
+I barely had time to grab my pantaloons
+and buckle my swash.
 
 94
-00:06:21,047 --> 00:06:24,357
-Wouldn't that have been a tragedy?
-You wouldn't be here now.
+00:06:11,947 --> 00:06:13,744
+ 
 
 95
-00:06:24,676 --> 00:06:30,034
-Ok, i get the point.
-I'll give you a little peace and quiet here.
+00:06:13,991 --> 00:06:17,620
+Dad! Dad, it's not funny.
 
 96
-00:06:30,432 --> 00:06:35,301
-Oh, no! One time, your mother left
-the potato salad in the trunk of the car.
+00:06:17,957 --> 00:06:19,993
+Where did you get that stupid idea?
 
 97
-00:06:35,687 --> 00:06:38,076
-I'm still sick from that.
+00:06:20,252 --> 00:06:22,129
+Frasier?
 
 98
-00:06:39,315 --> 00:06:42,546
-- Do you need anything else?
-- Some more ginger ale, please.
+00:06:22,380 --> 00:06:27,329
+All i suggested was role-playing. You
+came up with pirates of the caribbean.
 
 99
-00:06:42,861 --> 00:06:45,295
-- Very well.
-- Oh, daphne,
+00:06:30,310 --> 00:06:33,825
+- I've really bungled it, haven't i?
+- These things happen.
 
 100
-00:06:45,572 --> 00:06:49,087
-make it shaved ice, not cubes, ok?
+00:06:34,149 --> 00:06:38,188
+Why don't you stay here now,
+and tomorrow you'll sort things out?
 
 101
-00:06:49,409 --> 00:06:52,367
-And i don't like those straws.
-Can i have the bendy kind?
+00:06:38,532 --> 00:06:40,363
+What if we don't?
 
 102
-00:06:52,662 --> 00:06:56,814
-And the saltines, they're too salty.
-I need the low-sodium.
+00:06:40,618 --> 00:06:44,247
+They could use an extra busboy
+at the jolly roger.
 
 103
-00:06:57,167 --> 00:06:59,920
-Your wish is my command.
+00:06:44,583 --> 00:06:47,893
+I'll never be able to face the maid again.
 
 104
-00:07:00,211 --> 00:07:02,167
-Hello, daphne. Is he in pain?
+00:06:48,214 --> 00:06:50,774
+I don't think it's your face
+she'll remember.
 
 105
-00:07:02,422 --> 00:07:04,731
-Not enough.
+00:06:52,555 --> 00:06:56,025
+Come on, niles.
+Everybody has an embarrassing story.
 
 106
-00:07:06,676 --> 00:07:09,713
-Frasier, i brought you something.
+00:06:56,352 --> 00:06:59,310
+Did i tell you about getting
+locked out, in my underwear?
 
 107
-00:07:10,013 --> 00:07:12,891
-Niles!
-Put the hanky down, for god's sake!
+00:06:59,609 --> 00:07:02,123
+- Every thanksgiving.
+- Don't worry,
 
 108
-00:07:13,183 --> 00:07:16,175
-- It's not the plague!
-- All right.
+00:07:02,404 --> 00:07:04,634
+i won't be telling that story this year.
 
 109
-00:07:16,478 --> 00:07:22,474
-This is from marta, our maid.
-It's a poultice to wear around your neck.
+00:07:07,204 --> 00:07:11,163
+Canadian goose down pillow,
+egyptian cotton sheet,
 
 110
-00:07:22,901 --> 00:07:26,530
-The recipe comes from her remote
-mountain village in guatemala.
+00:07:11,502 --> 00:07:15,290
+- and a vicuna throw for if you're chilly.
+- Perfect.
 
 111
-00:07:27,822 --> 00:07:30,620
-I can see why her village is remote.
+00:07:15,635 --> 00:07:18,866
+The service would've done you boys
+the world of good.
 
 112
-00:07:30,909 --> 00:07:35,539
-Yes, it is pungent, but... it helps
-many villagers live to be over 100.
+00:07:20,059 --> 00:07:22,812
+- Good night!
+- Good night.
 
 113
-00:07:35,914 --> 00:07:38,747
-Marta herself is 78. you should see her
+00:07:23,105 --> 00:07:28,702
+Maris and i have had difficulties before,
+but nothing this serious.
 
 114
-00:07:39,042 --> 00:07:41,033
-scramble up the stairs
-when maris rings!
+00:07:29,115 --> 00:07:33,711
+I feel terrible having her mad at me.
+I wish i knew how to cry.
 
 115
-00:07:41,336 --> 00:07:42,894
- 
+00:07:34,082 --> 00:07:37,438
+- Don't be embarrassed on my account.
+- No, it's not that.
 
 116
-00:07:43,129 --> 00:07:46,565
-- Oh, niles, would you mind?
-- Of course.
+00:07:37,754 --> 00:07:40,712
+I just don't cry. It's not in my nature.
 
 117
-00:07:50,261 --> 00:07:54,698
-Oh, hello, eddie.
-For once, i'm actually glad to see you.
+00:07:41,009 --> 00:07:43,967
+When maris' uncle died,
+i shut my hand in a door,
 
 118
-00:07:55,058 --> 00:07:57,014
-Here you are.
+00:07:44,265 --> 00:07:47,257
+just to make a decent show
+at the funeral.
 
 119
-00:08:03,900 --> 00:08:06,573
-It's for you. It's roz?
+00:07:48,438 --> 00:07:51,111
+You're a complex little pirate,
+aren't you?
 
 120
-00:08:08,863 --> 00:08:11,423
-- Hello?
-- 'how do you feel? '
+00:07:53,196 --> 00:07:56,233
+- Well, good night, niles.
+- Good night.
 
 121
-00:08:11,700 --> 00:08:14,134
-- Awful.
-- I'm sorry to hear that
+00:08:10,016 --> 00:08:12,576
+Thank you, eric.
+I had a wonderful time.
 
 122
-00:08:14,411 --> 00:08:17,050
-because you should get back here.
+00:08:12,854 --> 00:08:15,163
+Me, too.
 
 123
-00:08:17,330 --> 00:08:20,640
-You were right about gil, frasier.
-He's lobbying for our slot.
+00:08:18,322 --> 00:08:21,200
+- Well, good night.
+- Good night.
 
 124
-00:08:20,959 --> 00:08:24,872
-Millie in traffic overheard gil
-talking to the station manager,
-
-125
-00:08:25,213 --> 00:08:28,171
-saying our mid-afternoon time slot
-is perfect for his show
-
-126
-00:08:28,466 --> 00:08:31,458
-because then
-everyone is making dinner plans.
-
-127
-00:08:31,761 --> 00:08:36,039
-I knew it! Geez!
-Ok, roz, i'll be there tomorrow.
-
-128
-00:08:36,391 --> 00:08:41,306
-You better be. I don't trust
-that greedy, finger-licking runt.
-
-129
-00:08:41,688 --> 00:08:44,839
-- How am i doing?
-- Fabulous.
-
-130
-00:08:46,192 --> 00:08:48,547
-Ok, i'll be in tomorrow.
-
-131
-00:08:50,405 --> 00:08:54,114
-You can't be serious
-about going in tomorrow.
-
-132
-00:08:54,451 --> 00:08:59,127
-Your pupils are dilated.
-You have a fever.
-
-133
-00:08:59,497 --> 00:09:02,807
-In that condition,
-you won't make it to the parking lot.
-
-134
-00:09:03,126 --> 00:09:06,755
-I just don't trust gil chesterton.
-He's after my time slot.
-
-135
-00:09:07,088 --> 00:09:10,125
-Oh, niles,
-will you stop it with the alcohol?
-
-136
-00:09:12,218 --> 00:09:16,655
-I can't let that smarmy chowhound
-do my show for another day.
-
-137
-00:09:17,015 --> 00:09:19,131
-Anybody would be better.
-
-138
-00:09:19,392 --> 00:09:23,021
-Niles, would you do my show for me?
-
-139
-00:09:23,355 --> 00:09:26,028
-That fever is making you delusional.
-
-140
-00:09:26,316 --> 00:09:29,433
-When you were sick, i met with your
-"fear of intimacy" group.
-
-141
-00:09:29,736 --> 00:09:33,285
-I wasn't sick.
-They were just getting too close.
-
-142
-00:09:34,616 --> 00:09:36,971
-You're right. It's a bad idea.
-
-143
-00:09:37,243 --> 00:09:40,713
-Doing my show
-requires abilities you don't possess.
-
-144
-00:09:41,039 --> 00:09:43,951
-You have to be able
-to size up your patients quickly
-
-145
-00:09:44,250 --> 00:09:47,765
-and dispense advice
-in an entertaining and insightful manner.
-
-146
-00:09:48,088 --> 00:09:51,797
-This pathetic attempt
-at reverse psychology is beneath you.
-
-147
-00:09:52,133 --> 00:09:54,647
-- Then you won't do it?
-- No, i will.
-
-148
-00:09:54,928 --> 00:09:58,159
-And better than you
-ever dreamed of doing it!
-
-149
-00:10:10,402 --> 00:10:13,792
-Here is the cough button
-in case you need to cough.
-
-150
-00:10:14,114 --> 00:10:18,710
-And use this extra-iong commercial
-if you need a bathroom break.
-
-151
-00:10:19,077 --> 00:10:21,466
-Those won't be necessary.
-I have no cough reflex
-
-152
-00:10:21,746 --> 00:10:24,385
-and excellent bladder control.
-
-153
-00:10:26,501 --> 00:10:29,618
-It's true.
-All the good ones are married.
-
-154
-00:10:33,967 --> 00:10:36,117
-You're on soon.
-Your first caller is marcia.
-
-155
-00:10:36,386 --> 00:10:38,138
-Marcia.
-
-156
-00:10:39,139 --> 00:10:41,573
-"Hello, marcia, i'm listening."
-That's trite.
-
-157
-00:10:41,850 --> 00:10:46,719
-"Hello, marcia. Tell me where it hurts."
-No. "hello, marcia, i hear you."
-
-158
-00:10:50,900 --> 00:10:54,051
-- Good afternoon, seattle.
-- Oh, yes. Hello!
-
-159
-00:10:54,362 --> 00:10:58,037
-This is dr niles crane filling in
-for my ailing brother, frasier crane.
-
-160
-00:10:58,366 --> 00:11:02,359
-Although i feel qualified to fill frasier's
-radio shoes, i should warn you
-
-161
-00:11:02,704 --> 00:11:06,299
-that while frasier is a freudian,
-i am a jungian,
-
-162
-00:11:06,624 --> 00:11:09,422
-so there'll be no blaming mother today.
-
-163
-00:11:13,673 --> 00:11:16,312
-Ok, roz, who's my first caller?
-
-164
-00:11:16,593 --> 00:11:19,710
-Marcia. She's in love
-with her husband's brother.
-
-165
-00:11:20,013 --> 00:11:22,573
-This day promises not to disappoint.
-
-166
-00:11:24,517 --> 00:11:27,315
-Hello, marcia, let's get better.
-
-167
-00:11:31,858 --> 00:11:35,294
-'before we get deeper
-into your problem,
-
-168
-00:11:35,612 --> 00:11:38,649
-'why don't i give you
-a little historical background.
-
-169
-00:11:38,948 --> 00:11:42,543
-'The psychiatrist sigmar brom,
-that's b-r-o-m, no 'h',
-
-170
-00:11:42,869 --> 00:11:47,260
-'in the late 1950s, wrote extensively
-on the problem you're facing,
-
-171
-00:11:47,624 --> 00:11:52,414
-'which is amazing when you realise
-brom was a prominent reichian.'
-
-172
-00:11:52,796 --> 00:11:54,309
-He's terrible!
-
-173
-00:11:57,425 --> 00:12:01,020
-And so are you.
-Your temperature's up to 103.
-
-174
-00:12:01,346 --> 00:12:06,420
-Let it go up to 105.
-I couldn't be better. My time slot is safe.
-
-175
-00:12:06,810 --> 00:12:10,769
-Niles is as dry as this toast
-you brought me... with the crust still on.
-
-176
-00:12:13,108 --> 00:12:17,624
-- When i go back, they'll send a limo.
-- I'll get you another drink.
-
-177
-00:12:17,987 --> 00:12:22,060
-- Was that last straw bendy enough?
-- Perfect, thank you.
-
-178
-00:12:24,244 --> 00:12:26,200
-Oh, daphne...
-daphne...
-
-179
-00:12:26,454 --> 00:12:30,367
-take these tissues away.
-I... they hurt my nose.
-
-180
-00:12:30,709 --> 00:12:34,258
-I want the kind
-with moisturiser in between the sheets.
-
-181
-00:12:36,172 --> 00:12:38,925
-The rose petals
-in the humidifier are wilting.
-
-182
-00:12:39,217 --> 00:12:41,731
-Oh, of course. Anything you like.
-
-183
-00:12:42,012 --> 00:12:45,800
-Fresh rose petals,
-crustless toast, soft tissues,
-
-184
-00:12:46,141 --> 00:12:49,417
-acupuncture needles
-where you least expect them.
-
-185
-00:12:52,731 --> 00:12:55,643
-Howard, lois,
-i could counsel you all afternoon,
-
-186
-00:12:55,942 --> 00:12:58,934
-but we're coming to the end of our hour,
-so i'll make it short.
-
-187
-00:12:59,237 --> 00:13:05,107
-If one of you doesn't say "i love you"
-right now, you have no future together.
-
-188
-00:13:05,535 --> 00:13:08,732
-So which of you
-has the courage to say "i love you"?
-
-189
-00:13:09,998 --> 00:13:12,671
-'Howard, i love you.'
-
-190
-00:13:12,959 --> 00:13:15,234
-Yes! Yes!
-
-191
-00:13:15,503 --> 00:13:17,459
-Howard, she loves you!
-
-192
-00:13:17,714 --> 00:13:20,308
-- What about you?
-- 'uh... '
-
-193
-00:13:20,592 --> 00:13:25,347
-howard, are you going to pack up
-your emotional tent and walk away?
-
-194
-00:13:25,722 --> 00:13:29,920
-Howard? Howard, it's up to you!
-Can you say it? Can you?
-
-195
-00:13:30,268 --> 00:13:32,498
-Come on, howard!
-
-196
-00:13:32,771 --> 00:13:35,001
-'I... i love you, too, lois! '
-
-197
-00:13:35,273 --> 00:13:38,629
-- Yes!
-- He said it! He said it!
-
-198
-00:13:38,943 --> 00:13:41,537
-- Niles is pretty good.
-- Good?
-
-199
-00:13:41,821 --> 00:13:43,777
-The little rat is scintillating.
-
-200
-00:13:44,032 --> 00:13:47,468
-Why couldn't he do
-what's expected of him and stink?
-
-201
-00:13:49,079 --> 00:13:54,278
-He's even better than gil chesterton.
-They're trying to make me look bad!
-
-202
-00:13:54,668 --> 00:13:58,183
-Oh, jesus. That high temperature
-is making you zooey.
-
-203
-00:13:58,505 --> 00:14:02,544
-No, no, it's made me clear-headed!
-
-204
-00:14:02,884 --> 00:14:06,399
-I must get down to that station
-and reclaim what's rightfully mine.
-
-205
-00:14:06,721 --> 00:14:09,872
-There will be no more filling in
-by anybody!
-
-206
-00:14:10,183 --> 00:14:14,813
-- No way, no how, no one...! No...
-- you're not going anywhere.
-
-207
-00:14:15,188 --> 00:14:17,258
-- Who's to stop me?
-- I am.
-
-208
-00:14:17,524 --> 00:14:20,561
-How will you, with a cane,
-stop a man in the prime of his life?
-
-209
-00:14:20,860 --> 00:14:22,976
+00:08:33,346 --> 00:08:35,906
  
 
-210
-00:14:23,822 --> 00:14:26,256
-And i wasn't even leaning on my cane.
+125
+00:08:37,978 --> 00:08:39,934
+We've only had a few dates
 
-211
-00:14:26,533 --> 00:14:29,491
-- Come on, daphne.
-- He really is sick.
+126
+00:08:40,191 --> 00:08:43,388
+but i'm exhibiting
+the three signs of love.
 
-212
-00:14:29,786 --> 00:14:33,620
-You want to talk sick?
-1962, world's fair.
+127
+00:08:43,738 --> 00:08:45,694
+I can't stop thinking about him.
 
-213
-00:14:33,957 --> 00:14:38,587
-The tilt-a-whirl was right next to
-the little taste of india.
+128
+00:08:45,950 --> 00:08:48,623
+I can't eat
+and i bought myself all new underwear.
 
-214
-00:14:40,672 --> 00:14:44,711
-I was out sick this week
-and i'd like to take this opportunity
+129
+00:08:51,417 --> 00:08:54,011
+We got to get her a girlfriend to talk to.
 
-215
-00:14:45,051 --> 00:14:47,565
-to express my gratitude
+130
+00:08:57,928 --> 00:09:01,716
+I called maris.
+She's in arizona for the weekend.
 
-216
-00:14:47,846 --> 00:14:50,440
-to gil chesterton
-and to my brother niles
+131
+00:09:02,060 --> 00:09:06,611
+- Why?
+- She's flown to her favourite spa
 
-217
-00:14:50,724 --> 00:14:55,479
-for doing such a great job of filling in
-for me. I really appreciate it, guys.
+132
+00:09:06,984 --> 00:09:10,659
+to contemplate our marriage -
+from a mud bath.
 
-218
-00:14:58,606 --> 00:15:02,565
-Well, now that i'm
-back to normal and feeling great
+133
+00:09:10,991 --> 00:09:15,189
+It'll be good for her.
+Eric thinks the earth is grounding.
 
-219
-00:15:02,902 --> 00:15:04,972
-who's our first caller?
+134
+00:09:15,541 --> 00:09:19,329
+Eric, eric! Must everything
+always be about eric?!
 
-220
-00:15:05,238 --> 00:15:08,150
-We have sonja from auburn
-on line three.
+135
+00:09:25,014 --> 00:09:28,893
+I suggest when maris returns
+you have intensive couples therapy...
 
-221
-00:15:08,450 --> 00:15:10,725
-Let's just hear what sonja has to say.
+136
+00:09:29,230 --> 00:09:32,461
+oh, blah, blah, blah, blah, blah.
 
-222
-00:15:13,038 --> 00:15:15,074
-Daphne! Daphne!
+137
+00:09:34,363 --> 00:09:36,752
+She just needs to know you love her.
 
-223
-00:15:15,332 --> 00:15:19,291
-- What is it this time?
-- I had a dream! I had a dream!
+138
+00:09:37,034 --> 00:09:40,310
+Buy her flowers. Fix a romantic dinner.
 
-224
-00:15:19,627 --> 00:15:21,936
-They are plotting against me!
+139
+00:09:40,623 --> 00:09:43,581
+- That'll make any woman forgive you.
+- That will work?
 
-225
-00:15:22,213 --> 00:15:27,048
-Now, now. We went over this already.
-It's just your fever talking.
+140
+00:09:43,879 --> 00:09:47,394
+If it didn't, you wouldn't be here.
 
-226
-00:15:27,427 --> 00:15:31,102
-That's what you want me to think.
-You're in league with niles.
+141
+00:09:49,889 --> 00:09:55,282
+I'm willing to try, but our cook
+walked out in sympathy with maris.
 
-227
-00:15:31,431 --> 00:15:35,504
-I know about the two of you!
-You pretend not to know, but you know.
+142
+00:09:55,690 --> 00:09:59,000
+I could help you.
+I have a late date with eric...
 
-228
-00:15:35,852 --> 00:15:39,288
-- I must take my show back!
-- You barely function!
+143
+00:09:59,321 --> 00:10:01,994
+...ca, an elderly aunt erica,
 
-229
-00:15:39,606 --> 00:15:43,918
-Run down to the drugstore
-with these prescriptions.
+144
+00:10:02,284 --> 00:10:06,994
+...but i could have everything ready
+by the time mrs crane arrives.
 
-230
-00:15:44,277 --> 00:15:46,996
-This will have you high as a kite!
+145
+00:10:07,376 --> 00:10:10,049
+Well, thank you, daphne.
 
-231
-00:15:47,280 --> 00:15:51,990
-- Only until i take a couple of these.
-- I don't think you're in any...
+146
+00:10:10,339 --> 00:10:12,569
+What does mrs crane like to eat?
 
-232
-00:15:52,369 --> 00:15:55,839
-thank you, but the moment
-i give a fig about what you think
+147
+00:10:12,843 --> 00:10:14,879
+You have free rein.
 
-233
-00:15:56,164 --> 00:15:58,120
-is the day that england produces
-a great chef,
+148
+00:10:15,139 --> 00:10:19,769
+Bear in mind she can't have
+shellfish, poultry, red meat, nitrates,
 
-234
-00:15:58,375 --> 00:16:03,244
-a world-class bottle of wine, and a car
-that has a decent electrical system.
+149
+00:10:20,147 --> 00:10:23,776
+wheat, starch, sulphites, msg or dairy.
 
-235
-00:16:06,383 --> 00:16:11,411
-Being a healthcare provider i try
-to be sympathetic towards my patients,
+150
+00:10:26,032 --> 00:10:29,468
+- Did i say nuts?
+- Oh, i think that's implied.
 
-236
-00:16:11,805 --> 00:16:14,763
-but i have reached
-the end of my tether with you!
+151
+00:10:34,754 --> 00:10:36,710
+ 
 
-237
-00:16:15,058 --> 00:16:17,413
-You are by far the most ungrateful,
+152
+00:10:44,186 --> 00:10:46,336
+ 
 
-238
-00:16:17,686 --> 00:16:20,154
-disagreeable,
-self-centred, whiny fusspot
+153
+00:10:51,449 --> 00:10:54,247
+Come in and warm yourself by the fire.
 
-239
-00:16:20,438 --> 00:16:22,793
-i've had the misfortune of dealing with!
+154
+00:10:54,537 --> 00:10:58,530
+- How did you get so wet?
+- One of your trees blew down.
 
-240
-00:16:23,066 --> 00:16:27,662
-I've had patients on their deathbeds
-who were more considerate and jolly!
+155
+00:10:58,878 --> 00:11:01,392
+- I had to walk the last 100 yards.
+- Oh.
 
-241
-00:16:28,029 --> 00:16:31,066
-As far as i'm concerned,
-you can lay in those sweaty sheets
+156
+00:11:01,674 --> 00:11:04,586
+I must say, you have a beautiful home.
 
-242
-00:16:31,366 --> 00:16:33,834
-till you're one giant bedsore!
+157
+00:11:04,888 --> 00:11:08,676
+Thank you. It was in maris' family
+for four generations.
 
-243
-00:16:35,537 --> 00:16:38,449
-- Are you done?
+158
+00:11:09,020 --> 00:11:14,299
+When i was an intern i drove through
+these hills, never dreaming i'd live here.
+
+159
+00:11:14,695 --> 00:11:18,734
+Then one afternoon, there was maris,
+looking so helpless,
+
+160
+00:11:19,077 --> 00:11:21,875
+banging on the electric gates
+with her little fists.
+
+161
+00:11:22,166 --> 00:11:25,681
+- They'd locked her in?
+- No, no, that was much later.
+
+162
+00:11:27,634 --> 00:11:30,228
+This time she had been
+at an antique mart.
+
+163
+00:11:30,514 --> 00:11:35,304
+Bought a rare bell jar once owned by
+sylvia plath. The gates failed to open.
+
+164
+00:11:35,688 --> 00:11:38,441
+Naturally, i offered my assistance.
+
+165
+00:11:38,735 --> 00:11:42,364
+Our hands touched,
+there was a sudden spark of electricity,
+
+166
+00:11:42,699 --> 00:11:45,497
+and, as if by magic, the gates parted.
+
+167
+00:11:45,788 --> 00:11:48,780
+- We took it as a sign.
+- You were meant to be together.
+
+168
+00:11:49,086 --> 00:11:52,874
+Yes. We were married
+just three short years later.
+
+169
+00:11:53,217 --> 00:11:56,254
+Look at this. It's beautiful.
+
+170
+00:11:56,556 --> 00:11:59,832
+It's a glockenspiel. We bought it
+on our honeymoon in zurich.
+
+171
+00:12:00,146 --> 00:12:03,183
+I brought it down from the attic
+to remind maris of better times.
+
+172
+00:12:03,484 --> 00:12:08,717
+It used to play beautiful music -
+now it doesn't. How's that for irony?
+
+173
+00:12:09,119 --> 00:12:11,679
+Let's get you dry clothes, so you can
+
+174
+00:12:11,956 --> 00:12:14,914
+make dinner
+and get home for your date.
+
+175
+00:12:15,212 --> 00:12:17,601
+ 
+
+176
+00:12:18,759 --> 00:12:21,193
+Daphne?
+
+177
+00:12:22,724 --> 00:12:25,522
+- What is it?
+- Nothing.
+
+178
+00:12:25,812 --> 00:12:29,646
+No, no. I'm a psychiatrist -
+i can read the signs.
+
+179
+00:12:29,986 --> 00:12:34,184
+I'm sorry. I didn't want to spoil
+your reunion with mrs crane,
+
+180
+00:12:34,535 --> 00:12:37,652
+but... eric broke up with me.
+
+181
+00:12:38,876 --> 00:12:40,867
+- He did?
 - Yes.
 
+182
+00:12:41,129 --> 00:12:44,166
+He said he couldn't
+commit to me and his music.
+
+183
+00:12:44,469 --> 00:12:47,905
+He had to stay focussed.
+I know it was an excuse.
+
+184
+00:12:48,225 --> 00:12:50,455
+I've heard his music.
+
+185
+00:12:52,022 --> 00:12:56,300
+- He must have another girl.
+- Oh... oh, oh, oh!
+
+186
+00:12:57,615 --> 00:13:02,484
+He's a fool. If he can't appreciate you,
+you're better off without him.
+
+187
+00:13:02,874 --> 00:13:07,789
+Right now, i'm not so sure,
+but thank you, dr crane.
+
+188
+00:13:08,174 --> 00:13:09,846
+ 
+
+189
+00:13:13,558 --> 00:13:16,595
+Niles crane. Oh, maris!
+
+190
+00:13:17,898 --> 00:13:19,650
+Where... where are you?
+
+191
+00:13:21,279 --> 00:13:23,235
+What d'you mean
+you can't come home?
+
+192
+00:13:23,491 --> 00:13:25,482
+It's not that bad a storm.
+
+193
+00:13:25,744 --> 00:13:27,780
+ 
+
+194
+00:13:28,916 --> 00:13:32,704
+Oh, maris,
+i really think you should come home.
+
+195
+00:13:36,387 --> 00:13:40,221
+No, of course. I don't want you
+travelling if it's not safe.
+
+196
+00:13:41,605 --> 00:13:44,073
+Yes, i understand. See you tomorrow.
+
+197
+00:13:47,698 --> 00:13:50,974
+Well... seems like it's just the two of us.
+
+198
+00:13:51,287 --> 00:13:53,562
+You mean,
+mrs crane won't be coming?
+
+199
+00:13:53,833 --> 00:13:55,789
+ 
+
+200
+00:13:58,674 --> 00:14:01,108
+Oh my, there goes the electricity!
+
+201
+00:14:02,222 --> 00:14:04,577
+What do we do now?
+
+202
+00:14:10,945 --> 00:14:14,733
+The storm's really bad.
+You shouldn't drive.
+
+203
+00:14:15,076 --> 00:14:18,830
+You just spend the night there.
+Good night, daphne.
+
+204
+00:14:20,043 --> 00:14:23,513
+- You told her to spend the night?
+- What's the problem?
+
+205
+00:14:23,840 --> 00:14:28,630
+- You know how niles feels about her.
+- Relax, it's just a little crush.
+
+206
+00:14:29,015 --> 00:14:33,054
+Yes, niles is harmless. He'd never try
+anything with maris around.
+
+207
+00:14:33,398 --> 00:14:35,275
+Maris is in arizona.
+
+208
+00:14:35,527 --> 00:14:38,485
+- I got to get daphne out of there!
+- Why?
+
+209
+00:14:38,782 --> 00:14:43,697
+It's a recipe for disaster. All alone
+in a gothic mansion on a rainy night.
+
+210
+00:14:44,082 --> 00:14:47,040
+It only lacks someone shouting
+"heathcliff!" across the moors.
+
+211
+00:14:47,337 --> 00:14:49,612
+- Wait!
+- You're not coming.
+
+212
+00:14:49,883 --> 00:14:52,192
+- Yes, i am.
+- No, you're not.
+
+213
+00:14:53,389 --> 00:14:55,903
+ 
+
+214
+00:15:02,029 --> 00:15:06,898
+- Oh, dr crane, you play beautifully.
+- Thank you.
+
+215
+00:15:07,287 --> 00:15:10,040
+ 
+
+216
+00:15:13,047 --> 00:15:15,003
+ 
+
+217
+00:15:17,012 --> 00:15:20,049
+I found this in the guest room.
+I hope it's all right.
+
+218
+00:15:20,351 --> 00:15:22,660
+I thought you'd put on maris' clothes.
+
+219
+00:15:22,939 --> 00:15:26,056
+Something bulky
+from her wool collection.
+
+220
+00:15:26,361 --> 00:15:31,833
+She's quite a bit smaller than me.
+This was all i could find that fit.
+
+221
+00:15:32,245 --> 00:15:34,713
+- Should i go look for something else?
+- No... yes.
+
+222
+00:15:34,999 --> 00:15:36,751
+No, oh, no...
+
+223
+00:15:37,003 --> 00:15:39,312
+Ooh!
+
+224
+00:15:40,676 --> 00:15:43,270
+No. As long as it's big enough.
+
+225
+00:15:43,555 --> 00:15:46,274
+And... warm enough. And...
+
+226
+00:15:46,560 --> 00:15:50,678
+...silky enough. And...
+
+227
+00:15:51,026 --> 00:15:53,062
+i have to make a phone call.
+
+228
+00:15:57,996 --> 00:16:00,590
+ 
+
+229
+00:16:01,919 --> 00:16:04,387
+'Hello, this is dr frasier crane.
+
+230
+00:16:04,674 --> 00:16:05,629
+'I'm listening.'
+
+231
+00:16:05,842 --> 00:16:07,070
+ 
+
+232
+00:16:07,303 --> 00:16:09,373
+'Frasier, frasier?
+
+233
+00:16:09,640 --> 00:16:13,553
+'I'm having a little crisis here.
+Actually a large crisis.
+
+234
+00:16:13,897 --> 00:16:17,367
+'It's no time to screen calls. Damn! '
+
+235
+00:16:20,491 --> 00:16:22,288
+- This is stupid.
+- No.
+
+236
+00:16:22,536 --> 00:16:25,528
+- Nothing will happen between them.
+- What if it does?
+
+237
+00:16:25,833 --> 00:16:27,869
+He's my brother, and he loves his wife.
+
+238
+00:16:28,129 --> 00:16:30,927
+Their marriage
+isn't everyone's cup of tea,
+
+239
+00:16:31,217 --> 00:16:34,812
+but on some twisted, bizarre level
+it works for them.
+
+240
+00:16:35,140 --> 00:16:39,053
+If niles hurts his marriage, he'd suffer.
+I won't let him suffer.
+
+241
+00:16:39,397 --> 00:16:41,308
+You'll miss the roosevelt.
+
+242
+00:16:41,568 --> 00:16:45,243
+I let you come
+if you agreed not to give directions.
+
+243
+00:16:45,574 --> 00:16:47,326
+It's just faster.
+
 244
-00:16:38,748 --> 00:16:42,946
-Then scurry on down to the drugstore.
-Get those filled while i get dressed.
+00:16:47,577 --> 00:16:51,536
+- Roosevelt will add ten minutes.
+- In rain, it's faster.
 
 245
-00:16:50,510 --> 00:16:54,105
-Oh, hello, frasier!
-What a surprise to see you here today!
+00:16:51,876 --> 00:16:55,664
+- Spatial relationships change in rain?
+- There's better traction.
 
 246
-00:16:54,431 --> 00:16:58,629
-It's no wonder. I've taken
-some wonder drugs. I feel wonderful!
+00:16:56,008 --> 00:16:58,363
+If you had all-weather tyres
+like i told you...
 
 247
-00:16:58,977 --> 00:17:02,856
-So, i'm going to go do my show now
-so ta-ta, pie man.
+00:16:58,638 --> 00:17:01,948
+- come on!
+- You had to buy some german thing...
 
 248
-00:17:05,150 --> 00:17:09,029
-Thank you, greta.
-It's satisfying to change someone's life.
+00:17:05,732 --> 00:17:08,929
+we'd better make this last.
+It's all that's left of the wood.
 
 249
-00:17:10,238 --> 00:17:13,708
-Look who's wandered into my booth.
-My brother, frasier.
+00:17:09,239 --> 00:17:10,991
+ 
 
 250
-00:17:14,034 --> 00:17:18,232
-Hello. I've come to take the reins
-of my show, so scoot out of there.
+00:17:11,242 --> 00:17:12,994
+Don't worry.
 
 251
-00:17:18,580 --> 00:17:20,775
-This is a good time for a commercial.
+00:17:13,245 --> 00:17:18,444
+If this runs out, there's an antique
+sideboard that i think is reproduction.
 
 252
-00:17:21,041 --> 00:17:23,680
-This is dr niles crane. Let's get better.
+00:17:18,838 --> 00:17:21,113
+Oh, it's eric, isn't it?
 
 253
-00:17:23,960 --> 00:17:26,554
-You ok? Your eyes look a little glassy.
+00:17:22,010 --> 00:17:24,285
+Don't know why i'm being so silly.
 
 254
-00:17:26,838 --> 00:17:31,389
-I'm fine. The drugs i took
-have some minor slide effects.
+00:17:24,556 --> 00:17:27,628
+We weren't together long enough
+for anything to happen.
 
 255
-00:17:32,969 --> 00:17:36,041
-Frasier, look at me.
-Do you see trails when i do this?
+00:17:29,062 --> 00:17:32,611
+Powerful feelings can come
+from the promise of what might happen.
 
 256
-00:17:37,849 --> 00:17:39,760
-Whoa!
+00:17:32,944 --> 00:17:36,903
+Anticipation makes all the little hairs
+on your neck stand on end.
 
 257
-00:17:40,018 --> 00:17:42,054
-Wasn't doing that before!
+00:17:38,829 --> 00:17:41,263
+ 
 
 258
-00:17:42,312 --> 00:17:45,543
-You're not going on the air like this.
-Stop it! St... st...
+00:17:41,542 --> 00:17:43,612
+- Dr crane!
+- Yes?
 
 259
-00:17:48,943 --> 00:17:53,300
-you're going to go to bed,
-rest and get rid of this fever
+00:17:43,879 --> 00:17:46,074
+- We're losing the fire.
+- No, we're not.
 
 260
-00:17:53,656 --> 00:17:56,693
-so you can be as good as new.
-Let's get better.
+00:17:46,341 --> 00:17:49,378
+It's burning
+with the heat of a thousand suns!
 
 261
-00:17:58,745 --> 00:18:00,383
-All right?
+00:17:50,681 --> 00:17:52,876
+It's down to its last embers!
 
 262
-00:18:00,622 --> 00:18:04,854
-- All right?
-- All right. Ok.
+00:17:53,144 --> 00:17:56,102
+Well, then, i'll put some wood on it.
 
 263
-00:18:05,210 --> 00:18:09,362
-Maybe you can help me
-find someone to drive me home.
+00:17:56,399 --> 00:17:59,152
+You flooded it.
 
 264
-00:18:09,714 --> 00:18:12,751
-That's the most sensible thing
-you've said so far.
+00:17:59,446 --> 00:18:02,006
+You cannot flood a fuel-injected engine.
 
 265
-00:18:13,051 --> 00:18:15,804
-Frasier! Frasier!
+00:18:02,284 --> 00:18:06,960
+This is maddening. We're so close
+to the house, i can see the gargoyles.
 
 266
-00:18:25,230 --> 00:18:27,460
-Hello, seattle, i'm back.
+00:18:07,334 --> 00:18:10,053
+- If we'd taken roosevelt...
+- we'd be stuck there.
 
 267
-00:18:27,732 --> 00:18:31,930
-This is dr frasier crane.
-I promise i will never leave you again.
+00:18:10,339 --> 00:18:12,899
+- You made a mistake.
+- That is it!
 
 268
-00:18:32,278 --> 00:18:35,475
-So, let's take our first caller.
+00:18:13,177 --> 00:18:15,850
+Call the auto club, i'll make a dash for it.
 
 269
-00:18:35,782 --> 00:18:37,818
-Hello, i'm listening.
+00:18:17,017 --> 00:18:20,976
+You should take the shortcut
+by the side of the fountain.
 
 270
-00:18:38,076 --> 00:18:40,067
-'Hi, dr crane.
+00:18:21,315 --> 00:18:23,351
+Same to you!
 
 271
-00:18:40,328 --> 00:18:42,284
-'Thanks for taking my call.
+00:18:25,823 --> 00:18:29,020
+I suppose i just fall in love too fast.
 
 272
-00:18:42,539 --> 00:18:45,531
-'I'm a bit nervous, ok?
-My name is robert.'
+00:18:29,329 --> 00:18:33,242
+The minute i feel that spark
+i give my heart away.
 
 273
-00:18:45,834 --> 00:18:47,870
-And your name is...?
+00:18:33,585 --> 00:18:36,895
+Daphne,
+stop being so hard on yourself.
 
 274
-00:18:50,171 --> 00:18:52,082
-'My name is robert.'
+00:18:37,217 --> 00:18:40,095
+What you see as a fault
+is also your greatest gift -
 
 275
-00:18:52,340 --> 00:18:56,174
-I'm sorry, we've already had
-a robert today. Goodbye.
+00:18:40,389 --> 00:18:44,064
+to be so open and warm and loving.
 
 276
-00:18:57,971 --> 00:19:00,565
-It's roz.
-Could you get security up here?
+00:18:44,395 --> 00:18:47,353
+You're so kind, dr crane.
 
 277
-00:19:00,849 --> 00:19:04,888
-Captain kirk's got control of the bridge,
-and he's gone insane.
+00:18:47,650 --> 00:18:50,164
+I'm glad we ended up like this tonight.
 
 278
-00:19:05,395 --> 00:19:07,704
-- Who is this?
-- 'i'm janice.'
+00:18:50,447 --> 00:18:52,244
+So am i.
 
 279
-00:19:07,981 --> 00:19:10,176
-What's your problem?
+00:18:53,410 --> 00:18:58,564
+It's just so nice to be with a man
+you feel so comfortable with.
 
 280
-00:19:10,442 --> 00:19:14,117
-'I'm having a problem breaking
-through a barrier with my in-laws.'
+00:18:58,961 --> 00:19:01,680
+I feel very close to you.
 
 281
-00:19:14,446 --> 00:19:16,198
-Boring!
+00:19:01,966 --> 00:19:04,764
+I feel very close to you too, daphne.
 
 282
-00:19:20,035 --> 00:19:23,072
-Hello, you're on the crane
-with frasier air.
+00:19:05,054 --> 00:19:07,614
+It's easy being someone
+you feel close to,
 
 283
-00:19:24,331 --> 00:19:27,004
-'Hi, dr crane, this is marjorie.
+00:19:07,893 --> 00:19:12,728
+when you feel close to someone
+who's so... close.
 
 284
-00:19:27,292 --> 00:19:30,045
-'I'm having a problem with my boss.
+00:19:13,401 --> 00:19:15,278
+ 
 
 285
-00:19:30,337 --> 00:19:34,410
-'He doesn't respect me, and i don't
-have the courage to confront him.'
+00:19:15,530 --> 00:19:17,486
+ 
 
 286
-00:19:34,758 --> 00:19:39,309
-Ok, marjorie. Well, let's see.
-Let's do a little role-playing.
+00:19:21,540 --> 00:19:24,930
+Dr crane,
+your glockenspiel has sprung to life.
 
 287
-00:19:39,679 --> 00:19:41,829
-I'll be your boss, you be yourself.
+00:19:32,517 --> 00:19:34,508
+Oh, the clock!
 
 288
-00:19:42,098 --> 00:19:46,011
-Come in and talk to me in a forceful
-way, and tell me what you think.
+00:19:37,358 --> 00:19:40,156
+My god, it hasn't run like this in years!
 
 289
-00:19:46,353 --> 00:19:50,551
-- You may be surprised.
-- 'Well, ok.
+00:19:40,446 --> 00:19:42,721
+Maris will be delighted!
 
 290
-00:19:50,899 --> 00:19:53,857
-'Listen, mr ross, i've worked here
+00:19:46,456 --> 00:19:48,208
+Maris!
 
 291
-00:19:54,152 --> 00:19:56,985
-'for six years
-and i've never missed a day,
+00:19:50,170 --> 00:19:53,321
+You really love her, don't you?
 
 292
-00:19:57,280 --> 00:20:02,832
-'but you've constantly promoted people
-less qualified than i am. That's not fair.'
+00:19:53,634 --> 00:19:55,750
+You know, i do.
 
 293
-00:20:03,244 --> 00:20:07,715
-Oh, well, marjorie,
-i must say i admire your forthrightness.
+00:19:58,308 --> 00:20:02,426
+Love's a funny thing, isn't it?
+Sometimes it's exciting, passionate.
 
 294
-00:20:08,083 --> 00:20:13,635
-I wish the others spoke to me with
-an open mind. You'll get that promotion.
+00:20:02,774 --> 00:20:05,846
+Sometimes it's something else.
 
 295
-00:20:14,047 --> 00:20:16,163
-- 'Hey, that was great! '
-- Wasn't it?
+00:20:06,155 --> 00:20:08,988
+Something comfortable and familiar.
 
 296
-00:20:16,424 --> 00:20:19,382
-Ok, it's my turn.
-I'm marjorie, you're the boss now.
+00:20:09,286 --> 00:20:11,242
+That newly exfoliated little face
 
 297
-00:20:19,678 --> 00:20:21,669
-Come on!
+00:20:11,497 --> 00:20:14,409
+staring at you
+across the breakfast table.
 
 298
-00:20:22,430 --> 00:20:24,944
-These nice men will take you home.
+00:20:15,963 --> 00:20:20,479
+Sharing a laugh when seeing someone
+wearing white after labour day.
 
 299
-00:20:25,225 --> 00:20:28,342
-I'm... i'm doing my show. I can't.
+00:20:22,223 --> 00:20:25,340
+I hope some day,
+some man will feel that way about me.
 
 300
-00:20:28,645 --> 00:20:30,761
-- I'm on the air.
-- No. You're on commercial.
+00:20:25,645 --> 00:20:27,875
+Oh! Daphne, don't worry.
 
 301
-00:20:31,022 --> 00:20:35,095
-Don't you worry your mucus-filled head.
-Everything's under control.
+00:20:28,859 --> 00:20:31,657
+You are a very special person.
 
 302
-00:20:35,443 --> 00:20:38,241
-- This is my show!
-- Hey, this is fun.
+00:20:31,947 --> 00:20:35,383
+Some day a man worthy of you
+will come along.
 
 303
-00:20:38,530 --> 00:20:41,647
-Make it go faster! Whee!
+00:20:35,704 --> 00:20:38,423
+Just as soon as the gods create him.
 
 304
-00:20:43,076 --> 00:20:45,829
-- Five seconds, niles!
-- All right.
+00:20:38,709 --> 00:20:42,338
+That's the loveliest thing
+anyone's ever said to me.
 
 305
-00:20:48,206 --> 00:20:51,482
-This is dr niles crane.
-We haven't taken leave of our senses.
+00:20:42,673 --> 00:20:45,631
+Thank you. You're a good friend.
 
 306
-00:20:51,793 --> 00:20:55,786
-That bit of inspired lunacy
-was just a little docudrama
+00:20:47,974 --> 00:20:50,010
+Stop!!!
 
 307
-00:20:56,131 --> 00:21:00,090
-frasier and i put together
-on the dangers of overmedication.
+00:20:53,817 --> 00:20:55,933
+Frasier!
 
 308
-00:21:06,016 --> 00:21:10,885
-Bravo, frasier, for so brilliantly
-demonstrating why they call it "dope".
+00:20:58,324 --> 00:21:02,602
+- Have you gone mad? You'll regret it.
+- What are you talking about?
 
 309
-00:21:13,523 --> 00:21:15,753
-Daphne! Daphne!
+00:21:02,957 --> 00:21:06,745
+The two of you alone.
+The fire, the candlelight, the nightie!
 
 310
-00:21:16,026 --> 00:21:17,903
-What?
+00:21:07,089 --> 00:21:10,206
+Dr crane,
+you didn't think dr crane and i...
 
 311
-00:21:18,153 --> 00:21:21,828
-I had another dream. I dreamt i went
-to the station all doped up
+00:21:11,346 --> 00:21:14,702
+dr crane! You have some nerve
 
 312
-00:21:22,157 --> 00:21:24,910
-and made a big fool of myself!
+00:21:15,018 --> 00:21:18,055
+to imply your brother
+would do anything so deplorable!!
 
 313
-00:21:25,201 --> 00:21:28,034
-They dragged me out of there
-like some lunatic.
+00:21:18,357 --> 00:21:23,590
+He just made a beautiful speech
+about how much he loves his wife.
 
 314
-00:21:28,330 --> 00:21:32,118
-Now, now. That was just a dream.
-You go back to sleep.
+00:21:23,992 --> 00:21:27,189
+How he cherishes
+her excruciating little face.
 
 315
-00:21:32,459 --> 00:21:35,895
-- You'll feel better in the morning.
-- Ok. Ah...
+00:21:27,497 --> 00:21:30,534
+And how they laugh at white people.
 
 316
-00:21:36,212 --> 00:21:40,091
-oh, daphne...
-could i have a little lemonade?
+00:21:32,046 --> 00:21:34,480
+- That didn't sound right.
+- Close enough.
 
 317
-00:21:40,425 --> 00:21:42,575
-With lemons and a sprig of mint.
+00:21:36,053 --> 00:21:39,329
+I'm sorry. I didn't mean to suggest...
+i wasn't implying...
 
 318
-00:21:42,844 --> 00:21:46,393
-Anything you want.
+00:21:39,642 --> 00:21:42,440
+then what was it
+you wanted us to stop doing?
 
 319
-00:21:46,723 --> 00:21:52,002
-- Why'd you tell him it was a dream?
-- No fun telling him the truth now.
+00:21:44,400 --> 00:21:46,789
+I wanted you to stop... uh...
 
 320
-00:21:52,395 --> 00:21:56,434
-I'll wait till tomorrow morning
-when he's good and lucid.
+00:21:47,071 --> 00:21:50,905
+standing in silence!
+A night like this calls for music!
 
 321
-00:22:04,949 --> 00:22:09,022
-# Hey, baby, i hear the blues a-calling
-tossed salads and scrambled eggs
+00:21:51,245 --> 00:21:54,920
+Daphne, wine for all of us.
+Niles, join me at the piano, please.
 
 322
-00:22:10,121 --> 00:22:11,759
-# oh, my!
+00:21:57,297 --> 00:22:00,414
+- You sure everything's all right?
+- Absolutely.
 
 323
-00:22:11,998 --> 00:22:17,834
-# And maybe i seem a bit confused
-yeah, maybe... but i got you pegged!
+00:22:00,719 --> 00:22:04,314
+Frasier,
+my glockenspiel is working again.
 
 324
-00:22:19,214 --> 00:22:22,843
-# But i don't know what to do with those
-tossed salads and scrambled eggs
+00:22:08,857 --> 00:22:11,291
+ 
 
 325
-00:22:26,054 --> 00:22:28,409
-# they're calling again
+00:22:13,114 --> 00:22:15,992
+ 
 
 326
-00:22:28,932 --> 00:22:33,608
-# scrambled eggs all over my face
-what is a boy to do? #
+00:22:16,286 --> 00:22:18,720
+# Tossed salads and scrambled eggs
 
 327
-00:22:35,605 --> 00:22:37,914
+00:22:19,792 --> 00:22:21,066
+# mercy!
+
+328
+00:22:21,294 --> 00:22:25,890
+# Maybe i seem a bit confused
+well, maybe, but i got you pegged
+
+329
+00:22:27,973 --> 00:22:33,127
+# but i don't know what to do with those
+tossed salads and scrambled eggs
+
+330
+00:22:34,233 --> 00:22:36,383
+# they're calling again #
+
+331
+00:22:36,653 --> 00:22:39,565
 frasier has left the building.
 

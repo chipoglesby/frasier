@@ -104,3 +104,16 @@ episodes %>%
   geom_col() +
   xlab(NULL) +
   coord_flip()
+
+
+episodes %>% 
+  filter(grepl('good lord|dear god|dear lord', lines)) %>% 
+  tally()
+
+episodes %>% 
+  filter(grepl('gods sake', lines)) %>% 
+  tally()
+
+episodes %>% 
+  filter(grepl('good lord', lines)) %>% 
+  tally()
