@@ -23,7 +23,7 @@ characters <- episodes %>%
   count(character, sort = TRUE)
 
 # Assign character genders
-missingMen <- 'waiter|officer|guard|degas|freud|fras|husband|repairman|dad|father|workman|boys|patrolman|batman|bulldog'
+missingMen <- 'santa|waiter|officer|guard|degas|freud|fras|husband|repairman|dad|father|workman|boys|patrolman|batman|bulldog'
 missingWomen <- 'waitress|hostess|woman|mother|cheerleader|maid|women|mom|mum'
 
 characterGender <- characters %>%
