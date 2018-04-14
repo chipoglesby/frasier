@@ -1,0 +1,5 @@
+saveRDS(characterGender, file = 'data/rds/characterGender.rds')
+saveRDS(characters, file = 'data/rds/characters.rds')
+saveRDS(lines, file = 'data/rds/lines.rds')
+saveRDS(subtitles, file = 'data/rds/subtitles.rds')
+saveRDS(seasons, file = "data/rds/seasons.rds")
