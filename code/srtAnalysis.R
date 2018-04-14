@@ -10,3 +10,9 @@ subtitlesSummary %>%
   ggplot(aes(episode, n)) +
   geom_bar(stat = "identity") +
   facet_wrap(~season, scales = "free")
+
+subtitles %>%
+  filter(season == 1, episode == 1) %>% 
+  count(psuedoTimeIn) %>% 
+  ggplot(aes(psuedoTimeIn, n)) +
+  geom_line()

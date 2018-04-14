@@ -12,6 +12,7 @@ subtitles %<>%
          episode = episode_num) %>% 
   select(-season_num, -serie) %>%
   mutate(season = as.integer(season),
+         episode = as.integer(episode),
          text = sub("(!)|(\\.)|(\\?)|(\\.)|(\\-){1,}", "", tolower(text)),
          psuedoTimeIn = ymd_hms(strptime(timecodeIn, "%H:%M:%S")),
          psuedoTimeOut = ymd_hms(strptime(timecodeOut, "%H:%M:%S")),

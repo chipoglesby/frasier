@@ -5,7 +5,7 @@ episodes <- read_csv('data/csv/lines.csv',
          lines = gsub('(\\[.*\\])', '', trimws(lines)),
          lines = gsub('(\\s{2,})', '', trimws(lines)),
          season = as.integer(substr(seasonEpisode, 0, 2)),
-         episode = as.numeric(substr(seasonEpisode, 3, 4))) %>%
+         episode = as.integer(substr(seasonEpisode, 3, 4))) %>%
   select(character, lines, season, episode) %>%
   filter(!grepl('dissolve|to|credits|title|they\'re|hallway|all|everyone|time',
                 tolower(character)),
