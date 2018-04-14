@@ -1,6 +1,6 @@
 restaurants <- 'volant|chez chez|cochon noir|heureux|chez henri|anya|happy brothers|chicken chicken'
 
-episodes %>%
+lines %>%
   filter(!is.na(gender)) %>% 
   group_by(season) %>% 
   count(gender) %>% 
@@ -25,17 +25,17 @@ episodes %>%
             size = 12,
             hjust = 0.5))
 
-episodes %>%
+lines %>%
   filter(!is.na(gender)) %>% 
   group_by(gender) %>% 
   summarize(uniqueCharacterCount = n_distinct(character)) %>% 
   knitr::kable()
 
-missingGender <- episodes %>% 
+missingGender <- lines %>% 
   filter(is.na(gender)) %>% 
   count(character, sort = TRUE)
 
-episodes %>% 
+lines %>% 
   filter(gender == 'female',
          !grepl('woman|waitress|girl|daphne|roz', tolower(character))) %>% 
   group_by(character) %>% 
@@ -43,7 +43,7 @@ episodes %>%
   ungroup() %>% 
   count(character, sort = TRUE) %>% 
   top_n(10) %>% 
-  inner_join(episodes, by = "character") %>% 
+  inner_join(lines, by = "character") %>% 
   group_by(character) %>% 
   count(season, sort = TRUE) %>% 
   ggplot(aes(season, n)) +

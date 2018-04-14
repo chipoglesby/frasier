@@ -295,7 +295,6 @@ Hi.
 
 65
 00:02:48,234 --> 00:02:49,724
-
 Welcome to
 Charlotte's Web:
 
@@ -2070,7 +2069,6 @@ my client log?
 
 453
 00:17:51,070 --> 00:17:55,074
-t.
 Yes. I've seen your log,
 and I've dated every toad on i
 
@@ -2222,7 +2220,6 @@ wants a matchmaker
 
 484
 00:19:19,224 --> 00:19:21,527
-
 whose life's a mess.
 
 485
@@ -2535,4 +2532,3 @@ every time you see me?
 552
 00:22:27,879 --> 00:22:31,781
 Damn.
-

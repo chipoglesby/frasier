@@ -42,7 +42,7 @@ url %>%
          writtenBy = Written.by,
          originalAirDate = Original.air.date,
          viewershipInMillions = U.S..viewers..million.) %>% 
- mutate(season = 3)-> seasonThree
+ mutate(season = 3) -> seasonThree
 
 url %>% 
   read_html() %>% 
@@ -56,21 +56,19 @@ url %>%
          writtenBy = Written.by,
          originalAirDate = Original.air.date,
          viewershipInMillions = U.S..viewers..million.) %>% 
+  rbind(c(19,
+    "Three Dates and a Break Up",
+    "Jeff Melman",
+    "Rob Greenberg",
+    "April 29, 1997 (1997-04-29)",
+    "15"),
+    c(20,
+      "Three Dates and a Break Up",
+      "Jeff Melman",
+      "Rob Greenberg",
+      "April 29, 1997 (1997-04-29)",
+      "15")) %>% 
   mutate(season = 4) -> seasonFour
-
-url %>% 
-  read_html() %>% 
-  html_nodes(xpath = '//*[@id="mw-content-text"]/div/table[5]') %>% 
-  html_table() %>% 
-  as.data.frame() %>% 
-  select(-No..in.series) %>%
-  rename(episode = No..in.season,
-         title = Title,
-         directedBy = Directed.by,
-         writtenBy = Written.by,
-         originalAirDate = Original.air.date,
-         viewershipInMillions = U.S..viewers..million.) %>% 
-  mutate(season = 5) -> seasonFive
 
 url %>% 
   read_html() %>% 
@@ -84,7 +82,7 @@ url %>%
          writtenBy = Written.by,
          originalAirDate = Original.air.date,
          viewershipInMillions = U.S..viewers..million.) %>% 
-  mutate(season = 6) -> seasonSix
+  mutate(season = 5) -> seasonFive
 
 url %>% 
   read_html() %>% 
@@ -98,7 +96,19 @@ url %>%
          writtenBy = Written.by,
          originalAirDate = Original.air.date,
          viewershipInMillions = U.S..viewers..in.millions..64.) %>% 
-  mutate(season = 7) -> seasonSeven
+  rbind(c("23",
+          "Shutout in Seattle",
+          "Pamela Fryman",
+          "David Isaacs",
+          "May 20, 1999 (1999-05-20)",
+          "27.2"),
+        c("24",
+          "Shutout in Seattle",
+          "Pamela Fryman",
+          "David Isaacs",
+          "May 20, 1999 (1999-05-20)",
+          "27.2")) %>%
+  mutate(season = 6) -> seasonSix
 
 url %>% 
   read_html() %>% 
@@ -111,26 +121,12 @@ url %>%
          directedBy = Directed.by,
          writtenBy = Written.by,
          originalAirDate = Original.air.date,
-         viewershipInMillions =  Viewers..millions..65.) %>% 
-  mutate(season = 8) -> seasonEight
+         viewershipInMillions = Viewers..millions..65.) %>% 
+  mutate(season = 7) -> seasonSeven
 
 url %>% 
   read_html() %>% 
   html_nodes(xpath = '//*[@id="mw-content-text"]/div/table[9]') %>% 
-  html_table() %>% 
-  as.data.frame() %>%
-  select(-No..in.series) %>%
-  rename(episode = No..in.season,
-         title = Title,
-         directedBy = Directed.by,
-         writtenBy = Written.by,
-         originalAirDate = Original.air.date,
-         viewershipInMillions =  Viewers..millions..66.) %>% 
-  mutate(season = 9) -> seasonNine
-
-url %>% 
-  read_html() %>% 
-  html_nodes(xpath = '//*[@id="mw-content-text"]/div/table[10]') %>% 
   html_table() %>% 
   as.data.frame() %>% 
   select(-No..in.series) %>%
@@ -139,8 +135,46 @@ url %>%
          directedBy = Directed.by,
          writtenBy = Written.by,
          originalAirDate = Original.air.date,
+         viewershipInMillions =  Viewers..millions..66.) %>% 
+  rbind(c("1",
+          "And the Dish Ran Away with the Spoon",  
+          "Pamela Fryman",
+          "David Angell & Peter Casey",
+          "October 24, 2000 (2000-10-24)",
+          "28.6"),
+        c("2",
+          "And the Dish Ran Away with the Spoon",  
+          "Pamela Fryman",
+          "David Angell & Peter Casey",
+          "October 24, 2000 (2000-10-24)",
+          "28.6")) %>% 
+  mutate(season = 8) -> seasonEight
+
+url %>% 
+  read_html() %>% 
+  html_nodes(xpath = '//*[@id="mw-content-text"]/div/table[10]') %>% 
+  html_table() %>% 
+  as.data.frame() %>%
+  select(-No..in.series) %>%
+  rename(episode = No..in.season,
+         title = Title,
+         directedBy = Directed.by,
+         writtenBy = Written.by,
+         originalAirDate = Original.air.date,
          viewershipInMillions =  Viewers..millions..67.) %>% 
-  mutate(season = 10) -> seasonTen
+  rbind(c("1",
+          "Don Juan in Hell",  
+          "Kelsey Grammer",
+          "Sam Johnson & Chris Marcil",
+          "September 25, 2001 (2001-09-25)",
+          "19.6"),
+        c("2",
+          "Don Juan in Hell",  
+          "Kelsey Grammer",
+          "Lori Kirkland",
+          "September 25, 2001 (2001-09-25)",
+          "19.6")) %>% 
+  mutate(season = 9) -> seasonNine
 
 url %>% 
   read_html() %>% 
@@ -154,6 +188,32 @@ url %>%
          writtenBy = Written.by,
          originalAirDate = Original.air.date,
          viewershipInMillions =  Viewers..millions..69.) %>% 
+  mutate(season = 10) -> seasonTen
+
+url %>% 
+  read_html() %>% 
+  html_nodes(xpath = '//*[@id="mw-content-text"]/div/table[12]') %>% 
+  html_table() %>% 
+  as.data.frame() %>% 
+  select(-No..in.series) %>%
+  rename(episode = No..in.season,
+         title = Title,
+         directedBy = Directed.by,
+         writtenBy = Written.by,
+         originalAirDate = Original.air.date,
+         viewershipInMillions =  Millions..millions..70.) %>% 
+  rbind(c("23",
+          "Goodnight, Seattle",  
+          "David Lee",
+          "Christopher Lloyd & Joe Keenan",
+          "May 13, 2004 (2004-05-13)",
+          "33.7"),
+        c("24",
+          "Goodnight, Seattle",  
+          "David Lee",
+          "Christopher Lloyd & Joe Keenan",
+          "May 13, 2004 (2004-05-13)",
+          "33.7")) %>% 
   mutate(season = 11) -> seasonEleven
 
 rbind(seasonOne,

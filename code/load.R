@@ -1,4 +1,4 @@
-episodes <- read_csv('data/csv/lines.csv',
+lines <- read_csv('data/csv/lines.csv',
                   col_names = c('lines', 'seasonEpisode')) %>%
   mutate(character = (sapply(strsplit(trimws(lines), ":"), "[", 1)),
          lines = (sapply(strsplit(trimws(lines), ":"), "[", 2)),
@@ -19,7 +19,7 @@ episodes <- read_csv('data/csv/lines.csv',
          key = gsub('[[:punct:]]', '', key))
 
 # Quickly find top characters:
-characters <- episodes %>%
+characters <- lines %>%
   count(character, sort = TRUE)
 
 # Assign character genders
@@ -36,5 +36,7 @@ characterGender <- characters %>%
                          'female', gender)) %>% 
   ungroup()
 
-episodes %<>%
-  inner_join(characterGender, by = "character")
+lines %<>%
+  inner_join(characterGender, by = "character") %>% 
+  inner_join(seasons, by = c(season = "season",
+                            episode = "episode"))

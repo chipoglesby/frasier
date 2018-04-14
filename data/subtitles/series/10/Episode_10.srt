@@ -1,4 +1,4 @@
-﻿1
+1
 00:00:09,542 --> 00:00:10,043
 Oh, uh, get a cart.
 
@@ -988,8 +988,6 @@ Ah, maybe you're right.
 
 222
 00:09:40,680 --> 00:09:42,181
-
-
 Maybe I will feel better.
 
 223
@@ -1020,8 +1018,6 @@ Hi, Mr. Crane, I'm Bree, Todd's manager.
 
 229
 00:09:57,930 --> 00:10:01,934
-
-
 I wanted t apologize for
 the trouble you had with our ATM.
 
@@ -2201,51 +2197,3 @@ think we can salvage?
 00:21:00,792 --> 00:21:02,361
 I don't know,
 just start scraping.
-
-495
-00:21:08,567 --> 00:21:10,502
-♪♪ Hey, baby, I hear
-the blues a-calling ♪♪
-
-496
-00:21:10,502 --> 00:21:13,872
-♪♪ Tossed salads
-and scrambled eggs ♪♪
-
-497
-00:21:13,872 --> 00:21:15,274
-Oh, my.
-
-498
-00:21:15,774 --> 00:21:18,277
-♪♪ And maybe I seem
-a bit confused ♪♪
-
-499
-00:21:18,277 --> 00:21:20,212
-♪♪ Well, maybe,
-but I got you pegged ♪♪
-
-500
-00:21:20,212 --> 00:21:22,581
-(laughs)
-
-501
-00:21:22,581 --> 00:21:24,249
-♪♪ But I don'’’t know what to do
- ♪♪
-
-502
-00:21:24,449 --> 00:21:28,153
-♪♪ With those tossed salad
-s and scrambled eggs ♪♪
-
-503
-00:21:28,153 --> 00:21:31,156
-♪♪ They'’’re calling again
-. ♪♪
-
-504
-00:21:31,156 --> 00:21:33,158
-Good night!
-

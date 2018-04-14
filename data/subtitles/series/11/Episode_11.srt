@@ -912,7 +912,6 @@ the corner.
 
 196
 00:07:05,491 --> 00:07:06,793
-
 Thought I'd stop by.
 
 197
@@ -1725,7 +1724,6 @@ while it cools.
 
 370
 00:13:57,603 --> 00:14:00,105
-
 Oh, you're the best.
 
 371
