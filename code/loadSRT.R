@@ -13,8 +13,7 @@ subtitles %<>%
   select(-season_num, -serie) %>%
   mutate(season = as.integer(season),
          episode = as.integer(episode),
-         text = sub("(!)|(\\.)|(\\?)|(\\.)|(\\-){1,}", "", tolower(text)),
-         talkTime = dateTimeOut - dateTimeIn) %>% 
+         text = sub("(!)|(\\.)|(\\?)|(\\.)|(\\-){1,}", "", tolower(text))) %>% 
   filter(!grepl('www.|^#|^♪♪', tolower(text))) %>% 
   inner_join(seasons, by = c(season = "season",
                             episode = "episode")) %>% 
@@ -25,6 +24,7 @@ subtitles %<>%
     dateTimeOut = ymd_hms(
       paste0(
         originalAirDate, 
-        timecodeOut)))
+        timecodeOut)),
+    talkTime = dateTimeOut - dateTimeIn)
 
 rm(a)
