@@ -9,12 +9,15 @@ library(subtools)
 library(rvest)
 
 # Run source files as needed
-source('code/loadRDS.R')
+source('code/rds/loadRDS.R')
 
 # If you want to run the scripts again:
-source('code/imdbActorInfo.R')
-source('code/seasonMetadata.R')
-source('code/load.R')
-source('code/loadSRT.R')
-source('code/srtAnalysis.R')
-source('code/analysis.R')
+source('code/prep/imdbActorInfo.R')
+source('code/prep/seasonMetadata.R')
+source('code/prep/load.R')
+source('code/prep/loadSRT.R')
+source('code/prep/srtAnalysis.R')
+source('code/prep/analysis.R')
+
+# Save your RDS files when done
+source('code/rds/saveRDS')
