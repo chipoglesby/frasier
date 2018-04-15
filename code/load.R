@@ -1,3 +1,5 @@
+exclusions <- "skyline|dissolve|to|credits|title|they\'re|hallway|all|everyone|time|one|two|apartment|three|four|workplace|kacl|run|supra|switch|acres|africa|announcement|bangladesh|base|cabin|cafe|car|card|checkmate|chorus|club|computer|crew|date|here|hope|insert|listen|look|lounge"
+
 lines <- read_csv('data/csv/lines.csv',
                   col_names = c('lines', 'seasonEpisode')) %>%
   mutate(character = (sapply(strsplit(trimws(lines), ":"), "[", 1)),
@@ -7,7 +9,7 @@ lines <- read_csv('data/csv/lines.csv',
          season = as.integer(substr(seasonEpisode, 0, 2)),
          episode = as.integer(substr(seasonEpisode, 3, 4))) %>%
   select(character, lines, season, episode) %>%
-  filter(!grepl('dissolve|to|credits|title|they\'re|hallway|all|everyone|time',
+  filter(!grepl(exclusions,
                 tolower(character)),
          !is.na(character),
          character != "",
@@ -36,9 +38,13 @@ characterGender <- characters %>%
                          'female', gender)) %>% 
   ungroup()
 
-
 lines %<>%
   inner_join(characterGender, by = "character") %>% 
   inner_join(seasons, by = c(season = "season",
                             episode = "episode")) %>% 
-  left_join(mainCharacters, by = c('character' = 'firstName'))
+  left_join(fullCastList, by = c('character' = 'firstName',
+                         'season' = 'season',
+                         'episode' = 'episode')) %>% 
+  select(-key)
+
+rm(exclusions)

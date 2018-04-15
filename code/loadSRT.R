@@ -34,3 +34,4 @@ subtitles %<>%
   filter(!grepl(song, tolower(text)))
 
 rm(a)
+rm(song)
