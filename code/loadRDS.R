@@ -1,4 +1,5 @@
 # Load RDS data
+characterInfo <- readRDS('data/rds/characterInfo.rds')
 characterGender <- readRDS('data/rds/characterGender.rds')
 characters <- readRDS('data/rds/characters.rds')
 combiningData <- readRDS('data/rds/combiningData.rds')

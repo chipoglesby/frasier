@@ -20,7 +20,10 @@ lines <- read_csv('data/csv/lines.csv',
 
 # Quickly find top characters:
 characters <- lines %>%
-  count(character, sort = TRUE)
+  count(character, sort = TRUE) %>% 
+  left_join(characterInfo, by = c('character' = 'firstName')) %>% 
+  filter(mainCharacter == TRUE | recurringCharacter == TRUE,
+         !grepl('hope|ashley', tolower(actorName)))
 
 # Assign character genders
 missingMen <- 'santa|waiter|officer|guard|degas|freud|fras|husband|repairman|dad|father|workman|boys|patrolman|batman|bulldog'
