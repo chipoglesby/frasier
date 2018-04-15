@@ -12,14 +12,14 @@ c("http://www.imdb.com/title/tt0106004/episodes?season=1",
   data.frame(stringsAsFactors = FALSE) -> episodeList
 
 fullCastList = NULL
-for (i in 1:length(episodeList$.)) {
-  episodeList$.[i] %>% 
+for (a in 1:length(episodeList$.)) {
+  episodeList$.[a] %>% 
     read_html() %>% 
     html_nodes('.list.detail.eplist strong a') %>% 
     html_attr('href') %>% 
     data.frame() -> seasonList
-  for(n in 1:length(seasonList$.)){
-    paste0("http://www.imdb.com", seasonList$.[n]) %>% 
+  for(b in 1:length(seasonList$.)){
+    paste0("http://www.imdb.com", seasonList$.[b]) %>% 
       read_html() %>% 
       html_nodes(xpath = '//*[@id="titleCast"]/table') %>%
       html_table() %>% 
@@ -27,8 +27,8 @@ for (i in 1:length(episodeList$.)) {
       select(-X1, -X3) %>% 
       rename(actorName = X2,
              characterName = X4) %>% 
-      mutate(season = i,
-             episode = n) %>% 
+      mutate(season = b,
+             episode = a) %>% 
       rbind(.,test) -> fullCastList
   }
 }
@@ -46,8 +46,8 @@ fullCastList %<>%
   select(-n) %>% 
   arrange(season, episode)
 
-rm(i)
-rm(n)
+rm(a)
+rm(b)
 rm(recurringCharacter)
 rm(test)
 rm(testLines)
