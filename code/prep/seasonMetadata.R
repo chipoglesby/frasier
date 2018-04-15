@@ -246,3 +246,63 @@ rm(seasonNine)
 rm(seasonTen)
 rm(seasonEleven)
 rm(url)
+
+c("http://www.imdb.com/title/tt0106004/episodes?season=1",
+  "http://www.imdb.com/title/tt0106004/episodes?season=2",
+  "http://www.imdb.com/title/tt0106004/episodes?season=3",
+  "http://www.imdb.com/title/tt0106004/episodes?season=4",
+  "http://www.imdb.com/title/tt0106004/episodes?season=5",
+  "http://www.imdb.com/title/tt0106004/episodes?season=6",
+  "http://www.imdb.com/title/tt0106004/episodes?season=7",
+  "http://www.imdb.com/title/tt0106004/episodes?season=8",
+  "http://www.imdb.com/title/tt0106004/episodes?season=9",
+  "http://www.imdb.com/title/tt0106004/episodes?season=10",
+  "http://www.imdb.com/title/tt0106004/episodes?season=11") %>% 
+  data.frame(stringsAsFactors = FALSE) -> episodeList
+
+imdbMetadata = NULL
+for (i in 1:length(episodeList$.)) {
+  episodeList$.[i] %>% 
+    read_html() %>% 
+    html_nodes('div.ipl-rating-star span.ipl-rating-star__rating') %>% 
+    html_text() %>% 
+    unlist() %>% 
+    data.frame() %>% 
+    rename(imdbRatings = '.') %>% 
+    mutate(imdbRatings = as.character(imdbRatings)) %>% 
+    filter(grepl("\\.", imdbRatings)) %>% 
+    mutate(imdbRatings = as.numeric(imdbRatings)) -> imdbRatings
+  
+  episodeList$.[i] %>% 
+    read_html() %>% 
+    html_nodes('span.ipl-rating-star__total-votes') %>% 
+    html_text() %>% 
+    unlist() %>% 
+    data.frame() %>% 
+    rename(imdbVotes = '.') %>% 
+    mutate(imdbVotes = as.integer(gsub("\\(|\\)",
+                                       "", 
+                                       as.character(imdbVotes)))) -> imdbVotes
+  
+  episode = NULL
+  for (n in 1:nrow(imdbRatings)) {
+    rbind(n, episode) -> episode
+    data.frame(episode) %>% 
+      arrange(episode) -> episodeCount
+  }
+  
+  imdb <- 
+    data.frame(imdbVotes, imdbRatings, episode) %>% 
+    mutate(season = i)
+  rbind(imdb, imdbMetadata) -> imdbMetadata
+}
+
+rm(imdb)
+rm(episode)
+rm(i)
+rm(n)
+rm(imdbRatings)
+rm(imdbVotes)
+
+seasons %<>% 
+  inner_join(imdbMetadata)
