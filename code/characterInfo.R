@@ -22,3 +22,7 @@ url %>%
     recurringCharacter = as.factor(
       grepl(reccurringCharacter, tolower(characterName))),
     firstName = sapply(strsplit(characterName, ' '), `[`, 1)) -> characterInfo
+
+characterInfo %>% 
+filter(mainCharacter == TRUE | recurringCharacter == TRUE,
+       !grepl('hope|ashley', tolower(actorName))) -> mainCharacters
