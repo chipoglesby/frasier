@@ -36,6 +36,7 @@ characterGender <- characters %>%
                          'female', gender)) %>% 
   ungroup()
 
+
 lines %<>%
   inner_join(characterGender, by = "character") %>% 
   inner_join(seasons, by = c(season = "season",
