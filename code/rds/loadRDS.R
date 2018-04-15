@@ -1,10 +1,10 @@
 # Load RDS data
-mainCharacters <- readRDS('data/rds/mainCharacters.rds')
-characterInfo <- readRDS('data/rds/characterInfo.rds')
 characterGender <- readRDS('data/rds/characterGender.rds')
-characters <- readRDS('data/rds/characters.rds')
 lines <- readRDS('data/rds/lines.rds')
 subtitles <- readRDS('data/rds/subtitles.rds')
 seasons <- readRDS('data/rds/seasons.rds')
 tidyFrasier <- readRDS('data/rds/tidyFrasier.rds')
 frasierSentiment <- readRDS('data/rds/frasierSentiment.rds')
+# mainCharacters <- readRDS('data/rds/mainCharacters.rds')
+# characterInfo <- readRDS('data/rds/characterInfo.rds')
+# characters <- readRDS('data/rds/characters.rds')
