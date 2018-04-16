@@ -7,7 +7,7 @@ subtitles <- subDataFrame(a)
 song <- paste0("hey, baby, i hear the blues a'callin'|tossed salads and scrambled eggs|
 mercy â\u0099ª|and maybe i seem a bit confused|well, maybe, but i got you 
                pegged|but i don't know what to do|with those tossed salads and 
-               scrambled eggs|they're callin' again")
+               scrambled eggs|they're callin' again|http\\:|good night")
 
 subtitles %<>%
   rename(id = ID,
