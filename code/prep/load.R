@@ -45,8 +45,10 @@ lines %<>%
   left_join(fullCastList, by = c('character' = 'firstName',
                          'season' = 'season',
                          'episode' = 'episode')) %>% 
-  select(-key) %>% 
+  select(-key)
+
+lines %>% 
   write_csv("data/csv/lines.csv") %>% 
-  saveRDS(file = 'data/rds/lines.rds')
+  saveRDS(., file = 'data/rds/lines.rds')
 
 rm(exclusions)

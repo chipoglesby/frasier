@@ -31,9 +31,11 @@ subtitles %<>%
         originalAirDate, 
         timecodeOut)),
     talkTime = dateTimeOut - dateTimeIn) %>% 
-  filter(!grepl(song, tolower(text))) %>% 
+  filter(!grepl(song, tolower(text)))
+
+subtitles %>% 
   write_csv('data/csv/subtitles.csv') %>% 
-  saveRDS(file = 'data/rds/subtitles.rds')
+  saveRDS(., file = 'data/rds/subtitles.rds')
 
 rm(a)
 rm(song)

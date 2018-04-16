@@ -34,9 +34,9 @@ for (a in 1:length(episodeList$.)) {
 }
 
 fullCastList %<>% 
-  filter(!grepl('episode|rest of', tolower(actorName))) %>%
+  filter(!grepl('episode|rest of', tolower(characterName))) %>%
   count(characterName) %>% 
-  right_join(fullCastList) %>% 
+  inner_join(fullCastList) %>% 
   mutate(actorName = trimws(actorName),
          characterName = trimws(
            gsub('/ ...|#|Dr.|\\n|Guest Caller - |\\(voice\\)|\\s{2,}|\\(.*\\)', '',
@@ -46,9 +46,11 @@ fullCastList %<>%
                   ifelse(n > 100, "main", "recurring"))),
          firstName = sapply(strsplit(characterName, ' '), `[`, 1)) %>% 
   select(-n) %>% 
-  arrange(season, episode) %>% 
-  write_csv('data/csv/fullCastList.csv')
-  saveRDS(file = 'data/rds/fullCastList.rds')
+  arrange(season, episode) 
+
+fullCastList %>% 
+  write_csv('data/csv/fullCastList.csv') %>% 
+  saveRDS(., file = 'data/rds/fullCastList.rds')
 
 rm(a)
 rm(b)
