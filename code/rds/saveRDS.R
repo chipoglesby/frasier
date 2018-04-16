@@ -1,3 +1,4 @@
+saveRDS(fullCastList, file = 'data/rds/fullCastList.rds')
 saveRDS(characterGender, file = 'data/rds/characterGender.rds')
 saveRDS(lines, file = 'data/rds/lines.rds')
 saveRDS(subtitles, file = 'data/rds/subtitles.rds')

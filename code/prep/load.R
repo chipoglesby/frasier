@@ -18,7 +18,7 @@ lines <- read_csv('data/csv/lines.csv',
   mutate(lines = sub("(!)|(\\.)|(\\?)|(\\.)|(\\-){1,}", "", tolower(lines))) %>%
   mutate(lines = gsub("\\'|\\.|\\,|\\;|\\'", "", lines)) %>%
   mutate(key = gsub("(\\s|)", "", lines),
-         key = gsub('[[:punct:]]', '', key))
+         key = gsub('[[:punct:]]', '', key)) 
 
 # Quickly find top characters:
 characters <- lines %>%
@@ -45,6 +45,8 @@ lines %<>%
   left_join(fullCastList, by = c('character' = 'firstName',
                          'season' = 'season',
                          'episode' = 'episode')) %>% 
-  select(-key)
+  select(-key) %>% 
+  write_csv("data/csv/lines.csv") %>% 
+  saveRDS(file = 'data/rds/lines.rds')
 
 rm(exclusions)

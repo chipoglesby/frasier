@@ -305,4 +305,6 @@ rm(imdbRatings)
 rm(imdbVotes)
 
 seasons %<>% 
-  inner_join(imdbMetadata)
+  inner_join(imdbMetadata) %>% 
+  write_csv('data/csv/seasons.csv') %>% 
+  saveRDS(file = 'data/rds/seasons.rds')

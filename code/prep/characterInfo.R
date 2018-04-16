@@ -29,7 +29,7 @@ for (a in 1:length(episodeList$.)) {
              characterName = X4) %>% 
       mutate(season = b,
              episode = a) %>% 
-      rbind(.,test) -> fullCastList
+      rbind(.,fullCastList) -> fullCastList
   }
 }
 
@@ -41,13 +41,14 @@ fullCastList %<>%
          characterName = trimws(
            gsub('/ ...|#|Dr.|\\n|Guest Caller - |\\(voice\\)|\\s{2,}|\\(.*\\)', '',
                 sapply(strsplit(characterName, '\\d',"-"), `[`, 1))),
-         characterType = as.factor(ifelse(n < 4, "other", ifelse(n > 100, "main", "recurring"))),
+         characterType = as.factor(
+           ifelse(n < 4, "other",
+                  ifelse(n > 100, "main", "recurring"))),
          firstName = sapply(strsplit(characterName, ' '), `[`, 1)) %>% 
   select(-n) %>% 
-  arrange(season, episode)
+  arrange(season, episode) %>% 
+  write_csv('data/csv/fullCastList.csv')
+  saveRDS(file = 'data/rds/fullCastList.rds')
 
 rm(a)
 rm(b)
-rm(recurringCharacter)
-rm(test)
-rm(testLines)

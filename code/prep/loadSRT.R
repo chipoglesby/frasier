@@ -7,7 +7,7 @@ subtitles <- subDataFrame(a)
 song <- paste0("hey, baby, i hear the blues a'callin'|tossed salads and scrambled eggs|
 mercy â\u0099ª|and maybe i seem a bit confused|well, maybe, but i got you 
                pegged|but i don't know what to do|with those tossed salads and 
-               scrambled eggs|they're callin' again|http\\:|good night")
+               scrambled eggs|they're callin' again|http\\:|good night we love you")
 
 subtitles %<>%
   rename(id = ID,
@@ -31,7 +31,9 @@ subtitles %<>%
         originalAirDate, 
         timecodeOut)),
     talkTime = dateTimeOut - dateTimeIn) %>% 
-  filter(!grepl(song, tolower(text)))
+  filter(!grepl(song, tolower(text))) %>% 
+  write_csv('data/csv/subtitles.csv') %>% 
+  saveRDS(file = 'data/rds/subtitles.rds')
 
 rm(a)
 rm(song)
