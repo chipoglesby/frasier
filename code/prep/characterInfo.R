@@ -49,7 +49,7 @@ fullCastList %<>%
   arrange(season, episode) 
 
 fullCastList %>% 
-  write_csv('data/csv/fullCastList.csv') %>% 
+  write_csv('data/csv/clean/fullCastList.csv') %>% 
   saveRDS(., file = 'data/rds/fullCastList.rds')
 
 rm(a)
