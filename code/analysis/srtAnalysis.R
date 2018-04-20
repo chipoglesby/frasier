@@ -3,9 +3,11 @@ tidySubtitles <- subtitles %>%
   anti_join(stop_words)
 
 tidySubtitles %>%
-  filter(!grepl('frasier|roz|daphne|martin|niles', word)) %>% 
-  count(word, sort = TRUE) %>% 
-  top_n(10, n)
+  inner_join(get_sentiments('bing'), "word") %>% 
+  filter(!grepl('frasier|roz|daphne|martin|niles|dad|crane|dr', word)) %>% 
+  count(word, sentiment, sort = TRUE) %>% 
+  top_n(10, n) %>% 
+  knitr::kable()
 
 bing <- sentiments %>%
   filter(lexicon == "bing") %>%
