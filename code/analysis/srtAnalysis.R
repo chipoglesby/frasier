@@ -1,15 +1,17 @@
-tidyFrasier <- subtitles %>% 
+tidySubtitles <- subtitles %>% 
   unnest_tokens(word, text) %>% 
   anti_join(stop_words)
 
-tidyFrasier %>% 
-  count(word, sort = TRUE)
+tidySubtitles %>%
+  filter(!grepl('frasier|roz|daphne|martin|niles', word)) %>% 
+  count(word, sort = TRUE) %>% 
+  top_n(10, n)
 
 bing <- sentiments %>%
   filter(lexicon == "bing") %>%
   select(-score)
 
-frasierSentiment <- tidyFrasier %>% 
+subtitleSentiment <- tidySubtitles %>% 
   inner_join(bing) %>% 
   count(title, 
         index = as.integer(id) %/% 50, 
@@ -18,7 +20,7 @@ frasierSentiment <- tidyFrasier %>%
          n, 
          fill = 0) %>% 
   mutate(sentiment = positive - negative) %>%
-  left_join(tidyFrasier[,c("title",
+  left_join(tidySubtitles[,c("title",
                            "season",
                            "episode")] %>% 
               distinct()) %>% 
@@ -43,7 +45,7 @@ frasierSentiment <- tidyFrasier %>%
                              "Season 11"))) %>% 
   select(title, season, everything(), -episode)
 
-frasierSentiment %>% 
+subtitleSentiment %>% 
   ggplot(aes(index, sentiment, fill = season)) +
   geom_bar(stat = "identity", show.legend = FALSE) +
   facet_wrap(~season, nrow = 3, scales = "free_x", dir = "v") +
@@ -57,12 +59,8 @@ frasierSentiment %>%
   theme(axis.title.x = element_blank()) +
   theme(axis.ticks.x = element_blank()) +
   theme(axis.text.x = element_blank())
-frasierSentiment %>% 
-  select(dateTimeIn, sentiment) %>% 
-  count(sentiment)
 
-tidyFrasier %>% 
-  filter(season == 7) %>% 
+tidySubtitles %>% 
   arrange(timecodeIn) %>% 
   inner_join(bing) %>% 
   mutate(minute = ceiling_date(ymd_hms(dateTimeOut), unit = "minutes")) %>% 
@@ -71,41 +69,44 @@ tidyFrasier %>%
   spread(sentiment, 
          n, 
          fill = 0) %>% 
-  mutate(polarity = positive - negative) %>% 
-  ggplot(aes(minute, polarity)) + 
-  geom_smooth() +
-  facet_wrap(~season, scales = "free_x")
-
-frasierSentiment %>% 
-  select(dateTimeIn, sentiment) %>% 
-  count(sentiment)
-
-tidyFrasier %>% 
-  arrange(timecodeIn) %>% 
-  inner_join(bing) %>% 
-  mutate(minute = ceiling_date(ymd_hms(dateTimeOut), unit = "minutes")) %>% 
-  group_by(minute, season, episode) %>%
-  count(sentiment) %>% 
-  spread(sentiment, 
-         n, 
-         fill = 0) %>% 
-  mutate(polarity = positive - negative) %>% 
-  ggplot(aes(minute, polarity)) + 
-  geom_smooth() +
-  facet_wrap(~season, scales = "free_x")
-
-tidyFrasier %>% 
-  arrange(timecodeIn) %>% 
-  inner_join(bing) %>% 
-  mutate(minute = ceiling_date(ymd_hms(dateTimeOut), unit = "minutes")) %>% 
-  group_by(minute, season, episode) %>%
-  count(sentiment) %>% 
-  spread(sentiment, 
-         n, 
-         fill = 0) %>% 
-  mutate(polarity = positive - negative) %>% 
+  mutate(sentiment = positive - negative) %>% 
   group_by(season, episode) %>% 
-  summarize(polarity = median(polarity)) %>% 
-  ggplot(aes(episode, polarity)) + 
+  summarize(sentiment = mean(sentiment)) %>% 
+  ggplot(aes(episode, sentiment)) + 
   geom_bar(stat = 'identity') +
-  facet_wrap(~season)
+  facet_wrap(~season) +
+  xlab('Episode') +
+  ylab('Mean of Sentiment') +
+  ggtitle('Sentiment of words in Frasier, by Season & Episode')
+
+
+## Sentence Analysis
+# Prepare the dataframe
+subtitleSentiment <- subtitles %>%
+  get_sentences() %$%
+  sentiment_by(text, list(season,
+                          episode,
+                          dateTimeOut)) %>% 
+  arrange(dateTimeOut)
+
+# Plot the data, specific example
+subtitleSentiment %>% 
+  filter(season == 4, episode == 7) %>% 
+  ggplot(aes(dateTimeOut, 
+             ave_sentiment)) +
+  geom_smooth() +
+  xlab('Timecode') +
+  ylab('Sentiment') +
+  ggtitle('Time Series Sentiment of Frasier, Season 4, Episode 7')
+
+
+# Plot an entire season
+subtitleSentiment %>% 
+  filter(season == 8) %>% 
+  ggplot(aes(dateTimeOut, 
+             ave_sentiment)) +
+  geom_smooth() +
+  xlab('Timecode') +
+  ylab('Sentiment') +
+  ggtitle('Time Series Sentiment of Frasier By Episode') +
+  facet_wrap(~episode, scales = 'free')

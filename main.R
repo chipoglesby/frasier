@@ -7,6 +7,8 @@ library(lubridate)
 # devtools::install_github("fkeck/subtools")
 library(subtools)
 library(rvest)
+library(viridis)
+library(hrbrthemes)
 
 # Run source files as needed
 source('code/rds/loadRDS.R')
