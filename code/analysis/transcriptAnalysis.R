@@ -1,67 +1,67 @@
 # "Le Cigare Volant" (The Flying Cigar), "Chez Chez" and "Le Cochon Noir"
 # Les Frères Heureux Timbermill Chicken Chicken Chicken
 # https://www.reddit.com/r/Frasier/comments/4u4u6t/what_is_your_favorite_restaurant_from_frasier/
-lines %>%
+transcripts %>%
   filter(grepl('san gennaro|bavetta|au pied de cochon|espalier|volant|chez chez|cochon noir|heureux|chez henri|Anya|happy brothers|chicken chicken', tolower(lines))) %>%
   count(character, sort = TRUE) %>%
   top_n(5, n) -> favoriteResturants
 
 # Who talks about Sherry?
-lines %>%
+transcripts %>%
   filter(grepl('sherry', tolower(lines))) %>%
   count(character, sort = TRUE) %>%
   top_n(5, n) -> sherryReferences
 
 # Who talks about Coffee?
-lines %>%
+transcripts %>%
   filter(grepl('coffee|café|latte|nutmeg|nervosa', tolower(lines))) %>%
   count(character, sort = TRUE) %>%
   top_n(5, n) -> coffeReferences
 
 # Who talks about Eddie??
-lines %>%
+transcripts %>%
   filter(grepl('eddie', tolower(lines))) %>%
   count(character, sort = TRUE) %>%
   top_n(5, n) -> edditReferences
 
 # Who talks about beer?
-lines %>%
+transcripts %>%
   filter(grepl('beer', tolower(lines))) %>%
   count(character, sort = TRUE) %>%
   top_n(5, n) -> beerReferences
 
 # Who talks about Opera?
-lines %>%
+transcripts %>%
   filter(grepl('opera|theatre|theater', tolower(lines))) %>%
   count(character, sort = TRUE) %>%
   top_n(5, n) -> operaReferences
 
 # Who talks about Roz?
-lines %>%
+transcripts %>%
   filter(grepl('roz', tolower(lines))) %>%
   count(character, sort = TRUE) %>%
   top_n(5, n) -> rozReferences
 
 # Who talks about Daphne?
-lines %>%
+transcripts %>%
   filter(grepl('daphne', tolower(lines))) %>%
   count(character, sort = TRUE) %>%
   top_n(5, n) -> daphneReferences
 
 # Who talks about Maris?
-lines %>%
+transcripts %>%
   filter(grepl('maris', tolower(lines))) %>%
   count(character, sort = TRUE) %>%
   top_n(5, n) -> marisReferences
 
 # Who talks about Lilith?
-lines %>%
+transcripts %>%
   filter(grepl('lilith', tolower(lines))) %>%
   count(character, sort = TRUE) %>%
   top_n(5, n) -> lilithReferences
 
 # Which brother introduces themselves as doctor?
-lines %>%
+transcripts %>%
   filter(grepl('dr|doctor',
                tolower(lines)),
          grepl('frasier|niles',
@@ -70,7 +70,7 @@ lines %>%
 
 # Who talks about mom the most?
 # Which brother introduces themselves as doctor?
-lines %>%
+transcripts %>%
   filter(grepl('mom|mother',
                tolower(lines)),
          grepl('frasier|niles|martin',
@@ -78,7 +78,7 @@ lines %>%
   count(character, sort = TRUE) -> momReferences
 
 # How many times does frasier say hello seattle or I'm listening?
-lines %>%
+transcripts %>%
   filter(grepl('i\'m listening|good mental health|wishing you',
                tolower(lines)),
          grepl('frasier',
@@ -86,12 +86,12 @@ lines %>%
   count(character, sort = TRUE) -> listeningReferences
 
 # Is Frasier the only one who says DEAR GOD
-lines %>%
+transcripts %>%
   filter(grepl('dear god', tolower(lines))) %>%
   count(character, sort = TRUE) %>%
   top_n(5, n) -> godReferences
 
-lines %>%
+transcripts %>%
   filter(!is.na(lines),
          grepl('frasier|roz|daphne|martin|niles|bulldog', 
                tolower(character))) %>%
