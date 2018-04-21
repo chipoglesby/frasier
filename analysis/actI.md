@@ -67,11 +67,6 @@ Adding the [`Bing`](https://www.tidytextmining.com/sentiment.html)
 lexicon for sentiment analysis, we can then begin to get a picture of
 what some of the sentiment includes. Let’s take another look:
 
-``` r
-top10Subtitles %>%
-  knitr::kable()
-```
-
 | word      | sentiment |   n |
 | :-------- | :-------- | --: |
 | love      | positive  | 921 |

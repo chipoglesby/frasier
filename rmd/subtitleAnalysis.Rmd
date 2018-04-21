@@ -61,7 +61,7 @@ subtitles %>%
 Adding the [`Bing`](https://www.tidytextmining.com/sentiment.html) lexicon for sentiment analysis, we can then begin to get a
 picture of what some of the sentiment includes. Let's take another look:
 
-```{r echo = TRUE, message = FALSE, warning = FALSE}
+```{r echo = FALSE, message = FALSE, warning = FALSE}
 top10Subtitles %>%
   knitr::kable()
 ```
