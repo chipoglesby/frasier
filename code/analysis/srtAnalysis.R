@@ -5,7 +5,7 @@ tidySubtitles <- subtitles %>%
   anti_join(stop_words)
 
 # Check out the top ten words, excluding main characters names
-tidySubtitles %>%
+top10Subtitles <- tidySubtitles %>%
   inner_join(get_sentiments('bing'), "word") %>% 
   filter(!grepl('frasier|roz|daphne|martin|niles|dad|crane|dr', word)) %>% 
   count(word, sentiment, sort = TRUE) %>% 

@@ -4,7 +4,7 @@ library(magrittr)
 a <- read.subtitles.serie(dir = "data/subtitles/series/", encoding = "iso-8859-1")
 subtitles <- subDataFrame(a)
 
-song <- paste0("hey, baby, i hear the blues a'callin'|tossed salads and scrambled eggs|
+song <- paste0("frasier has left the building|\\[organ music playing\\]|scrambled eggs all over my face|good night, seattle, we love you|good night, everybody|frasier has left the building|hey, baby, i hear the blues a'callin'|tossed salads and scrambled eggs|
 mercy â\u0099ª|and maybe i seem a bit confused|well, maybe, but i got you 
                pegged|but i don't know what to do|with those tossed salads and 
                scrambled eggs|they're callin' again|http\\:|good night we love you|â|â|ªâ|â|â")
