@@ -123,3 +123,60 @@ tidySubtitles %>%
   facet_wrap(~season, scales = "free_y") +
   labs(x = NULL) +
   guides(fill = FALSE)
+
+
+## TF-IDF
+
+# Skew
+tidySubtitles %>% 
+  count(season, word, sort = TRUE) %>%
+  group_by(season) %>% 
+  mutate(total = sum(n)) %>% 
+  ggplot(aes(n/total, fill = season)) +
+  geom_histogram(alpha = 0.8, 
+                 show.legend = FALSE,
+                 bins = 15) +
+  xlim(0, 0.001) +
+  labs(title = "Term Frequency Distribution in Frasier's Seasons",
+       y = "Count") +
+  facet_wrap(~season, scales = "free_y") +
+  theme_minimal(base_size = 13) +
+  scale_fill_viridis(end = 0.85, discrete = FALSE) +
+  theme(strip.text = element_text(hjust = 0)) +
+  theme(strip.text = element_text(face = "italic"))
+
+# Least Common Words overall
+tfIDF %>% 
+  ggplot(aes(tf_idf, word, fill = season, alpha = tf_idf)) +
+  geom_barh(stat = "identity") +
+  labs(title = "Highest tf-idf words in Frasier's Seasons",
+       y = NULL, x = "tf-idf") +
+  theme_minimal(base_size = 13) +
+  scale_alpha_continuous(range = c(0.6, 1), 
+                         guide = FALSE) +
+  scale_x_continuous(expand = c(0, 0)) +
+  scale_fill_viridis(end = 0.85, 
+                     discrete = FALSE) +
+  theme(legend.title = element_blank()) +
+  theme(legend.justification = c(1, 0),
+        legend.position = c(1, 0))
+
+
+# Least Common Words by Season
+tfIDF %>% 
+  group_by(season) %>% 
+  top_n(15) %>% 
+  ungroup() %>% 
+  ggplot(aes(tf_idf, word, fill = season, alpha = tf_idf)) +
+  geom_barh(stat = "identity", show.legend = FALSE) +
+  labs(title = "Highest tf-idf words in Frasiers' Seasons",
+       y = NULL, x = "tf-idf") +
+  facet_wrap(~season,
+             scales = "free") +
+  theme_minimal(base_size = 13) +
+  scale_alpha_continuous(range = c(0.6, 1)) +
+  scale_x_continuous(expand = c(0,0)) +
+  scale_fill_viridis(end = 0.85, 
+                     discrete = FALSE) +
+  theme(strip.text = element_text(hjust = 0)) +
+  theme(strip.text = element_text(face = "italic"))

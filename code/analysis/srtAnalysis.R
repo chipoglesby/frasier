@@ -67,3 +67,18 @@ God <- subtitles %>%
   filter(grepl('god', tolower(text))) %>% 
   count(text, sort = TRUE) %>% 
   top_n(5, n)
+
+
+## TF-IDF Analysis
+tfIDF <- tidySubtitles %>% 
+  count(season, word, sort = TRUE) %>%
+  group_by(season) %>% 
+  mutate(total = sum(n),
+         nTotal = n/total) %>% 
+  arrange(season, desc(nTotal)) %>% 
+  bind_tf_idf(word, season, n) %>% 
+  select(-total) %>%
+  arrange(desc(tf_idf)) %>% 
+  ungroup() %>% 
+  mutate(word = factor(word, 
+                       levels = rev(unique(word))))
