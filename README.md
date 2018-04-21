@@ -1,8 +1,6 @@
 # Frasier Crane Transcript Analysis
 
-A working analysis of the television show Frasier Crane.
+A working analysis of the television show Frasier Crane, presented in three
+acts.![](images/shocked.gif)
 
-This is an on-going project. If you would like to contribute, please see the
-Issues tab.
-
-![](images/shocked.gif)
+[ACT ONE: In A Sentimental Mood](analysis/actI.md)
