@@ -2,7 +2,7 @@
 # Les Frères Heureux Timbermill Chicken Chicken Chicken
 # https://www.reddit.com/r/Frasier/comments/4u4u6t/what_is_your_favorite_restaurant_from_frasier/
 lines %>%
-  filter(grepl('volant|chez chez|cochon noir|heureux|chez henri|Anya|happy brothers|chicken chicken', tolower(lines))) %>%
+  filter(grepl('san gennaro|bavetta|au pied de cochon|espalier|volant|chez chez|cochon noir|heureux|chez henri|Anya|happy brothers|chicken chicken', tolower(lines))) %>%
   count(character, sort = TRUE) %>%
   top_n(5, n)
 
