@@ -1,5 +1,3 @@
-In a ‘Sentimental Mood’
-================
 Chip Oglesby
 2018-04-20
 
@@ -17,8 +15,8 @@ the subtitles.
 
 Let’s get started:
 
-    tidySubtitles <- subtitles %>% 
-      unnest_tokens(word, text) %>% 
+    tidySubtitles <- subtitles %>%
+      unnest_tokens(word, text) %>%
       anti_join(stop_words)
 
 First we’ll unnest all of the words in our data frame and create tokens
@@ -28,9 +26,9 @@ Let’s look at the top ten words across all 11 seasons:
 
 ``` r
 tidySubtitles %>%
-  filter(!grepl('frasier|roz|daphne|martin|niles|dad|crane|dr', word)) %>% 
-  count(word, sort = TRUE) %>% 
-  top_n(10, n) %>% 
+  filter(!grepl('frasier|roz|daphne|martin|niles|dad|crane|dr', word)) %>%
+  count(word, sort = TRUE) %>%
+  top_n(10, n) %>%
   knitr::kable()
 ```
 
@@ -70,7 +68,7 @@ lexicon for sentiment analysis, we can then begin to get a picture of
 what some of the sentiment includes. Let’s take another look:
 
 ``` r
-God %>% 
+God %>%
   knitr::kable()
 ```
 
@@ -121,9 +119,9 @@ just single words.
 
 ``` r
 subtitles %>%
-  filter(season == 1) %>% 
+  filter(season == 1) %>%
   mutate(sentences = get_sentences(text)) %$%
-  sentiment_by(sentences, list(season, episode)) %>% 
+  sentiment_by(sentences, list(season, episode)) %>%
   knitr::kable()
 ```
 

@@ -9,6 +9,7 @@ library(subtools)
 library(rvest)
 library(viridis)
 library(hrbrthemes)
+library(sentimentr)
 
 # Run source files as needed
 source('code/rds/loadRDS.R')

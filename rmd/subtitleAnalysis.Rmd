@@ -1,8 +1,7 @@
 ---
-title: "In a 'Sentimental Mood'"
 author: "Chip Oglesby"
 date: "`r format(Sys.Date(), '%Y-%m-%d')`"
-output: 
+output:
   github_document:
     html_preview: FALSE
   pdf_document:
@@ -23,8 +22,8 @@ analysis on the subtitles.
 
 Let's get started:
 ```
-tidySubtitles <- subtitles %>% 
-  unnest_tokens(word, text) %>% 
+tidySubtitles <- subtitles %>%
+  unnest_tokens(word, text) %>%
   anti_join(stop_words)
 ```
 
@@ -35,15 +34,15 @@ Let's look at the top ten words across all 11 seasons:
 
 ```{r echo = TRUE, message = FALSE, warning = FALSE}
 tidySubtitles %>%
-  filter(!grepl('frasier|roz|daphne|martin|niles|dad|crane|dr', word)) %>% 
-  count(word, sort = TRUE) %>% 
-  top_n(10, n) %>% 
+  filter(!grepl('frasier|roz|daphne|martin|niles|dad|crane|dr', word)) %>%
+  count(word, sort = TRUE) %>%
+  top_n(10, n) %>%
   knitr::kable()
 ```
 
 After excluding some of the more common character names, this is our top
 ten list. We would expect words like time and call since Frasier's
-job is a radio host. 
+job is a radio host.
 
 I also suspect that "God" is commonly used by Frasier as
 one of his catch phrases "Oh My God!"
@@ -51,18 +50,18 @@ one of his catch phrases "Oh My God!"
 We'll know for sure once we've analyzed the transcripts, but let's take a peek:
 
 ```{r echo = FALSE, warnings = FALSE}
-subtitles %>% 
-  filter(grepl('god', tolower(text))) %>% 
-  count(text, sort = TRUE) %>% 
-  top_n(5, n) %>% 
+subtitles %>%
+  filter(grepl('god', tolower(text))) %>%
+  count(text, sort = TRUE) %>%
+  top_n(5, n) %>%
   knitr::kable()
 ```
 
-Adding the [`Bing`](https://www.tidytextmining.com/sentiment.html) lexicon for sentiment analysis, we can then begin to get a 
+Adding the [`Bing`](https://www.tidytextmining.com/sentiment.html) lexicon for sentiment analysis, we can then begin to get a
 picture of what some of the sentiment includes. Let's take another look:
 
 ```{r echo = TRUE, message = FALSE, warning = FALSE}
-God %>% 
+God %>%
   knitr::kable()
 ```
 
@@ -104,9 +103,9 @@ than just single words.
 
 ```{r echo = TRUE, warning = FALSE}
 subtitles %>%
-  filter(season == 1) %>% 
+  filter(season == 1) %>%
   mutate(sentences = get_sentences(text)) %$%
-  sentiment_by(sentences, list(season, episode)) %>% 
+  sentiment_by(sentences, list(season, episode)) %>%
   knitr::kable()
 ```
 
