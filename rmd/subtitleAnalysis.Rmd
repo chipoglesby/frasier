@@ -2,21 +2,75 @@
 title: "In a 'Sentimental Mood'"
 author: "Chip Oglesby"
 date: "`r format(Sys.Date(), '%Y-%m-%d')`"
-output: github_document
+output: 
+  github_document:
+    html_preview: FALSE
+  pdf_document:
+    toc: false
 ---
 
 ACT ONE: IN A SENTIMENTAL MOOD
 
-To begin our analysis, we will import all of the subtitles from
-the internet for the television show Frasier. This includes
+To begin our analysis, we will import all of the subtitles for the television show Frasier. This includes
 `r length(unique(subtitles$season))` seasons and
 `r length(unique(subtitles$episode)) * length(unique(subtitles$season))`
 episodes.
 
-To begin the analysis of subtitle information, the first thing that we need
-to do is to clean and merge data from `IMDB.com` and our subtitle files.
+After importing the files usings the [`subtools`](https://github.com/fkeck/subtools) package we will agument our data with information from `IMDB.com`.
 
-I will be creating new variables called `dateTimeIn` and `dateTimeOut`.
+We are using the `tidytext` package to perform a sentiment
+analysis on the subtitles.
+
+Let's get started:
+```
+tidySubtitles <- subtitles %>% 
+  unnest_tokens(word, text) %>% 
+  anti_join(stop_words)
+```
+
+First we'll unnest all of the words in our data frame and create tokens
+for each word using the code above.
+
+Let's look at the top ten words across all 11 seasons:
+
+```{r echo = TRUE, message = FALSE, warning = FALSE}
+tidySubtitles %>%
+  filter(!grepl('frasier|roz|daphne|martin|niles|dad|crane|dr', word)) %>% 
+  count(word, sort = TRUE) %>% 
+  top_n(10, n) %>% 
+  knitr::kable()
+```
+
+After excluding some of the more common character names, this is our top
+ten list. We would expect words like time and call since Frasier's
+job is a radio host. 
+
+I also suspect that "God" is commonly used by Frasier as
+one of his catch phrases "Oh My God!"
+
+We'll know for sure once we've analyzed the transcripts, but let's take a peek:
+
+```{r echo = FALSE, warnings = FALSE}
+subtitles %>% 
+  filter(grepl('god', tolower(text))) %>% 
+  count(text, sort = TRUE) %>% 
+  top_n(5, n) %>% 
+  knitr::kable()
+```
+
+Adding the [`Bing`](https://www.tidytextmining.com/sentiment.html) lexicon for sentiment analysis, we can then begin to get a 
+picture of what some of the sentiment includes. Let's take another look:
+
+```{r echo = TRUE, message = FALSE, warning = FALSE}
+God %>% 
+  knitr::kable()
+```
+
+Now that we've labled words into a binary fashion, `positive` or `negative` we
+can take this data and create an algorithm that will help us plot this
+information for a time-series analysis.
+
+To do that, I will create new variables called `dateTimeIn` and `dateTimeOut`.
 
 We can do this by using `dplyr` to mutate the information we have.
 
@@ -26,84 +80,37 @@ mutate(dateTimeIn = ymd_hms(paste0(originalAirDate, timecodeIn)),
        dateTimeOut = ymd_hms(paste0(originalAirDate, timecodeOut))
 ```
 
-This will take our date, `"1993-09-16"` and our timecodeOut, `"00:00:11"`
-and give us `"1993-09-16 00:00:11 UTC"`, which we can then use to plot our
-data.
+This will take our date, `r subtitles$originalAirDate[[1]]` and our timecodeOut, `r subtitles$timecodeOut[[1]]`
+and give us `r subtitles$dateTimeOut[[1]]`, which we can then use to plot our
+data for any episode and season.
 
-Additionally, we are using the `tidytext` package to perform an individual
-analysis on the subtitles. Let's take a look at some of our data:
-
-```
-tidySubtitles <- subtitles %>% 
-  unnest_tokens(word, text) %>% 
-  anti_join(stop_words)
-```
-
-First we'll unnest all of the words in our data frame and create tokens
-for each word. Let's look at the top ten words across all 11 seasons:
-
-|word   |    n|
-|:------|----:|
-|time   | 1710|
-|yeah   | 1703|
-|uh     | 1282|
-|hey    | 1253|
-|god    | 1050|
-|love   |  925|
-|night  |  868|
-|gonna  |  777|
-|people |  757|
-|call   |  746|
-
-After excluding some of the more common character names, this is our top
-ten list. We would expect words like time and call considering that Frasier's
-job is a radio host. I also suspect that "God" is commonly used by Frasier as
-one of his catch phrases "DEAR GOD!"
-
-Adding the `Bing` lexicon for sentiment analysis, we can then begin to get a 
-picture of what some of the sentiment includes. Let's take another look:
-
-|word      |sentiment |   n|
-|:---------|:---------|---:|
-|love      |positive  | 925|
-|nice      |positive  | 678|
-|fine      |positive  | 505|
-|excuse    |negative  | 440|
-|bad       |negative  | 437|
-|happy     |positive  | 375|
-|wrong     |negative  | 370|
-|hell      |negative  | 322|
-|ready     |positive  | 301|
-|wonderful |positive  | 285|
-
-Now that we've labled words into a binary fashion, positive and negative. We
-can take this data and create an algorithm that will help us plot this
-information:
-
-![](../images/wordSentiment.png)
+![](../images/minuteSentiment.png)
 
 In this graph, I'm using an algorithm that creates a minute difference between
 the first and last timestamp of each episode and then calcuates the polarity of
-words being spoken during each minute with `polarity = positive - negative` word
+words being spoken during each minute with `sentiment = positive - negative` word
 counts.
 
-```
-tidySubtitles %>% 
-  arrange(timecodeIn) %>% 
-  inner_join(bing) %>% 
-  mutate(minute = ceiling_date(ymd_hms(dateTimeOut), unit = "minutes")) %>% 
-  group_by(minute, season, episode) %>%
-  count(sentiment) %>% 
-  spread(sentiment, 
-         n, 
-         fill = 0) %>% 
-  mutate(sentiment = positive - negative) %>% 
-  group_by(season, episode) %>% 
-  summarize(sentiment = mean(sentiment))
-```
+Now we have our first visualization at the sentiment of words during each minute of the show.
 
 While the individual sentiment analysis of a word is interesting, what
 would be more interesting is the analysis of each sentence overall.
 
 To help with this, we'll use the `sentimentr` [package on Github](https://github.com/trinker/sentimentr).
 
+Now we can use the code below to get the over all average sentiment
+of each sentence which will give us a better calculation for sentiment
+than just single words.
+
+```{r echo = TRUE, warning = FALSE}
+subtitles %>%
+  filter(season == 1) %>% 
+  mutate(sentences = get_sentences(text)) %$%
+  sentiment_by(sentences, list(season, episode)) %>% 
+  knitr::kable()
+```
+
+When we break it out by minute, we can graph the average sentiment
+per minute:
+
+![](../images/timeSeriesSentimentSentences.png)
