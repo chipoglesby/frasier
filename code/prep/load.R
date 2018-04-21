@@ -1,6 +1,6 @@
 exclusions <- "skyline|dissolve|to|credits|title|they\'re|hallway|all|everyone|time|one|two|apartment|three|four|workplace|kacl|run|supra|switch|acres|africa|announcement|bangladesh|base|cabin|cafe|car|card|checkmate|chorus|club|computer|crew|date|here|hope|insert|listen|look|lounge"
 
-lines <- read_csv('data/csv/lines.csv',
+lines <- read_csv('data/csv/raw/lines.csv',
                   col_names = c('lines', 'seasonEpisode')) %>%
   mutate(character = (sapply(strsplit(trimws(lines), ":"), "[", 1)),
          lines = (sapply(strsplit(trimws(lines), ":"), "[", 2)),
@@ -17,8 +17,10 @@ lines <- read_csv('data/csv/lines.csv',
          nchar(character) >= 3) %>%
   mutate(lines = sub("(!)|(\\.)|(\\?)|(\\.)|(\\-){1,}", "", tolower(lines))) %>%
   mutate(lines = gsub("\\'|\\.|\\,|\\;|\\'", "", lines)) %>%
-  mutate(key = gsub("(\\s|)", "", lines),
-         key = gsub('[[:punct:]]', '', key))
+  filter(!is.na(lines)) %>% 
+  mutate(character = ifelse(character == 'Tewksbury', 
+                            'William Tewksbury', 
+                            character))
 
 # Quickly find top characters:
 characters <- lines %>%
@@ -44,7 +46,10 @@ lines %<>%
                             episode = "episode")) %>% 
   left_join(fullCastList, by = c('character' = 'firstName',
                          'season' = 'season',
-                         'episode' = 'episode')) %>% 
-  select(-key)
+                         'episode' = 'episode'))
+
+lines %>% 
+  write_csv("data/csv/clean/lines.csv") %>% 
+  saveRDS(., file = 'data/rds/lines.rds')
 
 rm(exclusions)
