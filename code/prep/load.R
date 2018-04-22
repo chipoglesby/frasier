@@ -1,6 +1,6 @@
 exclusions <- "skyline|dissolve|to|credits|title|they\'re|hallway|all|everyone|time|one|two|apartment|three|four|workplace|kacl|run|supra|switch|acres|africa|announcement|bangladesh|base|cabin|cafe|car|card|checkmate|chorus|club|computer|crew|date|here|hope|insert|listen|look|lounge"
 
-lines <- read_csv('data/csv/raw/lines.csv',
+transcripts <- read_csv('data/csv/raw/lines.csv',
                   col_names = c('lines', 'seasonEpisode')) %>%
   mutate(character = (sapply(strsplit(trimws(lines), ":"), "[", 1)),
          lines = (sapply(strsplit(trimws(lines), ":"), "[", 2)),
@@ -40,16 +40,24 @@ characterGender <- characters %>%
                          'female', gender)) %>% 
   ungroup()
 
-lines %<>%
-  inner_join(characterGender, by = "character") %>% 
+transcripts %<>% 
+  left_join(characterGender, by = "character") %>% 
   inner_join(seasons, by = c(season = "season",
                             episode = "episode")) %>% 
   left_join(fullCastList, by = c('character' = 'firstName',
                          'season' = 'season',
-                         'episode' = 'episode'))
+                         'episode' = 'episode')) %>% 
+  mutate(characterType = as.factor(ifelse(is.na(characterType), 
+                                "other", 
+                                as.character(characterType))),
+         gender = as.factor(ifelse(is.na(gender), "other", gender)))
 
-lines %>% 
-  write_csv("data/csv/clean/lines.csv") %>% 
-  saveRDS(., file = 'data/rds/lines.rds')
+transcripts %>% 
+  write_csv("data/csv/clean/transcripts.csv") %>% 
+  saveRDS(., file = 'data/rds/transcripts.rds')
 
 rm(exclusions)
+rm(missingMen)
+rm(missingWomen)
+rm(characters)
+rm(characterGender)

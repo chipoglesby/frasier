@@ -9,17 +9,17 @@ c("http://www.imdb.com/title/tt0106004/episodes?season=1",
   "http://www.imdb.com/title/tt0106004/episodes?season=9",
   "http://www.imdb.com/title/tt0106004/episodes?season=10",
   "http://www.imdb.com/title/tt0106004/episodes?season=11") %>% 
-  data.frame(stringsAsFactors = FALSE) -> episodeList
+  data.frame(stringsAsFactors = FALSE) -> seasonList
 
 fullCastList = NULL
-for (a in 1:length(episodeList$.)) {
-  episodeList$.[a] %>% 
+for (a in 1:length(seasonList$.)) {
+  seasonList$.[a] %>% 
     read_html() %>% 
     html_nodes('.list.detail.eplist strong a') %>% 
     html_attr('href') %>% 
-    data.frame() -> seasonList
-  for(b in 1:length(seasonList$.)){
-    paste0("http://www.imdb.com", seasonList$.[b]) %>% 
+    data.frame() -> episodeList
+  for(b in 1:length(episodeList$.)){
+    paste0("http://www.imdb.com", episodeList$.[b]) %>% 
       read_html() %>% 
       html_nodes(xpath = '//*[@id="titleCast"]/table') %>%
       html_table() %>% 
@@ -27,8 +27,8 @@ for (a in 1:length(episodeList$.)) {
       select(-X1, -X3) %>% 
       rename(actorName = X2,
              characterName = X4) %>% 
-      mutate(season = b,
-             episode = a) %>% 
+      mutate(episode = b,
+             season = a) %>% 
       rbind(.,fullCastList) -> fullCastList
   }
 }
@@ -36,7 +36,7 @@ for (a in 1:length(episodeList$.)) {
 fullCastList %<>% 
   filter(!grepl('episode|rest of', tolower(characterName))) %>%
   count(characterName) %>% 
-  inner_join(fullCastList) %>% 
+  inner_join(fullCastList) %>%
   mutate(actorName = trimws(actorName),
          characterName = trimws(
            gsub('/ ...|#|Dr.|\\n|Guest Caller - |\\(voice\\)|\\s{2,}|\\(.*\\)', '',

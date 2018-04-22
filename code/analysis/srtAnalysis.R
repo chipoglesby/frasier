@@ -54,7 +54,7 @@ subtitleSentiment <- tidySubtitles %>%
 
 ## Sentence Analysis
 # Prepare the dataframe
-subtitleSentiment <- subtitles %>%
+subtitleSentenceSentiment <- subtitles %>%
   get_sentences() %$%
   sentiment_by(text, list(season,
                           episode,

@@ -10,6 +10,7 @@ library(rvest)
 library(viridis)
 library(hrbrthemes)
 library(sentimentr)
+library(ggstance)
 
 # Run source files as needed
 source('code/rds/loadRDS.R')
