@@ -50,7 +50,11 @@ transcripts %<>%
   mutate(characterType = as.factor(ifelse(is.na(characterType), 
                                 "other", 
                                 as.character(characterType))),
-         gender = as.factor(ifelse(is.na(gender), "other", gender)))
+         gender = as.factor(ifelse(is.na(gender), "other", gender)),
+         act = NULL,
+         actName = NULL,
+         scene = NULL,
+         sceneLocation = NULL)
 
 transcripts %>% 
   write_csv("data/csv/clean/transcripts.csv") %>% 
