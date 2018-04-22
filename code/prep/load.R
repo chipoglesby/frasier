@@ -15,8 +15,8 @@ transcripts <- read_csv('data/csv/raw/lines.csv',
          character != "",
          grepl('^[A-Z{1,}].*', character),
          nchar(character) >= 3) %>%
-  mutate(lines = sub("(!)|(\\.)|(\\?)|(\\.)|(\\-){1,}", "", tolower(lines))) %>%
-  mutate(lines = gsub("\\'|\\.|\\,|\\;|\\'", "", lines)) %>%
+  # mutate(lines = sub("(!)|(\\.)|(\\?)|(\\.)|(\\-){1,}", "", tolower(lines))) %>%
+  # mutate(lines = gsub("\\'|\\.|\\,|\\;|\\'", "", lines)) %>%
   filter(!is.na(lines)) %>% 
   mutate(character = ifelse(character == 'Tewksbury', 
                             'William Tewksbury', 
