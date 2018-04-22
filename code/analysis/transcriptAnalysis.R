@@ -2,7 +2,6 @@ transcripts %>%
   unnest_tokens(word, lines, to_lower = TRUE) %>% 
   anti_join(stop_words) -> tidyTranscripts
 
-
 tidyTranscripts %>% 
   count(season, 
         episode, 
@@ -23,14 +22,14 @@ transcriptWordCount %>%
   mutate(word = factor(word, 
                        levels = rev(unique(word)))) -> temp
 
-temp2 <- temp %>% 
+temp %>% 
   group_by(character) %>% 
   summarize(test = n()) %>% 
   ungroup() %>% 
   mutate(test2 = sum(test)) %>% 
-  mutate(partTwo = test/test2)
+  mutate(partTwo = test/test2) -> temp2
 
-test <- temp %>% 
+temp %>% 
   group_by(word) %>% 
   mutate(count = n(), partOne = square/count) %>% 
   ungroup() %>% 
@@ -38,5 +37,4 @@ test <- temp %>%
   select(-test, -test2) %>% 
   mutate(final = partOne * partTwo) %>% 
   select(character, word, final) %>% 
-  arrange(character, final)
-
+  arrange(character, final) -> test
