@@ -43,7 +43,7 @@ tidySubtitles %>%
             size = .95, 
             show.legend = FALSE) +
   scale_x_datetime(date_breaks = "1 min",
-                   labels = date_format("%M")) +
+                   labels = scales::date_format("%M")) +
   xlab('Minute') +
   ylab('Sentiment') +
   ggtitle('Sentiment of words in Frasier: S1E1, by Minute')
@@ -87,7 +87,7 @@ tidySubtitles %>%
 
 ## Sentence Plots
 
-subtitleSentiment %>% 
+subtitleSentenceSentiment %>% 
   filter(season == 1, episode == 1) %>% 
   ggplot(aes(dateTimeOut, 
              ave_sentiment)) +
@@ -97,7 +97,7 @@ subtitleSentiment %>%
   ggtitle('Time Series Sentiment of Frasier: S1, E1')
 
 # Plot an entire season
-subtitleSentiment %>% 
+subtitleSentenceSentiment %>% 
   filter(season == 8) %>% 
   ggplot(aes(dateTimeOut, 
              ave_sentiment)) +
@@ -121,8 +121,9 @@ tidySubtitles %>%
   geom_col() +
   coord_flip() +
   facet_wrap(~season, scales = "free_y") +
-  labs(x = NULL) +
-  guides(fill = FALSE)
+  labs(x = NULL, y = NULL) +
+  guides(fill = FALSE) +
+  ggtitle("Top 10 Most Common Words By Season")
 
 
 ## TF-IDF
@@ -147,6 +148,7 @@ tidySubtitles %>%
 
 # Least Common Words overall
 tfIDF %>% 
+  top_n(15) %>% 
   ggplot(aes(tf_idf, word, fill = season, alpha = tf_idf)) +
   geom_barh(stat = "identity") +
   labs(title = "Highest tf-idf words in Frasier's Seasons",
