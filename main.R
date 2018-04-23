@@ -13,15 +13,15 @@ library(sentimentr)
 library(ggstance)
 
 # Run source files as needed
-source('code/rds/loadRDS.R')
+# source('code/rds/loadRDS.R')
 
 # If you want to run the scripts again:
-source('code/prep/imdbActorInfo.R')
-source('code/prep/seasonMetadata.R')
-source('code/prep/load.R')
-source('code/prep/loadSRT.R')
-source('code/prep/srtAnalysis.R')
-source('code/prep/analysis.R')
+# source('code/prep/imdbActorInfo.R')
+# source('code/prep/seasonMetadata.R')
+# source('code/prep/load.R')
+# source('code/prep/loadSRT.R')
+# source('code/prep/srtAnalysis.R')
+# source('code/prep/analysis.R')
 
 # Save your RDS files when done
-source('code/rds/saveRDS')
+# source('code/rds/saveRDS')

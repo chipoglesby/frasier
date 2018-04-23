@@ -99,3 +99,29 @@ transcripts %>%
   ggtitle('Line Share of Gender Types') +
   xlab('Gender') +
   ylab('Line Share')
+
+
+transcripts %>%
+  filter(characterType == 'main') %>% 
+  group_by(episodeCount,
+           characterName) %>% 
+  summarize(lines = n()) %>% 
+  ggplot(aes(episodeCount,
+             lines,
+             color = characterName)) +
+  geom_smooth(se = FALSE) +
+  xlab('Episode') +
+  ylab('Lines') +
+  ggtitle('Lines Per Main Character')
+
+transcripts %>%
+  group_by(episodeCount,
+           characterType) %>% 
+  summarize(lines = n()) %>% 
+  ggplot(aes(episodeCount,
+             lines,
+             color = characterType)) +
+  geom_smooth(se = FALSE) +
+  xlab('Episode') +
+  ylab('Lines') +
+  ggtitle('Lines Per Character Type')
