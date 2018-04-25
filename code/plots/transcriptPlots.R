@@ -70,6 +70,7 @@ transcripts %>%
   xlab('Character') +
   ylab('Line Share')
 
+# Line Share By Character Type
 transcripts %>%
   group_by(characterType) %>%
   summarize(lineCount = n(),
@@ -85,6 +86,7 @@ transcripts %>%
   xlab('Character Type') +
   ylab('Line Share')
 
+# Line Share By Gender
 transcripts %>%
   group_by(gender) %>%
   summarize(lineCount = n(),
@@ -100,7 +102,7 @@ transcripts %>%
   xlab('Gender') +
   ylab('Line Share')
 
-
+# Line Share By Main Character
 transcripts %>%
   filter(characterType == 'main') %>% 
   group_by(episodeCount,
@@ -114,18 +116,7 @@ transcripts %>%
   ylab('Lines') +
   ggtitle('Lines Per Main Character')
 
-transcripts %>%
-  group_by(episodeCount,
-           characterType) %>% 
-  summarize(lines = n()) %>% 
-  ggplot(aes(episodeCount,
-             lines,
-             color = characterType)) +
-  geom_smooth(se = FALSE) +
-  xlab('Episode') +
-  ylab('Lines') +
-  ggtitle('Lines Per Character Type')
-
+### Words
 # Top main words by main characters
 tidyTranscript %>% 
   group_by(characterName,
@@ -177,3 +168,16 @@ wordCountPerEpisode %>%
   ylab('Word Count') +
   ggtitle("Word Count Per Episode") +
   facet_wrap(~character)
+
+
+### Sentiment
+# Sentiment of Main Characters
+mainCharacterSentiment %>% 
+  ggplot(aes(episodeCount, 
+             sentiment)) +
+  geom_smooth() + 
+  geom_line() +
+  facet_wrap(~characterName) +
+  ylab('Sentiment') +
+  xlab('Episode') +
+  ggtitle('Frasier: Sentiment of Main Characters')

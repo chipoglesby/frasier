@@ -31,4 +31,14 @@ he has the most lines of the show, does it make sense that he would also have
 the most words per episode as well?
 
 ![](../images/wordCountPerEpisode.png)
-Frasier's word count per episode falls from `r wordCountPerEpisode$nn[wordCountPerEpisode$character == 'Frasier' & wordCountPerEpisode$episodeCount == 1]`
+Like with the subtitle analysis, we'll also dive into a unigram sentiment analysis to
+see which characters use the most positive and negative words in each episode.
+
+![](../images/sentimentOfMainCharacters.png)
+
+It's interesting to see that Niles and Frasier follow a similiar linear trend in the
+sentiment of their words. Frasier's largest use of negative words comes in episode 
+`r episodeLow`: `r episodeLowName` where he directs an old-timey radio show that
+turns into a disaster, while his largest uses of positive words comes in episode
+`r episodeHigh`: `r episodeHighName` where Daphne and Niles elope in Las Vegas
+and then stage a series of fake weddings.

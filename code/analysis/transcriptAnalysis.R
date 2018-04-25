@@ -1,5 +1,5 @@
 # Create Tidy Transcripts
-transcripts %>% 
+transcripts %>%
   unnest_tokens(word, 
                 lines,
                 to_lower = TRUE, 
@@ -8,6 +8,8 @@ transcripts %>%
 tidyTranscripts %>% 
   write_csv('data/csv/clean/tidyTranscripts.csv') %>% 
   saveRDS(., 'data/rds/tidyTranscripts.csv')
+
+## Words
 
 # Transcript Word Count
 tidyTranscripts %>% 
@@ -62,6 +64,39 @@ tidyTranscripts %>%
   mutate(percentTotal = n/sum(n)*100) %>% 
   filter(characterType == 'main') %>% 
   select(-characterType) -> individualUniqueWords
+
+
+## Sentiment Analysis
+tidyTranscripts %>% 
+  filter(characterType == 'main') %>% 
+  anti_join(stop_words) %>% 
+  inner_join(get_sentiments('bing'), "word") %>%
+  count(characterName, 
+        episodeCount, 
+        sentiment, 
+        sort = TRUE) %>%
+  mutate(sentiment = as.factor(sentiment)) %>%
+  spread(sentiment,
+         n,
+         fill = 0) %>% 
+  group_by(characterName, episodeCount) %>% 
+  summarize(sentiment = positive - negative) -> mainCharacterSentiment
+
+mainCharacterSentiment$episodeCount[
+  mainCharacterSentiment$sentiment == 
+    min(mainCharacterSentiment$sentiment, 
+        mainCharacterSentiment$characterName == 'Frasier Crane')][1] -> episodeLow
+
+unique(transcripts$title[transcripts$episodeCount == episodeLow]) -> episodeLowName
+
+mainCharacterSentiment$episodeCount[
+  mainCharacterSentiment$sentiment == 
+    max(mainCharacterSentiment$sentiment, 
+        mainCharacterSentiment$characterName == 'Frasier Crane')][1] -> episodeHigh
+
+unique(
+  transcripts$title[
+    transcripts$episodeCount == episodeHigh]) -> episodeHighName
 
 ## In progress: Most unique words:
 # transcriptWordCount %>% 
