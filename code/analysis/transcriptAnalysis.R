@@ -1,6 +1,13 @@
 # Create Tidy Transcripts
 transcripts %>% 
-  unnest_tokens(word, lines, to_lower = TRUE) -> tidyTranscripts
+  unnest_tokens(word, 
+                lines,
+                to_lower = TRUE, 
+                drop = FALSE) -> tidyTranscripts
+
+tidyTranscripts %>% 
+  write_csv('data/csv/clean/tidyTranscripts.csv') %>% 
+  saveRDS(., 'data/rds/tidyTranscripts.csv')
 
 # Transcript Word Count
 tidyTranscripts %>% 
