@@ -125,3 +125,55 @@ transcripts %>%
   xlab('Episode') +
   ylab('Lines') +
   ggtitle('Lines Per Character Type')
+
+# Top main words by main characters
+tidyTranscript %>% 
+  group_by(characterName,
+           characterType,
+           word) %>% 
+  summarize(wordCount = n()) %>%
+  ungroup() %>% 
+  mutate(percent = wordCount/sum(wordCount)) %>% 
+  arrange(desc(percent)) %>% 
+  group_by(characterName) %>% 
+  top_n(10, wordCount) %>%
+  filter(characterType == 'main') %>% 
+  ggplot(aes(word, wordCount)) +
+  geom_bar(stat = 'identity') +
+  facet_wrap(~characterName, scales = 'free') +
+  xlab('Word Count') +
+  ylab('Word') +
+  ggtitle('Top Words By Main Characters')
+
+# Mean Words Per Character
+tidyTranscript %>% 
+  distinct(characterName, 
+           characterType,
+           episodeCount,
+           word) %>% 
+  mutate(meanLettersPerWord = nchar(word)) %>% 
+  group_by(characterName,
+           characterType,
+           episodeCount) %>% 
+  summarize(meanLettersPerWord = mean(meanLettersPerWord)) %>% 
+  arrange(desc(meanLettersPerWord)) %>% 
+  filter(characterType == 'main') %>% 
+  # spread(episodeCount, meanLettersPerWord, fill = 0) -> meanLettersPerWord
+  ggplot(aes(episodeCount, meanLettersPerWord, color = characterName)) +
+  geom_smooth(se = FALSE) +
+  xlab('Episode') +
+  ylab('Mean Letters Per Word') +
+  ggtitle('Mean Letters Per Word By Character')
+
+# Word Count Per Episode
+wordCountPerEpisode %>% 
+  filter(character == 'Frasier') %>% 
+  ggplot(aes(episodeCount, 
+             nn,
+             color = character)) +
+  geom_smooth() +
+  geom_line() +
+  xlab('Episode') +
+  ylab('Word Count') +
+  ggtitle("Word Count Per Episode") +
+  facet_wrap(~character)

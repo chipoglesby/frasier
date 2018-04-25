@@ -1,0 +1,34 @@
+---
+title: "E Tu Eddie?"
+author: "Chip Oglesby"
+date: "`r format(Sys.Date(), '%Y-%m-%d')`"
+output: github_document
+---
+
+In this part of our analysis we will take a deeper dive of the 
+television show Frasier.
+
+If you've seen Frasier before, you know the the show is led by
+main characters: Frasier Crane, is brother Niles Crane, his father
+Martin Crane, his father's caregiver and Niles' future wife, Daphne
+Crane and Frasier's coworker Roz Doyle.
+
+Let's begin by taking a look at the line share of these main characters:
+
+![](../images/linesPerMainCharacter.png)
+
+Overall `r characterTotals$characterName[characterTotals$percentTotal == max(characterTotals$percentTotal)]` carries `r paste0(round(characterTotals$percentTotal[characterTotals$percentTotal == max(characterTotals$percentTotal)], 2), "%")` of all lines, almost twice
+as many as any other character on the show.
+
+The line share of characters outside of the main five continued to grow
+throughout the entire 11 seasons.
+
+![](../images/linesPerCharacterType.png)
+
+
+Since Frasier is the main character of the show and we've already seen that
+he has the most lines of the show, does it make sense that he would also have
+the most words per episode as well?
+
+![](../images/wordCountPerEpisode.png)
+Frasier's word count per episode falls from `r wordCountPerEpisode$nn[wordCountPerEpisode$character == 'Frasier' & wordCountPerEpisode$episodeCount == 1]`

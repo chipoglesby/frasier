@@ -3,17 +3,17 @@ library(sentimentr)
 library(magrittr)
 library(tidyverse)
 
-sentenceSentiment <- lines %>%
+transcripts %>%
   get_sentences() %$%
   sentiment_by(lines, list(season, 
                            episode, 
                            character, 
                            gender, 
                            characterType)) %>% 
-  arrange(desc(word_count))
+  arrange(desc(word_count)) -> sentenceSentiment
 
 sentenceSentiment %>% 
-  filter(grepl('frasier|daphne|roz|niles|martin|bulldog', tolower(character))) %>%
+  filter(characterType == 'main') %>%
   group_by(season, character) %>% 
   summarize(ave_sentiment = median(ave_sentiment)) %>% 
   ggplot(aes(season, ave_sentiment, color = character)) +
@@ -25,7 +25,7 @@ sentenceSentiment %>%
   ggtitle('Median Sentence Sentiment Per Season of Main Characters')
 
 sentenceSentiment %>% 
-  filter(grepl('frasier|daphne|roz|niles|martin|bulldog', tolower(character))) %>%
+  filter(characterType == 'main') %>%
   group_by(season, character) %>% 
   summarize(ave_sentiment = median(ave_sentiment)) %>% 
   spread(character, ave_sentiment, fill = 0) %>% 
