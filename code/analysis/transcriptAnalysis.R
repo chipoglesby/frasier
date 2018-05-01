@@ -98,6 +98,31 @@ unique(
   transcripts$title[
     transcripts$episodeCount == episodeHigh]) -> episodeHighName
 
+# Main Character's Distinguishing Words
+tidyTranscripts %>% 
+  filter(characterType == 'main') %>% 
+  anti_join(stop_words) %>%
+  count(character, 
+        word, 
+        sort = TRUE) %>% 
+  group_by(word) %>%
+  mutate(totalTimesSaid = sum(n)) %>%
+  ungroup() %>% 
+  mutate(percentage = n/totalTimesSaid * n) %>% 
+  group_by(character) %>%
+  mutate(characterSpoken = n()) %>% 
+  ungroup() %>% 
+  mutate(anyoneSpoken = n(),
+         uniquenessOfWord = percentage * anyoneSpoken/characterSpoken) %>% 
+  group_by(word) %>% 
+  top_n(1, uniquenessOfWord) %>% 
+  ungroup() %>% 
+  group_by(character) %>% 
+  top_n(5, uniquenessOfWord) %>% 
+  ungroup() %>% 
+  select(character, word, uniquenessOfWord) %>% 
+  arrange(character, desc(uniquenessOfWord)) -> distinguishingWords
+
 ## In progress: Most unique words:
 # transcriptWordCount %>% 
 #   select(-n) %>% 

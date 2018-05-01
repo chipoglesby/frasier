@@ -181,3 +181,160 @@ mainCharacterSentiment %>%
   ylab('Sentiment') +
   xlab('Episode') +
   ggtitle('Frasier: Sentiment of Main Characters')
+
+
+## Working:
+tidyTranscripts %>% 
+  filter(characterType == 'main') %>% 
+  count(characterName, 
+        season) %>% 
+  ggplot(aes(season, 
+             n, 
+             fill = characterName)) +
+  geom_bar(stat = 'identity', 
+           show.legend = FALSE) +
+  scale_x_continuous(
+    breaks = c(1:max(tidyTranscripts$season))) +
+  facet_wrap(~characterName) +
+  ggtitle('Total Words Per Main Character') +
+  xlab('Season') +
+  ylab('Word Count')
+
+tidyTranscripts %>%
+  filter(gender != 'other') %>% 
+  count(gender, 
+        season) %>% 
+  ggplot(aes(season, 
+             n, 
+             fill = gender)) +
+  geom_bar(stat = 'identity', 
+           show.legend = FALSE) +
+  scale_x_continuous(
+    breaks = c(1:max(tidyTranscripts$season))) +
+  facet_wrap(~gender) +
+  ggtitle('Total Words Per Gender') +
+  xlab('Season') +
+  ylab('Word Count')
+
+
+tidyTranscripts %>%
+  filter(characterType != 'other') %>% 
+  count(characterType, 
+        season) %>% 
+  ggplot(aes(season, 
+             n, 
+             fill = characterType)) +
+  geom_bar(stat = 'identity', 
+           show.legend = FALSE) +
+  scale_x_continuous(
+    breaks = c(1:max(tidyTranscripts$season))) +
+  facet_wrap(~characterType) +
+  ggtitle('Total Words Per Character Type') +
+  xlab('Season') +
+  ylab('Word Count')
+
+
+tidyTranscripts %>% 
+  filter(characterType != 'other') %>% 
+  count(characterName, 
+        episodeCount) %>% 
+  ggplot(aes(episodeCount, 
+             n, 
+             color = characterName)) +
+  # geom_bar(stat = 'identity', 
+  #         show.legend = FALSE) +
+  geom_smooth(se = FALSE, method = 'lm', show.legend = FALSE) +
+  # scale_x_continuous(
+  #  breaks = c(1:max(tidyTranscripts$episodeCount))) +
+  facet_wrap(~characterName) +
+  ggtitle('Total Words Per Main Character') +
+  xlab('episodeCount') +
+  ylab('Word Count')
+
+tidyTranscripts %>%
+  filter(gender != 'other') %>% 
+  count(gender, 
+        episodeCount) %>% 
+  ggplot(aes(episodeCount, 
+             n, 
+             color = gender)) +
+  # geom_bar(stat = 'identity', 
+  #          show.legend = FALSE) +
+  # scale_x_continuous(
+  #   breaks = c(1:max(tidyTranscripts$episodeCount))) +
+  geom_smooth(se = FALSE, method = 'lm') +
+  facet_wrap(~gender) +
+  ggtitle('Total Words Per Gender') +
+  xlab('episodeCount') +
+  ylab('Word Count')
+
+
+tidyTranscripts %>%
+  filter(characterType != 'other') %>% 
+  count(characterType, 
+        episodeCount) %>% 
+  ggplot(aes(episodeCount, 
+             n, 
+             color = characterType)) +
+  # geom_bar(stat = 'identity', 
+  #          show.legend = FALSE) +
+  # scale_x_continuous(
+  #   breaks = c(1:max(tidyTranscripts$episodeCount))) +
+  geom_smooth(se = FALSE, method = 'lm') +
+  facet_wrap(~characterType) +
+  ggtitle('Total Words Per Character Type') +
+  xlab('episodeCount') +
+  ylab('Word Count')
+
+tidyTranscripts %>% 
+  filter(!is.na(characterName)) %>% 
+  group_by(characterName) %>% 
+  summarize(n = n_distinct(season)) %>% 
+  arrange(desc(n)) %>% 
+  filter(n >= 8) %>% 
+  left_join(tidyTranscripts) %>% 
+  select(-n) %>% 
+  count(characterName, 
+        season) %>% 
+  ggplot(aes(season, 
+             n, 
+             fill = characterName)) +
+  geom_bar(stat = 'identity',
+           show.legend = FALSE) + 
+  geom_smooth(se = FALSE, 
+              show.legend = FALSE) +
+  facet_wrap(~characterName, scales = 'free') +
+  ggtitle('Total Words Per Main Character') +
+  xlab('season') +
+  ylab('Word Count')
+
+# Character Mentions by Name - Excluding self references
+tidyTranscripts %>% 
+  filter(characterType == 'main') %>% 
+  anti_join(stop_words) %>%
+  mutate(word = ifelse(word == 'dad', 'martin', word)) %>% 
+  count(character, 
+        word, 
+        sort = TRUE) %>%
+  mutate(n = ifelse(tolower(character) == word, 0, n)) %>% 
+  spread(character, 
+         n, 
+         fill = 0) %>%
+  mutate(total = Daphne + Frasier + Martin + Niles + Roz) %>% 
+  arrange(desc(total)) %>% 
+  filter(grepl('^(martin|frasier|niles|roz|daphne)$', word))
+
+
+# Character Mentions by Name - Excluding self references
+tidyTranscripts %>% 
+  filter(characterType == 'main') %>% 
+  anti_join(stop_words) %>%
+  mutate(word = ifelse(word == 'dad', 'martin', word)) %>% 
+  count(character, 
+        word, 
+        sort = TRUE) %>%
+  mutate(n = ifelse(tolower(character) == word, 0, n)) %>% 
+  filter(grepl('^(martin|frasier|niles|roz|daphne)$', word)) %>% 
+  ggplot(aes(word, n, fill = character)) +
+  geom_bar(stat = 'identity') +
+  facet_wrap(~character)
