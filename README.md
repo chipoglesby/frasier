@@ -24,12 +24,12 @@ and IMDB ratings as well.
 
 I'd like to thank:
 
-* The people who built the (kacl780.net)[http://www.kacl780.net]
-* Github user (@necrko)[https://github.com/neckro/frasier] who scraped the KACL site
-* Julia Silge & David Robinson for their creation of the (`tidytext`)(https://www.tidytextmining.com/) package.
-* Github user (@fkeck)(https://github.com/fkeck/subtools) for the `subtools` package.
+* The people who built the [kacl780.net](http://www.kacl780.net)
+* Github user [@necrko](https://github.com/neckro/frasier) who scraped the KACL site
+* Julia Silge & David Robinson for their creation of the [`tidytext`](https://www.tidytextmining.com/) package.
+* Github user [@fkeck](https://github.com/fkeck/subtools) for the `subtools` package.
 
 ## Other notes
-The data is available in this repo, as well as on (data.word)[https://data.world/chipoglesby/frasier-crane-television-transcripts]. 
+The data is available in this repo, as well as on [data.word](https://data.world/chipoglesby/frasier-crane-television-transcripts). 
 There's more work that I would like to do to augment the transcript data in the future. I'd like to include
 more scene information and who the charactcter is speaking to.
