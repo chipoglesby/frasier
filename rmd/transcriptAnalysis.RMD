@@ -1,0 +1,94 @@
+---
+title: "E Tu Eddie?"
+author: "Chip Oglesby"
+date: "`r format(Sys.Date(), '%Y-%m-%d')`"
+output:
+  github_document:
+    html_preview: FALSE
+  pdf_document:
+    toc: false
+---
+
+In this part of our analysis we will take a deeper dive of the 
+television show Frasier.
+
+If you've seen Frasier before, you know the the show is led by
+main characters: Frasier Crane, is brother Niles Crane, his father
+Martin Crane, his father's caregiver and Niles' future wife, Daphne
+Crane and Frasier's coworker Roz Doyle.
+
+Let's begin by taking a look at the line share of these main characters:
+
+![](../images/linesPerMainCharacter.png)
+
+Overall `r characterTotals$characterName[characterTotals$percentTotal == max(characterTotals$percentTotal)]` carries `r paste0(round(characterTotals$percentTotal[characterTotals$percentTotal == max(characterTotals$percentTotal)], 2), "%")` of all lines, almost twice
+as many as any other character on the show.
+
+The line share of characters outside of the main five continued to grow
+throughout the entire 11 seasons.
+
+![](../images/linesPerCharacterType.png)
+
+
+Since Frasier is the main character of the show and we've already seen that
+he has the most lines of the show, does it make sense that he would also have
+the most words per episode as well?
+
+![](../images/wordCountPerEpisode.png)
+Like with the subtitle analysis, we'll also dive into a unigram sentiment analysis to
+see which characters use the most positive and negative words in each episode.
+
+![](../images/sentimentOfMainCharacters.png)
+
+It's interesting to see that Niles and Frasier follow a similiar linear trend in the
+sentiment of their words. Frasier's largest use of negative words comes in episode 
+`r episodeLow`: `r episodeLowName` where he directs an old-timey radio show that
+turns into a disaster, while his largest uses of positive words comes in episode
+`r episodeHigh`: `r episodeHighName` where Daphne and Niles elope in Las Vegas
+and then stage a series of fake weddings.
+
+## Average Word Length
+
+Another way that we may judge our characters is to look at the average length
+of words that they use:
+
+`r meanLetterPerWord %>% knitr::kable()`
+
+Here we can see that `r meanLetterPerWord$characterName[[1]]` comes in first with an average of `r round(meanLetterPerWord$meanLetterPerWord[[1]], 2)` characters per word, followed by `r meanLetterPerWord$characterName[[2]]` and
+`r meanLetterPerWord$characterName[[nrow(meanLetterPerWord)]]` coming in last. `r meanLetterPerWord$characterName[[nrow(meanLetterPerWord)]]` uses more words like
+**`r tidyTranscripts$word[tidyTranscripts$characterName == meanLetterPerWord$characterName[[nrow(meanLetterPerWord)]]][[408]]`** instead of some of the more high-brow words like `r meanLetterPerWord$characterName[[1]]`.
+
+## Is Frasier the star of his own show?
+
+We know from previous charts that Frasier carries the majority of the dialouge 
+across the entire show, but is he the most mentioned? For that let's turn back
+to our `tidytext` analysis.
+
+```{r echo = FALSE, warnings = FALSE}
+mostMentionedMainCharacter %>% 
+  group_by(word) %>% 
+  summarize(count = sum(n)) %>% 
+  arrange(desc(count)) %>% 
+  knitr::kable()
+```
+
+That's interesting that Niles would rank above Frasier in overall mentions.
+Let's look into who is mentioning whom between main characters.
+
+```{r, echo = FALSE, warning = FALSE, message = FALSE}
+mostMentionedMainCharacter %>% 
+  group_by(character, word) %>% 
+  summarize(count = sum(n)) %>% 
+  arrange(desc(count)) %>% 
+  spread(word, count, fill = 0) %>% 
+  arrange(desc(niles)) %>% 
+  knitr::kable()
+```
+
+Here we find that Fraiser has mentioned Niles 
+`r mostMentionedMainCharacter$n[mostMentionedMainCharacter$character == 'Frasier' & mostMentionedMainCharacter$word == 'niles']` times compared Niles' mentions of Frasier at `r mostMentionedMainCharacter$n[mostMentionedMainCharacter$character == 'Niles' & mostMentionedMainCharacter$word == 'frasier']`. 
+The data for Daphne is a bit skewed since she refers to both 
+brothers as Dr. Crane for many of the episodes. I've also removed self-references from main characters.
+
+## Top Positive & Negative Words
+![](../images/transcriptSentimentWords.png)

@@ -1,7 +1,12 @@
+# Assign exclusions for specific character names from bash scripts.
 exclusions <- "skyline|dissolve|to|credits|title|they\'re|hallway|all|everyone|time|one|two|apartment|three|four|workplace|kacl|run|supra|switch|acres|africa|announcement|bangladesh|base|cabin|cafe|car|card|checkmate|chorus|club|computer|crew|date|here|hope|insert|listen|look|lounge"
 
-transcripts <- read_csv('data/csv/raw/lines.csv',
-                  col_names = c('lines', 'seasonEpisode')) %>%
+# Assign character genders
+missingMen <- 'santa|waiter|officer|guard|degas|freud|fras|husband|repairman|dad|father|workman|boys|patrolman|batman|bulldog'
+missingWomen <- 'waitress|hostess|woman|mother|cheerleader|maid|women|mom|mum'
+
+read_csv('data/csv/raw/lines.csv',
+         col_names = c('lines', 'seasonEpisode')) %>%
   mutate(character = (sapply(strsplit(trimws(lines), ":"), "[", 1)),
          lines = (sapply(strsplit(trimws(lines), ":"), "[", 2)),
          lines = gsub('(\\[.*\\])', '', trimws(lines)),
@@ -15,22 +20,18 @@ transcripts <- read_csv('data/csv/raw/lines.csv',
          character != "",
          grepl('^[A-Z{1,}].*', character),
          nchar(character) >= 3) %>%
-  mutate(lines = sub("(!)|(\\.)|(\\?)|(\\.)|(\\-){1,}", "", tolower(lines))) %>%
-  mutate(lines = gsub("\\'|\\.|\\,|\\;|\\'", "", lines)) %>%
+  # mutate(lines = sub("(!)|(\\.)|(\\?)|(\\.)|(\\-){1,}", "", tolower(lines))) %>%
+  # mutate(lines = gsub("\\'|\\.|\\,|\\;|\\'", "", lines)) %>%
   filter(!is.na(lines)) %>% 
   mutate(character = ifelse(character == 'Tewksbury', 
                             'William Tewksbury', 
-                            character))
+                            character)) -> transcripts
 
 # Quickly find top characters:
-characters <- lines %>%
-  count(character, sort = TRUE) 
+transcripts %>%
+  count(character, sort = TRUE) -> characters
 
-# Assign character genders
-missingMen <- 'santa|waiter|officer|guard|degas|freud|fras|husband|repairman|dad|father|workman|boys|patrolman|batman|bulldog'
-missingWomen <- 'waitress|hostess|woman|mother|cheerleader|maid|women|mom|mum'
-
-characterGender <- characters %>%
+characters %>%
   distinct(character) %>%
   group_by(character) %>%
   mutate(gender = gender(character)$gender[1]) %>%
@@ -38,7 +39,7 @@ characterGender <- characters %>%
                          "male", gender)) %>%
   mutate(gender = ifelse(grepl(missingWomen, tolower(character)),
                          'female', gender)) %>% 
-  ungroup()
+  ungroup() -> characterGender
 
 transcripts %<>% 
   left_join(characterGender, by = "character") %>% 
@@ -50,7 +51,20 @@ transcripts %<>%
   mutate(characterType = as.factor(ifelse(is.na(characterType), 
                                 "other", 
                                 as.character(characterType))),
-         gender = as.factor(ifelse(is.na(gender), "other", gender)))
+         gender = as.factor(ifelse(is.na(gender), "other", gender)),
+         act = NULL,
+         actName = NULL,
+         scene = NULL,
+         sceneLocation = NULL) %>% 
+  arrange(season, episode)
+
+transcripts %>% 
+  distinct(season,
+           episode) %>% 
+  mutate(episodeCount = row_number()) -> episodeCount
+
+transcripts %<>%
+  inner_join(episodeCount)
 
 transcripts %>% 
   write_csv("data/csv/clean/transcripts.csv") %>% 
@@ -61,3 +75,4 @@ rm(missingMen)
 rm(missingWomen)
 rm(characters)
 rm(characterGender)
+rm(episodeCount)

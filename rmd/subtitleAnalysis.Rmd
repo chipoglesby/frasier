@@ -1,4 +1,5 @@
 ---
+title: "In A Sentimental Mood"
 author: "Chip Oglesby"
 date: "`r format(Sys.Date(), '%Y-%m-%d')`"
 output:
@@ -22,9 +23,9 @@ analysis on the subtitles.
 
 Let's get started:
 ```
-tidySubtitles <- subtitles %>%
+subtitles %>%
   unnest_tokens(word, text) %>%
-  anti_join(stop_words)
+  anti_join(stop_words) -> tidySubtitles
 ```
 
 First we'll unnest all of the words in our data frame and create tokens

@@ -1,105 +1,139 @@
-# "Le Cigare Volant" (The Flying Cigar), "Chez Chez" and "Le Cochon Noir"
-# Les Frères Heureux Timbermill Chicken Chicken Chicken
-# https://www.reddit.com/r/Frasier/comments/4u4u6t/what_is_your_favorite_restaurant_from_frasier/
+# Create Tidy Transcripts
 transcripts %>%
-  filter(grepl('san gennaro|bavetta|au pied de cochon|espalier|volant|chez chez|cochon noir|heureux|chez henri|Anya|happy brothers|chicken chicken', tolower(lines))) %>%
-  count(character, sort = TRUE) %>%
-  top_n(5, n) -> favoriteResturants
+  unnest_tokens(word, 
+                lines,
+                to_lower = TRUE, 
+                drop = FALSE) -> tidyTranscripts
 
-# Who talks about Sherry?
-transcripts %>%
-  filter(grepl('sherry', tolower(lines))) %>%
-  count(character, sort = TRUE) %>%
-  top_n(5, n) -> sherryReferences
+tidyTranscripts %>% 
+  write_csv('data/csv/clean/tidyTranscripts.csv') %>% 
+  saveRDS(., 'data/rds/tidyTranscripts.csv')
 
-# Who talks about Coffee?
-transcripts %>%
-  filter(grepl('coffee|café|latte|nutmeg|nervosa', tolower(lines))) %>%
-  count(character, sort = TRUE) %>%
-  top_n(5, n) -> coffeReferences
+## Words
 
-# Who talks about Eddie??
-transcripts %>%
-  filter(grepl('eddie', tolower(lines))) %>%
-  count(character, sort = TRUE) %>%
-  top_n(5, n) -> edditReferences
+# Transcript Word Count
+tidyTranscripts %>% 
+  count(season, 
+        episode, 
+        episodeCount,
+        character,
+        characterType,
+        gender,
+        word) -> transcriptWordCount
 
-# Who talks about beer?
-transcripts %>%
-  filter(grepl('beer', tolower(lines))) %>%
-  count(character, sort = TRUE) %>%
-  top_n(5, n) -> beerReferences
+# Mean Letter Per Word
+transcripts %>% 
+  filter(characterType == 'main') %>% 
+  unnest_tokens(word, lines) %>% 
+  group_by(characterName, word) %>%
+  mutate(lpw = nchar(word)) %>% 
+  select(characterName, word, lpw) %>% 
+  group_by(characterName) %>% 
+  summarize(meanLetterPerWord = mean(lpw)) %>% 
+  arrange(desc(meanLetterPerWord)) -> meanLetterPerWord
 
-# Who talks about Opera?
-transcripts %>%
-  filter(grepl('opera|theatre|theater', tolower(lines))) %>%
-  count(character, sort = TRUE) %>%
-  top_n(5, n) -> operaReferences
+# Total Line Count Per Episode
+transcripts %>% 
+  group_by(characterName,
+           episodeCount,
+           characterType) %>% 
+  summarize(lines = n()) %>% 
+  arrange(desc(lines)) %>% 
+  ungroup() -> lineCount
 
-# Who talks about Roz?
-transcripts %>%
-  filter(grepl('roz', tolower(lines))) %>%
-  count(character, sort = TRUE) %>%
-  top_n(5, n) -> rozReferences
+# Line Count Percent of Total Share
+lineCount %>% 
+  group_by(characterName,
+           characterType) %>% 
+  summarize(count = sum(lines)) %>% 
+  arrange(desc(count)) %>% 
+  ungroup() %>% 
+  mutate(percentTotal = count/sum(count)*100) -> characterTotals
 
-# Who talks about Daphne?
-transcripts %>%
-  filter(grepl('daphne', tolower(lines))) %>%
-  count(character, sort = TRUE) %>%
-  top_n(5, n) -> daphneReferences
+# Word Count Per Episode
+transcriptWordCount %>% 
+  filter(characterType == 'main') %>% 
+  anti_join(stop_words) %>% 
+  count(character, episodeCount, sort = TRUE) -> wordCountPerEpisode
 
-# Who talks about Maris?
-transcripts %>%
-  filter(grepl('maris', tolower(lines))) %>%
-  count(character, sort = TRUE) %>%
-  top_n(5, n) -> marisReferences
+# Who spoke the most distinct words?
+tidyTranscripts %>% 
+  anti_join(stop_words) %>% 
+  distinct(character, characterType, word) %>% 
+  count(character, characterType, sort = TRUE) %>% 
+  mutate(percentTotal = n/sum(n)*100) %>% 
+  filter(characterType == 'main') %>% 
+  select(-characterType) -> individualUniqueWords
 
-# Who talks about Lilith?
-transcripts %>%
-  filter(grepl('lilith', tolower(lines))) %>%
-  count(character, sort = TRUE) %>%
-  top_n(5, n) -> lilithReferences
 
-# Which brother introduces themselves as doctor?
-transcripts %>%
-  filter(grepl('dr|doctor',
-               tolower(lines)),
-         grepl('frasier|niles',
-               tolower(character))) %>%
-  count(character, sort = TRUE) -> drReferences
+## Sentiment Analysis
+tidyTranscripts %>% 
+  filter(characterType == 'main') %>% 
+  anti_join(stop_words) %>% 
+  inner_join(get_sentiments('bing'), "word") %>%
+  count(characterName, 
+        episodeCount, 
+        sentiment, 
+        sort = TRUE) %>%
+  mutate(sentiment = as.factor(sentiment)) %>%
+  spread(sentiment,
+         n,
+         fill = 0) %>% 
+  group_by(characterName, episodeCount) %>% 
+  summarize(sentiment = positive - negative) -> mainCharacterSentiment
 
-# Who talks about mom the most?
-# Which brother introduces themselves as doctor?
-transcripts %>%
-  filter(grepl('mom|mother',
-               tolower(lines)),
-         grepl('frasier|niles|martin',
-               tolower(character))) %>%
-  count(character, sort = TRUE) -> momReferences
+mainCharacterSentiment$episodeCount[
+  mainCharacterSentiment$sentiment == 
+    min(mainCharacterSentiment$sentiment, 
+        mainCharacterSentiment$characterName == 'Frasier Crane')][1] -> episodeLow
 
-# How many times does frasier say hello seattle or I'm listening?
-transcripts %>%
-  filter(grepl('i\'m listening|good mental health|wishing you',
-               tolower(lines)),
-         grepl('frasier',
-               tolower(character))) %>%
-  count(character, sort = TRUE) -> listeningReferences
+unique(transcripts$title[transcripts$episodeCount == episodeLow]) -> episodeLowName
 
-# Is Frasier the only one who says DEAR GOD
-transcripts %>%
-  filter(grepl('dear god', tolower(lines))) %>%
-  count(character, sort = TRUE) %>%
-  top_n(5, n) -> godReferences
+mainCharacterSentiment$episodeCount[
+  mainCharacterSentiment$sentiment == 
+    max(mainCharacterSentiment$sentiment, 
+        mainCharacterSentiment$characterName == 'Frasier Crane')][1] -> episodeHigh
 
-transcripts %>%
-  filter(!is.na(lines),
-         grepl('frasier|roz|daphne|martin|niles|bulldog', 
-               tolower(character))) %>%
-  unnest_tokens(word, lines) %>%
+unique(
+  transcripts$title[
+    transcripts$episodeCount == episodeHigh]) -> episodeHighName
+
+# Main Character's Distinguishing Words
+tidyTranscripts %>% 
+  filter(characterType == 'main') %>% 
   anti_join(stop_words) %>%
-  count(character, word, sort = TRUE) %>%
-  arrange(desc(n)) %>% 
-  filter(n > 500) %>%
-  ggplot(aes(n, word)) +
-  geom_barh(stat = 'identity') +
-  facet_wrap(~character, scales = 'free')
+  count(character, 
+        word, 
+        sort = TRUE) %>% 
+  group_by(word) %>%
+  mutate(totalTimesSaid = sum(n)) %>%
+  ungroup() %>% 
+  mutate(percentage = n/totalTimesSaid * n) %>% 
+  group_by(character) %>%
+  mutate(characterSpoken = n()) %>% 
+  ungroup() %>% 
+  mutate(anyoneSpoken = n(),
+         uniquenessOfWord = percentage * anyoneSpoken/characterSpoken) %>% 
+  group_by(word) %>% 
+  top_n(1, uniquenessOfWord) %>% 
+  ungroup() %>% 
+  group_by(character) %>% 
+  top_n(5, uniquenessOfWord) %>% 
+  ungroup() %>% 
+  select(character, word, uniquenessOfWord) %>% 
+  arrange(character, desc(uniquenessOfWord)) -> distinguishingWords
+
+# Who mentions who?
+tidyTranscripts %>% 
+  filter(characterType == 'main') %>% 
+  anti_join(stop_words) %>%
+  mutate(word = ifelse(word == 'dad', 'martin', ifelse(word == 'fras', 'frasier', word)),
+         word = ifelse(word == tolower(character), NA, word)) %>%
+  filter(grepl('^(niles|dad|martin|fras|roz|daphne|frasier)$', word)) %>% 
+  count(character,
+        word, 
+        sort = TRUE) -> mostMentionedMainCharacter
+
+bing <- sentiments %>%
+  filter(lexicon == "bing") %>%
+  select(-score)
