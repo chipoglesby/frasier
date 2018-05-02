@@ -85,7 +85,7 @@ This will take our date, `r subtitles$originalAirDate[[1]]` and our timecodeOut,
 and give us `r subtitles$dateTimeOut[[1]]`, which we can then use to plot our
 data for any episode and season.
 
-![](../images/minuteSentiment.png)
+[![](../images/minuteSentiment.png)](../images/minuteSentiment.png)
 
 In this graph, I'm using an algorithm that creates a minute difference between
 the first and last timestamp of each episode and then calcuates the polarity of
@@ -114,7 +114,7 @@ subtitles %>%
 When we break it out by minute, we can graph the average sentiment
 per minute:
 
-![](../images/timeSeriesSentimentSentences.png)
+[![](../images/timeSeriesSentimentSentences.png)](../images/timeSeriesSentimentSentences.png)
 
 ## Term Frequency
 
@@ -131,14 +131,14 @@ tidySubtitles %>%
   knitr::kable()
 ```
 
-![](../images/tfIDFskew.png)
+[![](../images/tfIDFskew.png)](../images/tfIDFskew.png)
 
 From the chart we can see that the data is highly right skewed with more
 common words. Many of the words occur frequently and some rarely occur.
 
 What could some of those words be?
 
-![](../images/tfidfSeason.png)
+[![](../images/tfidfSeason.png)](../images/tfidfSeason.png)
 
 In our next analysis, we'll be digging into the transcripts to get
 a better idea of who's saying what and more exciting work!
