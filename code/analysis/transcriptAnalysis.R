@@ -10,6 +10,9 @@ tidyTranscripts %>%
   saveRDS(., 'data/rds/tidyTranscripts.csv')
 
 ## Words
+sentiments %>%
+  filter(lexicon == "bing") %>%
+  select(-score) -> bing
 
 # Transcript Word Count
 tidyTranscripts %>% 
@@ -133,7 +136,3 @@ tidyTranscripts %>%
   count(character,
         word, 
         sort = TRUE) -> mostMentionedMainCharacter
-
-bing <- sentiments %>%
-  filter(lexicon == "bing") %>%
-  select(-score)

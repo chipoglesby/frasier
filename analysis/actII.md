@@ -69,3 +69,34 @@ Top Positive & Negative Words
 -----------------------------
 
 ![](../images/transcriptSentimentWords.png)
+
+Most Distinguishing Words For Main Characters
+---------------------------------------------
+
+| character | word    |  uniquenessOfWord|
+|:----------|:--------|-----------------:|
+| Daphne    | crane   |         1943.0577|
+| Daphne    | dr      |         1857.6753|
+| Daphne    | mum     |          479.5264|
+| Daphne    | bloody  |          238.4252|
+| Daphne    | nice    |          168.8845|
+| Frasier   | niles   |         4413.9584|
+| Frasier   | dad     |         3442.1692|
+| Frasier   | roz     |         2905.5846|
+| Frasier   | god     |         1102.0595|
+| Frasier   | time    |          861.8832|
+| Martin    | yeah    |         2141.1908|
+| Martin    | hey     |         1785.0858|
+| Martin    | fras    |          853.3099|
+| Martin    | eddie   |          770.8073|
+| Martin    | guys    |          625.8700|
+| Niles     | frasier |         1445.4581|
+| Niles     | maris   |          762.1647|
+| Niles     | wait    |          227.8986|
+| Niles     | mel     |          136.2381|
+| Niles     | maris's |          120.6549|
+| Roz       | alice   |          348.1129|
+| Roz       | line    |          217.9855|
+| Roz       | martin  |          135.2960|
+| Roz       | roger   |          125.1669|
+| Roz       | weird   |          102.8421|

@@ -92,3 +92,10 @@ brothers as Dr. Crane for many of the episodes. I've also removed self-reference
 
 ## Top Positive & Negative Words
 ![](../images/transcriptSentimentWords.png)
+
+## Most Distinguishing Words For Main Characters
+
+```{r echo = FALSE, warning = FALSE, message = FALSE}
+distinguishingWords %>% 
+  knitr::kable()
+```
