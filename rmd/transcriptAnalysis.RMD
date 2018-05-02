@@ -2,7 +2,11 @@
 title: "E Tu Eddie?"
 author: "Chip Oglesby"
 date: "`r format(Sys.Date(), '%Y-%m-%d')`"
-output: github_document
+output:
+  github_document:
+    html_preview: FALSE
+  pdf_document:
+    toc: false
 ---
 
 In this part of our analysis we will take a deeper dive of the 
