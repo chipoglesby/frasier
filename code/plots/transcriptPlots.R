@@ -338,3 +338,21 @@ tidyTranscripts %>%
   ggplot(aes(word, n, fill = character)) +
   geom_bar(stat = 'identity') +
   facet_wrap(~character)
+
+tidyTranscripts %>% 
+  anti_join(stop_words) %>% 
+  inner_join(bing) %>% 
+  count(word,
+        sentiment) %>% 
+  group_by(sentiment) %>% 
+  top_n(10, n) %>% 
+  arrange(desc(n)) %>% 
+  ggplot(aes(n, 
+             word, 
+             fill = sentiment)) +
+  geom_barh(stat = 'identity', 
+            show.legend = FALSE) +
+  facet_wrap(~sentiment, scales = 'free') +
+  xlab('Count') +
+  ylab('Word') +
+  ggtitle('Count of Postitive & Negative Words')
