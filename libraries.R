@@ -1,0 +1,12 @@
+# Load libraries
+library(tidyverse)
+library(tidytext)
+library(gender)
+library(magrittr)
+library(lubridate)
+library(subtools)
+library(rvest)
+library(viridis)
+library(hrbrthemes)
+library(sentimentr)
+library(ggstance)

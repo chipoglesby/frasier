@@ -1,15 +1,5 @@
-# Load libraries
-library(tidyverse)
-library(tidytext)
-library(gender)
-library(magrittr)
-library(lubridate)
-library(subtools)
-library(rvest)
-library(viridis)
-library(hrbrthemes)
-library(sentimentr)
-library(ggstance)
+#Load Libraries
+source('libraries.R')
 
 # Run source files as needed
 source('code/rds/loadRDS.R')

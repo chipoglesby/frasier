@@ -1,0 +1,97 @@
+---
+title: "The Kitchen Sink"
+author: "Chip Oglesby"
+date: "`r format(Sys.Date(), '%Y-%m-%d')`"
+output:
+  github_document:
+   html_preview: FALSE
+pdf_document:
+  toc: false
+---
+
+
+## What are the most mentioned restaurants?
+```{r one, echo = FALSE, warning = FALSE, message = FALSE}
+favoriteResturants %>% 
+  knitr::kable()
+```
+
+## Who talks about sherry?
+```{r two, echo = FALSE, warning = FALSE, message = FALSE}
+sherryReferences %>% 
+  knitr::kable()
+```
+
+## Who talks about coffee?
+```{r three, echo = FALSE, warning = FALSE, message = FALSE}
+coffeeReferences %>% 
+  knitr::kable()
+```
+
+
+## Who talks about Eddie??
+```{r four, echo = FALSE, warning = FALSE, message = FALSE}
+eddieReferences %>% 
+  knitr::kable()
+```
+
+
+## Who talks about beer?
+```{r five, echo = FALSE, warning = FALSE, message = FALSE}
+beerReferences %>% 
+  knitr::kable()
+```
+
+## Who talks about Opera?
+```{r six, echo = FALSE, warning = FALSE, message = FALSE}
+operaReferences %>% 
+  knitr::kable()
+```
+
+## Who talks about Roz?
+```{r seven, echo = FALSE, warning = FALSE, message = FALSE}
+rozReferences %>% 
+  knitr::kable()
+```
+
+## Who talks about Daphne?
+```{r eight, echo = FALSE, warning = FALSE, message = FALSE}
+daphneReferences %>% 
+  knitr::kable()
+```
+
+## Who talks about Maris?
+```{r nine, echo = FALSE, warning = FALSE, message = FALSE}
+marisReferences %>% 
+  knitr::kable()
+```
+
+## Who talks about Lilith?
+```{r ten, echo = FALSE, warning = FALSE, message = FALSE}
+lilithReferences %>% 
+  knitr::kable()
+```
+
+## Which brother introduces themselves as doctor?
+```{r eleven, echo = FALSE, warning = FALSE, message = FALSE}
+drReferences %>% 
+  knitr::kable()
+```
+
+## Who talks about mom the most?
+```{r tweleve, echo = FALSE, warning = FALSE, message = FALSE}
+momReferences %>% 
+  knitr::kable()
+```
+
+## How many times does frasier say hello seattle or I'm listening?
+```{r thirteen, echo = FALSE, warning = FALSE, message = FALSE}
+listeningReferences %>% 
+  knitr::kable()
+```
+
+## Is Frasier the only one who says DEAR GOD
+```{r fourteen, echo = FALSE, warning = FALSE, message = FALSE}
+godReferences %>% 
+  knitr::kable()
+```

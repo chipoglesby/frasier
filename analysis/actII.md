@@ -9,19 +9,21 @@ If you've seen Frasier before, you know the the show is led by main characters: 
 
 Let's begin by taking a look at the line share of these main characters:
 
-![](../images/linesPerMainCharacter.png)
+[![](../images/linesPerMainCharacter.png)](../images/linesPerMainCharacter.png)
 
 Overall Frasier Crane carries 34.01% of all lines, almost twice as many as any other character on the show.
 
 The line share of characters outside of the main five continued to grow throughout the entire 11 seasons.
 
-![](../images/linesPerCharacterType.png)
+[![](../images/linesPerCharacterType.png)](../images/linesPerCharacterType.png)
 
 Since Frasier is the main character of the show and we've already seen that he has the most lines of the show, does it make sense that he would also have the most words per episode as well?
 
-![](../images/wordCountPerEpisode.png) Like with the subtitle analysis, we'll also dive into a unigram sentiment analysis to see which characters use the most positive and negative words in each episode.
+[![](../images/wordCountPerEpisode.png)](../images/wordCountPerEpisode.png)
 
-![](../images/sentimentOfMainCharacters.png)
+Like with the subtitle analysis, we'll also dive into a unigram sentiment analysis to see which characters use the most positive and negative words in each episode.
+
+[![](../images/sentimentOfMainCharacters.png)](../images/sentimentOfMainCharacters.png)
 
 It's interesting to see that Niles and Frasier follow a similiar linear trend in the sentiment of their words. Frasier's largest use of negative words comes in episode 90: Ham Radio where he directs an old-timey radio show that turns into a disaster, while his largest uses of positive words comes in episode 214: The Ring Cycle where Daphne and Niles elope in Las Vegas and then stage a series of fake weddings.
 
@@ -68,7 +70,7 @@ Here we find that Fraiser has mentioned Niles 2111 times compared Niles' mention
 Top Positive & Negative Words
 -----------------------------
 
-![](../images/transcriptSentimentWords.png)
+[![](../images/transcriptSentimentWords.png)](../images/transcriptSentimentWords.png)
 
 Most Distinguishing Words For Main Characters
 ---------------------------------------------

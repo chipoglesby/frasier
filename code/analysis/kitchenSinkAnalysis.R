@@ -8,7 +8,8 @@ transcripts %>%
 
 # Who talks about Sherry?
 transcripts %>%
-  filter(grepl('sherry', tolower(lines))) %>%
+  filter(grepl('sherry', tolower(lines)),
+         grepl('frasier|niles', tolower(character))) %>%
   count(character, sort = TRUE) %>%
   top_n(5, n) -> sherryReferences
 
