@@ -10,9 +10,8 @@ acts.
 
 ## Current Iteration
 
-Currently this analysis includes three sections, a subtitle analysis,
-an analysis of characters lines and a kitchen sink analysis of things
-fans of Frasier might be interested in.
+Currently this analysis includes two sections, a subtitle analysis,
+and an analysis of characters lines.
 
 The good news is that there is a ton of data here. It includes ratings
 and votings from IMDB. You might run correlations between characters
